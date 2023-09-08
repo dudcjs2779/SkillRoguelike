@@ -206,9 +206,11 @@ public class PlayerInputControls : MonoBehaviour
         }
         InputSystem.onAfterUpdate += UpdateMotion;
 
-        playerInputAction.Player.Enable();
-        playerInputAction.PlayerUI.Enable();
-        playerInputAction.UI.Disable();
+
+        ChangeMapPlayer();
+        // playerInputAction.Player.Enable();
+        // playerInputAction.PlayerUI.Enable();
+        // playerInputAction.UI.Disable();
     }
 
     private void OnEnable()
@@ -621,7 +623,8 @@ public class PlayerInputControls : MonoBehaviour
 
         if (!GameManager.Instance.isDebugMode && !GameManager.Instance.isInDungeon)
         {
-            ChnageMapStartMap();
+            Debug.Log("ChangeMapStartMap");
+            ChangeMapStartMap();
         }
     }
 
@@ -642,7 +645,7 @@ public class PlayerInputControls : MonoBehaviour
         playerInputAction.Player.LockOn.Enable();
     }
 
-    public void ChnageMapStartMap()
+    public void ChangeMapStartMap()
     {
         playerInputAction.Player.Fire1.Disable();
         playerInputAction.Player.Fire2.Disable();

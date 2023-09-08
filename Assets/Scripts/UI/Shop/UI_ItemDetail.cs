@@ -37,7 +37,7 @@ public class UI_ItemDetail : MonoBehaviour
                 }
                 else basicVal[1].transform.parent.gameObject.SetActive(false);
 
-                if (actSkill.damage.Length != 0) 
+                if (actSkill.damage.Length != 0)
                 {
                     if (actSkill.isBuff)
                     {

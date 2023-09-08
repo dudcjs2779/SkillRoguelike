@@ -302,7 +302,7 @@ public class EnemyWeapon : MonoBehaviour
 
             enemyBullet.enemyType = GameManager.EnemyType.Lich.ToString();
             enemyBullet.attackName = AttackName;
-            enemyBullet.damage = (int)(enemyDamage * 0.5f);
+            enemyBullet.damage = enemyDamage * 0.6f;
             enemyBullet.rigid.isKinematic = true;
             enemyBullet.t_Target = enemy.T_player;
             enemyBullet.hitSound = SoundManager.GameSFXType.IceImpact01;

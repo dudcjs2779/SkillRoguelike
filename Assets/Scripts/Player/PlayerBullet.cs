@@ -80,15 +80,17 @@ public class PlayerBullet : MonoBehaviour
 
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
         // 일반탄이 아닌경우
-        if(isNotBullet){
+        if (isNotBullet)
+        {
 
-            if(other.CompareTag("EnemyCollision")){
+            if (other.CompareTag("EnemyCollision"))
+            {
                 Instantiate(hitEffect, other.ClosestPointOnBounds(transform.position), Quaternion.identity);
 
                 if (hitSound != SoundManager.GameSFXType.None)
@@ -99,15 +101,19 @@ public class PlayerBullet : MonoBehaviour
             }
         }
         // 일반탄 + 관통탄
-        else{
+        else
+        {
             //관통탄
-            if(isPierceBullet){
+            if (isPierceBullet)
+            {
 
-                if(other.CompareTag("Wall") || other.CompareTag("Ground")){
+                if (other.CompareTag("Wall") || other.CompareTag("Ground"))
+                {
                     DestroyBullet(other.ClosestPointOnBounds(transform.position));
 
                 }
-                else if(other.CompareTag("EnemyCollision")){
+                else if (other.CompareTag("EnemyCollision"))
+                {
                     Instantiate(hitEffect, other.ClosestPointOnBounds(transform.position), Quaternion.identity);
                     if (hitSound != SoundManager.GameSFXType.None)
                     {
@@ -117,8 +123,10 @@ public class PlayerBullet : MonoBehaviour
                 }
             }
             //일반탄
-            else{
-                if (other.CompareTag("Wall") || other.CompareTag("Ground") || other.CompareTag("EnemyCollision")){
+            else
+            {
+                if (other.CompareTag("Wall") || other.CompareTag("Ground") || other.CompareTag("EnemyCollision"))
+                {
                     DestroyBullet(other.ClosestPointOnBounds(transform.position));
                 }
             }
@@ -158,7 +166,7 @@ public class PlayerBullet : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        
+
     }
 
     void BulletControl()
@@ -237,7 +245,8 @@ public class PlayerBullet : MonoBehaviour
         {
             Collider[] detectArea = Physics.OverlapSphere(transform.position, detect_Distance, enemy_layerMask);
 
-            if(t_Target == null){
+            if (t_Target == null)
+            {
                 // 가장 가까운 적을 목표로 설정
                 if (detectArea.Length > 0)
                 {
@@ -255,7 +264,8 @@ public class PlayerBullet : MonoBehaviour
                     }
                 }
             }
-            else{
+            else
+            {
                 targetVec = t_Target.position - transform.position;
                 targetVec.y = 0;
                 angle = Vector3.Angle(transform.forward, targetVec);
@@ -266,7 +276,8 @@ public class PlayerBullet : MonoBehaviour
                     var targetRot = Quaternion.LookRotation(targetVec);
                     rigid.MoveRotation(Quaternion.RotateTowards(transform.rotation, targetRot, curveVal * Time.deltaTime));
                 }
-                else{
+                else
+                {
                     t_Target = null;
                 }
             }
@@ -304,7 +315,7 @@ public class PlayerBullet : MonoBehaviour
         while (true)
         {
             Collider[] detectArea = Physics.OverlapSphere(transform.position, 0.3f, 1 << 6 | 1 << 7 | 1 << 9);
-            if(detectArea.Length > 0)
+            if (detectArea.Length > 0)
             {
                 //Debug.Log("act");
 
@@ -326,7 +337,7 @@ public class PlayerBullet : MonoBehaviour
                 yield break;
             }
 
-            if(t_Target != null)
+            if (t_Target != null)
             {
                 t += Time.deltaTime * 4f;
                 float angle = 0;
@@ -405,9 +416,10 @@ public class PlayerBullet : MonoBehaviour
         float waitTime = 1.5f;
         float duration = 6f;
 
-        while(t_Target == null)
+        while (t_Target == null)
         {
-            if(duration < 0){
+            if (duration < 0)
+            {
                 DestroyBullet(transform.position);
                 yield break;
             }
@@ -438,7 +450,8 @@ public class PlayerBullet : MonoBehaviour
 
         rigid.isKinematic = false;
         transform.parent = null;
-        Vector3 enemyCenter = t_Target.GetComponent<CapsuleCollider>().center;
+        Vector3 enemyCenter = Vector3.zero;
+        if (t_Target != null) enemyCenter = t_Target.GetComponent<CapsuleCollider>().center;
         Vector3 velocity = Vector3.zero;
 
 
@@ -568,7 +581,7 @@ public class PlayerBullet : MonoBehaviour
 
                 //Debug.Log(col.name + ": " + bulletColGroup[0].transform.localPosition + " || " + lerp);
             }
-            
+
             lerp += Time.deltaTime * 5f;
             yield return null;
         }
@@ -580,7 +593,8 @@ public class PlayerBullet : MonoBehaviour
         }
     }
 
-    IEnumerator Pattern_LightingSplit_ExplosionSound(Transform targetTf){
+    IEnumerator Pattern_LightingSplit_ExplosionSound(Transform targetTf)
+    {
         for (int i = 0; i < 4; i++)
         {
             yield return new WaitForSeconds(0.05f);
@@ -628,7 +642,7 @@ public class PlayerBullet : MonoBehaviour
 
     IEnumerator Pattern_GravityHole()
     {
-        if(usingSkill.skillLv == 2)
+        if (usingSkill.skillLv == 2)
         {
             transform.localScale = Vector3.one * 1.4f;
             detect_Distance = detect_Distance * 1.4f;
@@ -636,7 +650,8 @@ public class PlayerBullet : MonoBehaviour
             bulletSoundAction.Invoke(transform.position, 5.5f);
             StartCoroutine(DurationDamage(6f));
         }
-        else{
+        else
+        {
             StartCoroutine(DurationDamage(4.5f));
         }
         SoundManager.Instance.AttachGameSound(SoundManager.GameSFXType.BlackHole01, gameObject);
@@ -651,7 +666,7 @@ public class PlayerBullet : MonoBehaviour
                 foreach (var col in detectArea)
                 {
                     NavMeshAgent nav = col.GetComponentInParent<NavMeshAgent>();
-                    Vector3 velDir =  transform.position - col.transform.position;
+                    Vector3 velDir = transform.position - col.transform.position;
                     float disByPower = 1 - (velDir.magnitude / detect_Distance);
                     disByPower = Mathf.Clamp(disByPower, 0.2f, 1);
 
@@ -785,6 +800,6 @@ public class PlayerBullet : MonoBehaviour
         }
 
         bulletColGroup.Clear();
-        if(bulletCol != null) bulletCol.enabled = false;
+        if (bulletCol != null) bulletCol.enabled = false;
     }
 }

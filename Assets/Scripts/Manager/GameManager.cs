@@ -228,7 +228,7 @@ public class GameManager : MonoBehaviour, IDataPersistence
 
         if (Input.GetButtonDown("SaveTxt"))     //F1
         {
-            MyActiveSkillList.Find(x => x.name == "Lighting Split").skillLv = 2;
+            //MyActiveSkillList.Find(x => x.name == "Lighting Split").skillLv = 2;
         }
 
         if (Input.GetKeyDown(KeyCode.F2))

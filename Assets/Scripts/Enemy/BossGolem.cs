@@ -55,7 +55,7 @@ public class BossGolem : MonoBehaviour
     BossCollision bossCollision;
     BossWeapon bossWeapon;
     EnemyStateBar enemyStateBar;
-    
+
     void Awake()
     {
         anim = GetComponent<Animator>();
@@ -77,7 +77,7 @@ public class BossGolem : MonoBehaviour
         nav.updateRotation = false;
         DiffcultySetting();
     }
-    
+
     void Update()
     {
         if (GameManager.Instance.isCutScene) return;
@@ -93,7 +93,7 @@ public class BossGolem : MonoBehaviour
             Turn();
             if (c_RetainPattern == null && !isStaggering) c_RetainPattern = StartCoroutine(RetainPattern());
 
-            if(movementPara > 0.2f) SoundManager.Instance.PlayDelayGameSound(SoundManager.GameSFXType.Footsteps_Walk_Grass_Big01, transform.position, movementPara);
+            if (movementPara > 0.2f) SoundManager.Instance.PlayDelayGameSound(SoundManager.GameSFXType.Footsteps_Walk_Grass_Big01, transform.position, movementPara);
             anim.SetFloat("move", movementPara);
         }
 
@@ -167,14 +167,14 @@ public class BossGolem : MonoBehaviour
         float angle = Vector3.SignedAngle(transform.forward, desDir, Vector3.up);
         angle = Mathf.Clamp(angle, -45, 45);
         Quaternion rot = Quaternion.AngleAxis(angle, Vector3.up);
-        Quaternion desRot = Quaternion.LookRotation(rot * transform.forward); 
+        Quaternion desRot = Quaternion.LookRotation(rot * transform.forward);
 
         float time = 0;
         while (time < duration && !isStaggering)
         {
             time = time + Time.deltaTime;
 
-            if(desDir.magnitude > 2)
+            if (desDir.magnitude > 2)
                 transform.position = Vector3.Lerp(transform.position, desPos, 3 * Time.deltaTime);
             transform.rotation = Quaternion.Slerp(transform.rotation, desRot, 20f * Time.deltaTime);
 
@@ -224,7 +224,7 @@ public class BossGolem : MonoBehaviour
         }
         else
         {
-            int longRan = Random.Range(75, 100);
+            int longRan = Random.Range(0, 100);
 
             if (longRan < 15)
             {
@@ -653,7 +653,7 @@ public class BossGolem : MonoBehaviour
         patternStack.Clear();
         if (c_RetainPattern != null) StopCoroutine(c_RetainPattern);
         if (c_Attack != null) StopCoroutine(c_Attack);
-        
+
         isAttack = false;
         rush_Hit = false;
         rush_HitWall = false;
@@ -735,7 +735,7 @@ public class BossGolem : MonoBehaviour
         nav.velocity = Vector3.zero;
 
         yield return new WaitUntil(() => !bossCollision.isFrozen);
-        
+
         anim.speed = 1;
         anim.CrossFade("GetHit", 0.1f);
 

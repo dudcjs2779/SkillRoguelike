@@ -90,7 +90,7 @@ public class BossCollision : MonoBehaviour
             return;
 
         PlayerWeaponCol hitPlayerWeapon;
-        
+
         if (other.CompareTag("Sword"))
         {
             //print("Sword");
@@ -154,7 +154,7 @@ public class BossCollision : MonoBehaviour
         }
     }
 
-    
+
     IEnumerator OnHitSword(PlayerWeaponCol hit)
     {
         //Debug.Log("SwordHit : " + attackName);
@@ -414,7 +414,8 @@ public class BossCollision : MonoBehaviour
         player.ReleaseLockOn();
         Destroy(ob_Golem, 5f);
 
-        switch(GameManager.Instance.difficultyType){
+        switch (GameManager.Instance.difficultyType)
+        {
             case GameManager.DifficultyType.Easy:
                 GameManager.Instance.gainGold += 1200;
                 GameManager.Instance.playerData.money += 1200;
