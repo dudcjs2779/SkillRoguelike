@@ -1,0 +1,527 @@
+[
+  {
+    "name": "Health Up",
+    "krName": "체력 증가",
+    "type": "Passive",
+    "explain": "최대 체력이 증가한다.",
+    "passiveType": 0,
+    "skillLvEx": [
+      "최대체력이 10 증가합니다.",
+      "최대체력이 17 증가합니다.",
+      "최대체력이 24 증가합니다."
+    ],
+    "effectVal": [
+      10.0,
+      17.0,
+      24.0
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 0,
+    "isBuy": true,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/HP_Up"
+  },
+  {
+    "name": "Stamina Up",
+    "krName": "스테미너 증가",
+    "type": "Passive",
+    "explain": "최대 스테미너가 증가한다.",
+    "passiveType": 0,
+    "skillLvEx": [
+      "최대 스테미너가 12 증가합니다.",
+      "최대 스테미너가 20 증가합니다.",
+      "최대 스테미너가 28 증가합니다."
+    ],
+    "effectVal": [
+      12.0,
+      20.0,
+      28.0
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 0,
+    "isBuy": true,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/Stemina_Up"
+  },
+  {
+    "name": "Finish Healing",
+    "krName": "피니쉬 힐링",
+    "type": "Passive",
+    "explain": "적을 처치하면 HP를 회복합니다.",
+    "passiveType": 0,
+    "skillLvEx": [
+      "체력을 8 회복합니다.",
+      "체력을 12 회복합니다.",
+      "체력을 15 회복합니다."
+    ],
+    "effectVal": [
+      8.0,
+      12.0,
+      15.0
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 0,
+    "isBuy": true,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/HP_Heal"
+  },
+  {
+    "name": "Stg Damage Up",
+    "krName": "경직치 증가",
+    "type": "Passive",
+    "explain": "경직 데미지가 증가한다.",
+    "passiveType": 0,
+    "skillLvEx": [
+      "경직치가 8& 증가합니다.",
+      "경직치가 12% 증가합니다.",
+      "경직치가 16% 증가합니다."
+    ],
+    "effectVal": [
+      0.08,
+      0.12,
+      0.16
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 800,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/Melle_Up"
+  },
+  {
+    "name": "Magic Damage Up",
+    "krName": "마법 공격력 증가",
+    "type": "Passive",
+    "explain": "마법 데미지가 증가한다.",
+    "passiveType": 0,
+    "skillLvEx": [
+      "마법 공격력이 10% 증가합니다.",
+      "마법 공격력이 15% 증가합니다.",
+      "마법 공격력이 20% 증가합니다."
+    ],
+    "effectVal": [
+      0.1,
+      0.15,
+      0.2
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 2000,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/Magic_Up"
+  },
+  {
+    "name": "Speed Up",
+    "krName": "이동속도 증가",
+    "type": "Passive",
+    "explain": "이동속도가 증가한다.",
+    "passiveType": 0,
+    "skillLvEx": [
+      "이동속도가 10% 빨라집니다.",
+      "이동속도가 16% 빨라집니다.",
+      "이동속도가 24% 빨라집니다."
+    ],
+    "effectVal": [
+      0.1,
+      0.16,
+      0.24
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 800,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/Speed_Up"
+  },
+  {
+    "name": "Drain MP",
+    "krName": "MP 드레인",
+    "type": "Passive",
+    "explain": "MP 회복량이 증가한다.",
+    "passiveType": 0,
+    "skillLvEx": [
+      "MP 회복량이 10% 증가합니다.",
+      "MP 회복량이 15% 증가합니다.",
+      "MP 회복량이 20% 증가합니다."
+    ],
+    "effectVal": [
+      0.1,
+      0.15,
+      0.2
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 1000,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/MP_Heal"
+  },
+  {
+    "name": "Defence Up",
+    "krName": "방어력 증가",
+    "type": "Passive",
+    "explain": "방어력이 높아진다.",
+    "passiveType": 0,
+    "skillLvEx": [
+      "받는 데미지가 8% 감소한다.",
+      "받는 데미지가 14% 감소한다.",
+      "받는 데미지가 20% 감소한다."
+    ],
+    "effectVal": [
+      0.08,
+      0.14,
+      0.2
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 1000,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/Defence_Up"
+  },
+  {
+    "name": "Melee Damage Up",
+    "krName": "물리공격력 증가",
+    "type": "Passive",
+    "explain": "물리 공격력이 높아진다.",
+    "passiveType": 0,
+    "skillLvEx": [
+      "물리공격력이 8% 증가한다.",
+      "물리공격력이 12% 증가한다.",
+      "물리공격력이 16% 증가한다."
+    ],
+    "effectVal": [
+      0.08,
+      0.12,
+      0.16
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 1000,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/Melle_Up"
+  },
+  {
+    "name": "Stg Level Up",
+    "krName": "경직 성능 증가",
+    "type": "Passive",
+    "explain": "경직 성능이 증가한다.",
+    "passiveType": 0,
+    "skillLvEx": [
+      "경직 성능이 10% 증가한다.",
+      "경직 성능이 15% 증가한다.",
+      "경직 성능이 20% 증가한다."
+    ],
+    "effectVal": [
+      0.1,
+      0.15,
+      0.2
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 1200,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/Melle_Up"
+  },
+  {
+    "name": "Elemental Up",
+    "krName": "속성치 증가",
+    "type": "Passive",
+    "explain": "속성치가 증가한다.",
+    "passiveType": 0,
+    "skillLvEx": [
+      "속성치가 10% 증가한다.",
+      "속성치가 16% 증가한다.",
+      "속성치가 22% 증가한다."
+    ],
+    "effectVal": [
+      0.1,
+      0.16,
+      0.22
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 1800,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/Magic_Up"
+  },
+  {
+    "name": "Dodge Up",
+    "krName": "회피 장인",
+    "type": "Passive",
+    "explain": "공격을 회피하기 더 쉬워진다.",
+    "passiveType": 0,
+    "skillLvEx": [
+      "회피 성능이 50% 증가한다.",
+      "회피 성능이 75% 증가한다.",
+      "회피 성능이 100% 증가한다."
+    ],
+    "effectVal": [
+      0.5,
+      0.75,
+      1.0
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 1500,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/Speed_Up"
+  },
+  {
+    "name": "Perfect Dodge",
+    "krName": "완벽한 회피",
+    "type": "Passive",
+    "explain": "회피에 성공하면 잠깐동안 공격력이 상승한다.",
+    "passiveType": 1,
+    "skillLvEx": [
+      "공격력이 15% 증가한다.",
+      "공격력이 23% 증가한다.",
+      "공격력이 30% 증가한다."
+    ],
+    "effectVal": [
+      0.15,
+      0.23,
+      0.3
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 1500,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/Melle_Up"
+  },
+  {
+    "name": "Dodge Recover",
+    "krName": "가다듬기",
+    "type": "Passive",
+    "explain": "회피에 성공하면 MP를 약간 회복한다.",
+    "passiveType": 2,
+    "skillLvEx": [
+      "MP를 20만큼 회복한다.",
+      "MP를 30만큼 회복한다.",
+      "MP를 40만큼 회복한다."
+    ],
+    "effectVal": [
+      20.0,
+      30.0,
+      40.0
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 1200,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/MP_Heal"
+  },
+  {
+    "name": "Posture Mending",
+    "krName": "자세 고치기",
+    "type": "Passive",
+    "explain": "적을 경직시키면 스테미너 회복한다.",
+    "passiveType": 2,
+    "skillLvEx": [
+      "스테미너를 30만큼 회복한다.",
+      "스테미너를 40만큼 회복한다.",
+      "스테미너를 50만큼 회복한다."
+    ],
+    "effectVal": [
+      30.0,
+      40.0,
+      50.0
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 1500,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/HP_Heal"
+  },
+  {
+    "name": "Chance of Victory",
+    "krName": "승리 확신",
+    "type": "Passive",
+    "explain": "적을 경직시키면 잠깐 동안 데미지가 증가한다.",
+    "passiveType": 1,
+    "skillLvEx": [
+      "데미지가 10%증가한다.",
+      "데미지가 15%증가한다.",
+      "데미지가 20%증가한다."
+    ],
+    "effectVal": [
+      0.1,
+      0.15,
+      0.2
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 1500,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": true,
+    "iconPath": "Sprite/Skill/Melle_Up"
+  },
+  {
+    "name": "Complete Down",
+    "krName": "완전 무력화",
+    "type": "Passive",
+    "explain": "경직 성능 40 이상의 경직을 받은 대상에게 가하는 데미지가 경직 성능에 비례해서 증가한다. ",
+    "passiveType": 1,
+    "skillLvEx": [
+      "데미지가 최대 20% 증가한다.",
+      "데미지가 최대 30% 증가한다.",
+      "데미지가 최대 40% 증가한다."
+    ],
+    "effectVal": [
+      0.2,
+      0.3,
+      0.4
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 1800,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/Melle_Up"
+  },
+  {
+    "name": "MP Return",
+    "krName": "MP 리턴",
+    "type": "Passive",
+    "explain": "마법으로 경직을 줬을 때 MP를 회복한다.",
+    "passiveType": 2,
+    "skillLvEx": [
+      "MP를 10만큼 회복합니다.",
+      "MP를 15만큼 회복합니다.",
+      "MP를 20만큼 회복합니다."
+    ],
+    "effectVal": [
+      10.0,
+      15.0,
+      20.0
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 1500,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/MP_Heal"
+  },
+  {
+    "name": "Elemental Drain",
+    "krName": "속성 흡혈",
+    "type": "Passive",
+    "explain": "상태 이상을 일으키면 MP를 회복합니다.",
+    "passiveType": 2,
+    "skillLvEx": [
+      "MP를 16만큼 회복합니다.",
+      "MP를 24만큼 회복합니다.",
+      "MP를 32만큼 회복합니다."
+    ],
+    "effectVal": [
+      16.0,
+      24.0,
+      32.0
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 1500,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/MP_Heal"
+  },
+  {
+    "name": "Weaken",
+    "krName": "쇠약",
+    "type": "Passive",
+    "explain": "상태 이상인 적에게 주는 데미지가 증가한다.",
+    "passiveType": 1,
+    "skillLvEx": [
+      "데미자가 14% 증가한다.",
+      "데미자가 22% 증가한다.",
+      "데미자가 30% 증가한다."
+    ],
+    "effectVal": [
+      0.14,
+      0.22,
+      0.3
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 2000,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/Magic_Up"
+  },
+  {
+    "name": "Big Bottle",
+    "krName": "커다란 물병",
+    "type": "Passive",
+    "explain": "물병의 회복량이 증가한다.",
+    "passiveType": 0,
+    "skillLvEx": [
+      "회복량이 16% 증가한다.",
+      "회복량이 24% 증가한다.",
+      "회복량이 32% 증가한다."
+    ],
+    "effectVal": [
+      0.16,
+      0.24,
+      0.32
+    ],
+    "skillLv": 0,
+    "equipOrder": 0,
+    "cost": 800,
+    "isBuy": false,
+    "isUnlock": false,
+    "isEquip": false,
+    "isBuff": false,
+    "iconPath": "Sprite/Skill/HP_Heal"
+  }
+]

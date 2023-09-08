@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: 8e2035e43fd386547801d06d3dc91f61
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: -6957967981937383424
+    second: Armature|RisingWall
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_Leg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_Reg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lower_Leg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lower_Reg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_Arm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_Arm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lower_Arm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lower_Arm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint1
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: GolemMesh02_RisingWall(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: GolemMesh02_RisingWall(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000081460335, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips
+      parentName: Armature
+      position: {x: 1.0089754e-14, y: 1.4103727, z: -0.00081211486}
+      rotation: {x: -0.36172846, y: 0.6075793, z: -0.3617286, w: 0.6075791}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Spine
+      parentName: Hips
+      position: {x: -0.6920399, y: 0.00000019073485, z: -0.00000019524522}
+      rotation: {x: 0.9693941, y: -0.24550997, z: -0.000000010953486, w: -0.00000014013625}
+      scale: {x: 1.0000013, y: 1.0000004, z: 1}
+    - name: Head
+      parentName: Spine
+      position: {x: -1.5429438, y: 0.000001694858, z: 0.0000005334019}
+      rotation: {x: -0.40885347, y: 0.91260004, z: 0.00000002719729, w: -0.00000015809528}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: joint1
+      parentName: Head
+      position: {x: -1.4396751, y: 0.0000008392334, z: -0.00000040516264}
+      rotation: {x: -0.1405238, y: -0.6930029, z: -0.14052378, w: 0.693003}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: joint1_end
+      parentName: joint1
+      position: {x: -0, y: 1.4396772, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Upper_Arm_L
+      parentName: Spine
+      position: {x: -0.70162964, y: -0.21702625, z: 0.95466244}
+      rotation: {x: -0.32390034, y: 0.62589425, z: 0.3551655, w: 0.61416817}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: Lower_Arm_L
+      parentName: Upper_Arm_L
+      position: {x: -0.97454995, y: 0.000001001358, z: -0.00000036239624}
+      rotation: {x: -0.021305973, y: 0.011921076, z: -0.02306279, w: 0.99943596}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Hand_L
+      parentName: Lower_Arm_L
+      position: {x: -0.8786809, y: 0.0000009155273, z: -0.0000005149841}
+      rotation: {x: -0.05930985, y: 0.09005812, z: 0.041569076, w: 0.9932995}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Index_Proximal_L
+      parentName: Hand_L
+      position: {x: -0.41420028, y: 0.00000032424927, z: 0.00000012367964}
+      rotation: {x: -0.0029143365, y: -0.14608699, z: -0.01973177, w: 0.9890707}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    - name: Index_Proximal_L_end
+      parentName: Index_Proximal_L
+      position: {x: -0, y: 0.41420093, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Upper_Arm_R
+      parentName: Spine
+      position: {x: -0.70162815, y: -0.21702626, z: -0.9546618}
+      rotation: {x: -0.39303145, y: 0.59680235, z: -0.41222534, w: -0.5651758}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000001}
+    - name: Lower_Arm_R
+      parentName: Upper_Arm_R
+      position: {x: -0.9745525, y: 0.000001654625, z: 0.00000022888183}
+      rotation: {x: 0.0139701925, y: -0.00694835, z: -0.023297215, w: 0.99960685}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Hand_R
+      parentName: Lower_Arm_R
+      position: {x: -0.87868285, y: 0.00000082015987, z: 0.0000003814697}
+      rotation: {x: 0.1870421, y: 0.050578456, z: 0.0820112, w: 0.97761506}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: Index_Proximal_R
+      parentName: Hand_R
+      position: {x: -0.41419187, y: -0.000000076293944, z: -0.00000036239624}
+      rotation: {x: 0.14608976, y: -0.0029145458, z: 0.9890703, w: 0.019732209}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000001}
+    - name: Index_Proximal_R_end
+      parentName: Index_Proximal_R
+      position: {x: -0, y: 0.41419214, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Upper_Leg_L
+      parentName: Hips
+      position: {x: 0.09164492, y: -0.14981087, z: -0.36731237}
+      rotation: {x: -0.02768296, y: -0.24021193, z: 0.9054444, w: 0.34885877}
+      scale: {x: 0.99999976, y: 0.99999964, z: 0.9999998}
+    - name: Lower_Leg_L
+      parentName: Upper_Leg_L
+      position: {x: -0.61180264, y: -0.00000030517577, z: -0.000000052452087}
+      rotation: {x: -0.6272442, y: -0.29902315, z: 0.13214785, w: 0.7068854}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Foot_L
+      parentName: Lower_Leg_L
+      position: {x: -0.58151, y: -0.00000008106232, z: 0.0000002466142}
+      rotation: {x: 0.41153976, y: 0.7032755, z: -0.46503556, w: 0.34609336}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: Toes_L
+      parentName: Foot_L
+      position: {x: -0.42884985, y: 0.000000024065375, z: -0.00000017263667}
+      rotation: {x: 0.036002196, y: -0.6670984, z: -0.045820992, w: 0.742687}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.9999998}
+    - name: Toes_L_end
+      parentName: Toes_L
+      position: {x: -0, y: 0.42884985, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Upper_Reg_R
+      parentName: Hips
+      position: {x: 0.091640286, y: -0.14980917, z: 0.36731204}
+      rotation: {x: 0.005460203, y: 0.26185298, z: 0.8995767, w: 0.34952098}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Lower_Reg_R
+      parentName: Upper_Reg_R
+      position: {x: -0.6118069, y: -0.000000057220458, z: -0.00000009059906}
+      rotation: {x: 0.6392926, y: 0.29046708, z: 0.14299868, w: 0.69748497}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Foot_R
+      parentName: Lower_Reg_R
+      position: {x: -0.5815094, y: 0.00000010669231, z: -0.00000014066696}
+      rotation: {x: 0.42656097, y: 0.71920735, z: 0.43928233, w: -0.32835597}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: Toes_R
+      parentName: Foot_R
+      position: {x: -0.42885032, y: 0.000000059381126, z: 0.00000020721436}
+      rotation: {x: 0.6670964, y: 0.036003433, z: 0.74268883, w: 0.045820303}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000217}
+    - name: Toes_R_end
+      parentName: Toes_R
+      position: {x: -0, y: 0.42885023, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RockGolemMesh
+      parentName: GolemMesh02_RisingWall(Clone)
+      position: {x: -4.5867632e-10, y: -3.6088778e-11, z: 1.8038918e-10}
+      rotation: {x: 0.00000008146034, y: 3.6948228e-10, z: -0.000000002908962, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

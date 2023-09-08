@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Shadow
+  - Collide
+  - Melee
+  - Enemy
+  - EnemyCollision
+  - Sword
+  - DeadEnemy
+  - EnemyWeapon
+  - EnemyBullet
+  - Wall
+  - Test
+  - FxTemporaire
+  - PlayerBullet
+  - Shield
+  - DefenceWall
+  - PlayerNoHit
+  - TickWeapon
+  - Ground
+  - InvisibleWall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Wall
+  - Player
+  - Enemy
+  - DeadEnemy
+  - PlayerPass
+  - NPC
+  - InteractObj
+  - test
+  - WolfAttack
+  - EnemyWeapon
+  - PlayerNoHit
+  - OutlineObject
+  - InvisibleWall
+  - Minimap
+  - PlayerBullet
+  - PlayerWeapon
+  - EnemyCollision
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

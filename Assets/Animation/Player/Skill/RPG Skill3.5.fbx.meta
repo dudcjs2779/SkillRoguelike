@@ -1,0 +1,1542 @@
+fileFormatVersion: 2
+guid: a16397f2ada83f948b327cb6c29f84e4
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: -1441189883354398612
+    second: Buff2
+  - first:
+      74: -4552515205397978273
+    second: Armature|Attack1
+  - first:
+      74: -729247239487951332
+    second: Armature|Attack2
+  - first:
+      74: 1679763308670167783
+    second: Armature|Attack3
+  - first:
+      74: 8988718260977506390
+    second: Armature|Backstep Slash
+  - first:
+      74: 40870881369885889
+    second: Armature|Chain Lighting
+  - first:
+      74: 8977106642653342651
+    second: Armature|Dash Sting
+  - first:
+      74: 6735714234655044027
+    second: Armature|Defense Wall
+  - first:
+      74: 9065177610702374581
+    second: Armature|Double Slash
+  - first:
+      74: 3710568208090370112
+    second: Armature|Double Slash02
+  - first:
+      74: 2244462036144629586
+    second: Armature|Finish Attack(full)
+  - first:
+      74: -4640048245692585405
+    second: Armature|Finish Attack1
+  - first:
+      74: -4887716714871633855
+    second: Armature|Finish Attack2
+  - first:
+      74: 5417013201925131084
+    second: Armature|Fire Burst
+  - first:
+      74: 4452660544379039330
+    second: Armature|Fire Sword
+  - first:
+      74: -1650263728670850852
+    second: Armature|Fire Tornado
+  - first:
+      74: 5392298035781392643
+    second: Armature|Fireball
+  - first:
+      74: -8274696639791429929
+    second: Armature|Ground Wave
+  - first:
+      74: -2357487655803940204
+    second: Armature|Guard Enhance
+  - first:
+      74: 512316223811759326
+    second: Armature|Guard Enhance Hit
+  - first:
+      74: -5900512569669329809
+    second: Armature|Guarding Barrier
+  - first:
+      74: -7786830876816891599
+    second: Armature|Healing
+  - first:
+      74: 7967874200709250907
+    second: Armature|Heavy Sword
+  - first:
+      74: 6581402568278407118
+    second: Armature|Horizontal Slash
+  - first:
+      74: -4040207374946475203
+    second: Armature|Ice Spear
+  - first:
+      74: -3552852080111940545
+    second: Armature|Ice Storm
+  - first:
+      74: -3904040600944445836
+    second: Armature|Ice Sword
+  - first:
+      74: -7473108931487292444
+    second: Armature|Icicle
+  - first:
+      74: -3618456137698955426
+    second: Armature|Lighting Split
+  - first:
+      74: -2799842041575783658
+    second: Armature|Lighting Sword
+  - first:
+      74: -9185948760207649504
+    second: Armature|Lighting Thunder
+  - first:
+      74: -3952324171514269388
+    second: Armature|Magic Recover
+  - first:
+      74: -5439830237560592610
+    second: Armature|Power Shield1
+  - first:
+      74: 4659211758511139863
+    second: Armature|Power Shield2
+  - first:
+      74: -2980082960470307580
+    second: Armature|Psychokinesis
+  - first:
+      74: 7549088838577149333
+    second: Armature|Punch
+  - first:
+      74: 6515913694089105766
+    second: Armature|Punch02
+  - first:
+      74: -392775870743515681
+    second: Armature|Rolling
+  - first:
+      74: 1018357658183667422
+    second: Armature|RollingBack
+  - first:
+      74: 9152995005636383226
+    second: Armature|RollingForward
+  - first:
+      74: -6238844580721634873
+    second: Armature|RollingForward3
+  - first:
+      74: -4130459958689538648
+    second: Armature|RollingLeft
+  - first:
+      74: -3403439269021536083
+    second: Armature|RollingRight
+  - first:
+      74: -5202456866551794204
+    second: Armature|Shield Rush
+  - first:
+      74: -135234884080674990
+    second: Armature|Shield Rush1
+  - first:
+      74: 2263268552340331738
+    second: Armature|Shield Rush2
+  - first:
+      74: 8408574468487623981
+    second: Armature|Shield Shove
+  - first:
+      74: 8687080661002071594
+    second: Armature|Step Slash
+  - first:
+      74: 1520365360934589696
+    second: Armature|Step Slash02
+  - first:
+      74: -1457988698774182573
+    second: Armature|StrongAttack(1-2)
+  - first:
+      74: 6231670594103783818
+    second: Armature|StrongAttackCharge(1-1)
+  - first:
+      74: 7134755054060797162
+    second: Armature|StrongChargeAttack
+  - first:
+      74: 8565683586819514736
+    second: Armature|WalkBack
+  - first:
+      74: -1987514555843646443
+    second: Armature|WalkForward
+  - first:
+      74: -5231974275055964054
+    second: Armature|WalkRight
+  - first:
+      74: -7220954290577405548
+    second: Sword1_R|WalkForward
+  - first:
+      74: -6551520717985891257
+    second: Shield|Backstep Slash
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Buff2' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'spine_02' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'index_01_l' has translation
+      animation that will be discarded.\n\t'index_02_l' has translation animation
+      that will be discarded.\n\t'middle_01_l' has translation animation that will
+      be discarded.\n\t'middle_02_l' has translation animation that will be discarded.\n\t'ring_01_l'
+      has translation animation that will be discarded.\n\t'ring_02_l' has translation
+      animation that will be discarded.\n\t'pinky_01_l' has translation animation
+      that will be discarded.\n\t'pinky_02_l' has translation animation that will
+      be discarded.\n\nClip 'Armature|Attack1' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine_01' has translation animation that
+      will be discarded.\n\t'spine_01' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'spine_02' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'thigh_l' has translation
+      animation that will be discarded.\n\t'thigh_r' has translation animation that
+      will be discarded.\n\nClip 'Armature|Attack2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine_01' has translation animation that
+      will be discarded.\n\t'spine_01' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'spine_02' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'thigh_l' has translation
+      animation that will be discarded.\n\t'thigh_r' has translation animation that
+      will be discarded.\n\nClip 'Armature|Attack3' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine_01' has translation animation that
+      will be discarded.\n\t'spine_01' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'spine_02' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'thigh_l' has translation
+      animation that will be discarded.\n\t'thigh_r' has translation animation that
+      will be discarded.\n\nClip 'Armature|Backstep Slash' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine_01' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'spine_02' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Chain Lighting' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'middle_01_l' has translation animation
+      that will be discarded.\n\t'middle_02_l' has translation animation that will
+      be discarded.\n\t'ring_01_l' has translation animation that will be discarded.\n\t'ring_02_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\nClip 'Armature|Dash Sting' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'spine_01' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Defense Wall' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'middle_01_l' has translation animation
+      that will be discarded.\n\t'middle_02_l' has translation animation that will
+      be discarded.\n\t'ring_01_l' has translation animation that will be discarded.\n\t'ring_02_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\nClip 'Armature|Double Slash' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'spine_01' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Double Slash02' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Finish Attack(full)' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'spine_01' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\t'spine_02' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\nClip 'Armature|Finish Attack1'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Finish Attack2' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Fire Burst' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'middle_01_l' has translation animation
+      that will be discarded.\n\t'middle_02_l' has translation animation that will
+      be discarded.\n\t'ring_01_l' has translation animation that will be discarded.\n\t'ring_02_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\nClip 'Armature|Fire Sword' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'spine_02' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'middle_01_l' has translation animation
+      that will be discarded.\n\t'middle_02_l' has translation animation that will
+      be discarded.\n\t'ring_01_l' has translation animation that will be discarded.\n\t'ring_02_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\nClip 'Armature|Fire Tornado' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'spine_01' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'middle_01_l' has translation animation
+      that will be discarded.\n\t'middle_02_l' has translation animation that will
+      be discarded.\n\t'ring_01_l' has translation animation that will be discarded.\n\t'ring_02_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\nClip 'Armature|Fireball' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine_01' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'spine_02' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'middle_01_l' has translation animation
+      that will be discarded.\n\t'middle_02_l' has translation animation that will
+      be discarded.\n\t'ring_01_l' has translation animation that will be discarded.\n\t'ring_02_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\nClip 'Armature|Ground Wave' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'spine_01' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Guard Enhance' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'calf_l'
+      has translation animation that will be discarded.\n\t'calf_r' has translation
+      animation that will be discarded.\n\nClip 'Armature|Guard Enhance Hit' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'spine_01' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'calf_l'
+      has translation animation that will be discarded.\n\t'calf_r' has translation
+      animation that will be discarded.\n\nClip 'Armature|Guarding Barrier' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'thumb_03_l' has translation
+      animation that will be discarded.\n\t'index_01_l' has translation animation
+      that will be discarded.\n\t'index_02_l' has translation animation that will
+      be discarded.\n\t'index_03_l' has translation animation that will be discarded.\n\t'middle_01_l'
+      has translation animation that will be discarded.\n\t'middle_02_l' has translation
+      animation that will be discarded.\n\t'middle_03_l' has translation animation
+      that will be discarded.\n\t'ring_01_l' has translation animation that will
+      be discarded.\n\t'ring_02_l' has translation animation that will be discarded.\n\t'ring_03_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\t'pinky_03_l' has translation animation that will
+      be discarded.\n\nClip 'Armature|Healing' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine_01' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'spine_02' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Heavy Sword' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'middle_01_l' has translation animation
+      that will be discarded.\n\t'middle_02_l' has translation animation that will
+      be discarded.\n\t'ring_01_l' has translation animation that will be discarded.\n\t'ring_02_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\nClip 'Armature|Horizontal Slash' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'spine_01' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Ice Spear' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'middle_01_l' has translation animation
+      that will be discarded.\n\t'middle_02_l' has translation animation that will
+      be discarded.\n\t'ring_01_l' has translation animation that will be discarded.\n\t'ring_02_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\nClip 'Armature|Ice Storm' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine_01' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'spine_02' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'middle_01_l' has translation animation
+      that will be discarded.\n\t'middle_02_l' has translation animation that will
+      be discarded.\n\t'ring_01_l' has translation animation that will be discarded.\n\t'ring_02_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\nClip 'Armature|Ice Sword' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine_02' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'index_01_l' has translation
+      animation that will be discarded.\n\t'index_02_l' has translation animation
+      that will be discarded.\n\t'middle_01_l' has translation animation that will
+      be discarded.\n\t'middle_02_l' has translation animation that will be discarded.\n\t'ring_01_l'
+      has translation animation that will be discarded.\n\t'ring_02_l' has translation
+      animation that will be discarded.\n\t'pinky_01_l' has translation animation
+      that will be discarded.\n\t'pinky_02_l' has translation animation that will
+      be discarded.\n\nClip 'Armature|Icicle' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine_01' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'spine_02' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'middle_01_l' has translation animation
+      that will be discarded.\n\t'middle_02_l' has translation animation that will
+      be discarded.\n\t'ring_01_l' has translation animation that will be discarded.\n\t'ring_02_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\nClip 'Armature|Lighting Split' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'spine_01' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'middle_01_l' has translation animation
+      that will be discarded.\n\t'middle_02_l' has translation animation that will
+      be discarded.\n\t'ring_01_l' has translation animation that will be discarded.\n\t'ring_02_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\nClip 'Armature|Lighting Sword' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'spine_02' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'middle_01_l' has translation animation
+      that will be discarded.\n\t'middle_02_l' has translation animation that will
+      be discarded.\n\t'ring_01_l' has translation animation that will be discarded.\n\t'ring_02_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\nClip 'Armature|Lighting Thunder' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'spine_01' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'middle_01_l' has translation animation
+      that will be discarded.\n\t'middle_02_l' has translation animation that will
+      be discarded.\n\t'ring_01_l' has translation animation that will be discarded.\n\t'ring_02_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\nClip 'Armature|Magic Recover' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'thumb_03_l' has translation
+      animation that will be discarded.\n\t'index_01_l' has translation animation
+      that will be discarded.\n\t'index_02_l' has translation animation that will
+      be discarded.\n\t'index_03_l' has translation animation that will be discarded.\n\t'middle_01_l'
+      has translation animation that will be discarded.\n\t'middle_02_l' has translation
+      animation that will be discarded.\n\t'middle_03_l' has translation animation
+      that will be discarded.\n\t'ring_01_l' has translation animation that will
+      be discarded.\n\t'ring_02_l' has translation animation that will be discarded.\n\t'ring_03_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\t'pinky_03_l' has translation animation that will
+      be discarded.\n\nClip 'Armature|Power Shield1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine_01' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'spine_02' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Power Shield2' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Psychokinesis' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'middle_01_l' has translation animation
+      that will be discarded.\n\t'middle_02_l' has translation animation that will
+      be discarded.\n\t'ring_01_l' has translation animation that will be discarded.\n\t'ring_02_l'
+      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
+      animation that will be discarded.\n\t'pinky_02_l' has translation animation
+      that will be discarded.\n\nClip 'Armature|Punch' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine_01' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'spine_02' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Punch02' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Rolling' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      has translation animation that will be discarded.\n\t'spine_02' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'lowerarm_l'
+      has translation animation that will be discarded.\n\t'hand_l' has translation
+      animation that will be discarded.\n\t'thumb_01_l' has translation animation
+      that will be discarded.\n\t'index_01_l' has translation animation that will
+      be discarded.\n\t'index_02_l' has translation animation that will be discarded.\n\t'index_03_l'
+      has translation animation that will be discarded.\n\t'middle_01_l' has translation
+      animation that will be discarded.\n\t'middle_02_l' has translation animation
+      that will be discarded.\n\t'middle_03_l' has translation animation that will
+      be discarded.\n\t'ring_01_l' has translation animation that will be discarded.\n\t'ring_02_l'
+      has translation animation that will be discarded.\n\t'ring_03_l' has translation
+      animation that will be discarded.\n\t'pinky_01_l' has translation animation
+      that will be discarded.\n\t'pinky_02_l' has translation animation that will
+      be discarded.\n\t'pinky_03_l' has translation animation that will be discarded.\n\t'lowerarm_r'
+      has translation animation that will be discarded.\n\t'index_01_r' has translation
+      animation that will be discarded.\n\t'index_02_r' has translation animation
+      that will be discarded.\n\t'index_03_r' has translation animation that will
+      be discarded.\n\t'middle_01_r' has translation animation that will be discarded.\n\t'middle_02_r'
+      has translation animation that will be discarded.\n\t'middle_03_r' has translation
+      animation that will be discarded.\n\t'ring_01_r' has translation animation
+      that will be discarded.\n\t'ring_02_r' has translation animation that will
+      be discarded.\n\t'ring_03_r' has translation animation that will be discarded.\n\t'pinky_01_r'
+      has translation animation that will be discarded.\n\t'pinky_02_r' has translation
+      animation that will be discarded.\n\t'pinky_03_r' has translation animation
+      that will be discarded.\n\t'calf_r' has translation animation that will be
+      discarded.\n\nClip 'Armature|RollingBack' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine_01' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'spine_02' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|RollingForward' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'index_03_l' has translation animation
+      that will be discarded.\n\t'middle_01_l' has translation animation that will
+      be discarded.\n\t'middle_02_l' has translation animation that will be discarded.\n\t'middle_03_l'
+      has translation animation that will be discarded.\n\t'ring_01_l' has translation
+      animation that will be discarded.\n\t'ring_02_l' has translation animation
+      that will be discarded.\n\t'ring_03_l' has translation animation that will
+      be discarded.\n\t'pinky_01_l' has translation animation that will be discarded.\n\t'pinky_02_l'
+      has translation animation that will be discarded.\n\t'pinky_03_l' has translation
+      animation that will be discarded.\n\nClip 'Armature|RollingForward3' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'spine_01' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'index_01_l'
+      has translation animation that will be discarded.\n\t'index_02_l' has translation
+      animation that will be discarded.\n\t'index_03_l' has translation animation
+      that will be discarded.\n\t'middle_01_l' has translation animation that will
+      be discarded.\n\t'middle_02_l' has translation animation that will be discarded.\n\t'middle_03_l'
+      has translation animation that will be discarded.\n\t'ring_01_l' has translation
+      animation that will be discarded.\n\t'ring_02_l' has translation animation
+      that will be discarded.\n\t'ring_03_l' has translation animation that will
+      be discarded.\n\t'pinky_01_l' has translation animation that will be discarded.\n\t'pinky_02_l'
+      has translation animation that will be discarded.\n\t'pinky_03_l' has translation
+      animation that will be discarded.\n\nClip 'Armature|RollingLeft' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'spine_01' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|RollingRight' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Shield Rush' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Shield Rush1' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Shield Rush2' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Shield Shove' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Step Slash' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|Step Slash02' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'upperarm_l'
+      has translation animation that will be discarded.\n\t'lowerarm_l' has translation
+      animation that will be discarded.\n\t'upperarm_r' has translation animation
+      that will be discarded.\n\t'lowerarm_r' has translation animation that will
+      be discarded.\n\nClip 'Armature|StrongAttack(1-2)' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine_01' has translation animation that
+      will be discarded.\n\t'spine_01' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'spine_02' has translation animation that
+      will be discarded.\n\t'spine_02' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'spine_03' has translation animation that
+      will be discarded.\n\t'hand_r' has translation animation that will be discarded.\n\t'calf_r'
+      has translation animation that will be discarded.\n\nClip 'Armature|StrongAttackCharge(1-1)'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\t'spine_01' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|StrongChargeAttack' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'spine_01' has translation animation that will be discarded.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_02'
+      has translation animation that will be discarded.\n\t'spine_02' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'spine_03'
+      has translation animation that will be discarded.\n\t'hand_r' has translation
+      animation that will be discarded.\n\t'calf_r' has translation animation that
+      will be discarded.\n\nClip 'Armature|WalkBack' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine_01' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'Armature|WalkForward'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh_l
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh_r
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: calf_l
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: calf_r
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_l
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_r
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine_03
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck_01
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavicle_l
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavicle_r
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperarm_l
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperarm_r
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerarm_l
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerarm_r
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_l
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_r
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ball_l
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ball_r
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: goggle
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_01_l
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_02_l
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_03_l
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index_01_l
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index_02_l
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index_03_l
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle_01_l
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle_02_l
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle_03_l
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_01_l
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_02_l
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_03_l
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_01_l
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_02_l
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_03_l
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_01_r
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_02_r
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_03_r
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index_01_r
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index_02_r
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index_03_r
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle_01_r
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle_02_r
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle_03_r
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_01_r
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_02_r
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_03_r
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_01_r
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_02_r
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_03_r
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: RPG Skill3.5(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: RPG Skill3.5(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071069, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root
+      parentName: Armature
+      position: {x: 0.005842228, y: 0.05060407, z: -0.003881483}
+      rotation: {x: 0.0000001490116, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: pelvis
+      parentName: root
+      position: {x: -0.0058424734, y: -0.028181523, z: 0.57749283}
+      rotation: {x: 0.088013425, y: 0.70160794, z: 0.088013396, w: 0.7016079}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: spine_01
+      parentName: pelvis
+      position: {x: -0.12213881, y: 0.0015709868, z: -0.000000004955295}
+      rotation: {x: 0.000000014901161, y: -0.000000029802322, z: -0.057855807, w: 0.998325}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: spine_02
+      parentName: spine_01
+      position: {x: -0.14500736, y: 0.012613341, z: -0.000000006424334}
+      rotation: {x: -0.000000048759563, y: -8.4625273e-10, z: 0.1185225, w: -0.9929514}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000004}
+    - name: spine_03
+      parentName: spine_02
+      position: {x: -0.12496112, y: 0.0032151642, z: -0.0000000033868255}
+      rotation: {x: -0.00000006456107, y: 0.000000015992802, z: -0.040064838, w: 0.99919707}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.99999994}
+    - name: neck_01
+      parentName: spine_03
+      position: {x: -0.20089024, y: -0.021196382, z: -0.00000000521284}
+      rotation: {x: -0.000000041752937, y: 0.000000050413295, z: -0.18672638, w: -0.982412}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: head
+      parentName: neck_01
+      position: {x: -0.19737932, y: 0.0017454126, z: -0.000000010035886}
+      rotation: {x: 0.000000038933933, y: 0.0000000049676516, z: 0.095710315, w: -0.99540925}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: goggle
+      parentName: head
+      position: {x: -0.104263455, y: 0.019702416, z: -0.0000000037480232}
+      rotation: {x: -0.00000006283743, y: -0.000000007882685, z: 0.000000096857526,
+        w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: goggle_end
+      parentName: goggle
+      position: {x: -0, y: 0.10610871, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: clavicle_l
+      parentName: spine_03
+      position: {x: -0.071298465, y: 0.0023772717, z: -0.09493419}
+      rotation: {x: -0.017211195, y: 0.72951037, z: -0.109174214, w: -0.67498106}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: upperarm_l
+      parentName: clavicle_l
+      position: {x: -0.10487793, y: 5.9604643e-10, z: 0.000000022796797}
+      rotation: {x: 0.0024149695, y: 0.03240883, z: -0.062318508, w: 0.9975271}
+      scale: {x: 1.0000005, y: 1.000001, z: 1.0000001}
+    - name: lowerarm_l
+      parentName: upperarm_l
+      position: {x: -0.35835233, y: 0.020167692, z: -0.0000001168251}
+      rotation: {x: 0.000000024912875, y: 0.000000048428767, z: -0.005354164, w: 0.99998575}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000002}
+    - name: hand_l
+      parentName: lowerarm_l
+      position: {x: -0.23148169, y: -0.005878172, z: 0}
+      rotation: {x: 0.70515895, y: 0.016183218, z: 0.016964171, w: -0.70866156}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.9999997}
+    - name: thumb_01_l
+      parentName: hand_l
+      position: {x: -0.059404325, y: 0.026275748, z: -0.08249086}
+      rotation: {x: -0.5835664, y: 0.2888821, z: -0.24827677, w: -0.7171861}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000002}
+    - name: thumb_02_l
+      parentName: thumb_01_l
+      position: {x: -0.079703, y: -0.00000014781952, z: -0.000000019073486}
+      rotation: {x: -0.028249009, y: -0.01615893, z: -0.033477094, w: 0.9989095}
+      scale: {x: 1.0000002, y: 1, z: 1.0000006}
+    - name: thumb_03_l
+      parentName: thumb_02_l
+      position: {x: -0.06499451, y: 0.000000047683713, z: -0.0000000333786}
+      rotation: {x: 0.034490224, y: -0.03448829, z: 0.70404094, w: 0.7084824}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
+    - name: thumb_03_l_end
+      parentName: thumb_03_l
+      position: {x: -0, y: 0.06499454, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: index_01_l
+      parentName: hand_l
+      position: {x: -0.12873143, y: -0.014384365, z: -0.0582069}
+      rotation: {x: 0.07717012, y: -0.009060937, z: -0.011458121, w: 0.996911}
+      scale: {x: 1.000001, y: 1, z: 1.0000001}
+    - name: index_02_l
+      parentName: index_01_l
+      position: {x: -0.08106941, y: -0.0064408015, z: -0.001982181}
+      rotation: {x: 0.0012414078, y: -0.003930995, z: -0.062582396, w: 0.99803126}
+      scale: {x: 0.9999998, y: 1.0000008, z: 1.0000005}
+    - name: index_03_l
+      parentName: index_02_l
+      position: {x: -0.06657938, y: -0.010166931, z: -0.0034638357}
+      rotation: {x: -0.0063134474, y: -0.02842586, z: 0.75813544, w: 0.6514467}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.99999994}
+    - name: index_03_l_end
+      parentName: index_03_l
+      position: {x: -0, y: 0.06744025, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: middle_01_l
+      parentName: hand_l
+      position: {x: -0.12870884, y: -0.027611827, z: -0.008516836}
+      rotation: {x: 0.027098881, y: -0.010696785, z: 0.020122128, w: 0.99937296}
+      scale: {x: 1.0000013, y: 1.0000001, z: 1.0000002}
+    - name: middle_02_l
+      parentName: middle_01_l
+      position: {x: -0.083298415, y: -0.00196496, z: 0.00073723315}
+      rotation: {x: 0.018030835, y: -0.0021549682, z: -0.06262616, w: 0.9978719}
+      scale: {x: 0.99999946, y: 1.0000011, z: 1.0000004}
+    - name: middle_03_l
+      parentName: middle_02_l
+      position: {x: -0.07866348, y: -0.014501581, z: -0.00086685177}
+      rotation: {x: -0.0036292097, y: -0.004029905, z: 0.7685232, w: 0.639799}
+      scale: {x: 1.000001, y: 0.99999934, z: 1}
+    - name: middle_03_l_end
+      parentName: middle_03_l
+      position: {x: -0, y: 0.07999366, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ring_01_l
+      parentName: hand_l
+      position: {x: -0.12696521, y: -0.029330548, z: 0.039041895}
+      rotation: {x: -0.0023350106, y: -0.014101895, z: -0.007492584, w: 0.99986976}
+      scale: {x: 1.0000013, y: 1.0000001, z: 1.0000002}
+    - name: ring_02_l
+      parentName: ring_01_l
+      position: {x: -0.08391915, y: -0.0060670995, z: 0.000102634425}
+      rotation: {x: 0.01603096, y: 0.012626751, z: -0.06238601, w: 0.99784344}
+      scale: {x: 0.99999934, y: 1.0000007, z: 0.99999994}
+    - name: ring_03_l
+      parentName: ring_02_l
+      position: {x: -0.070468575, y: -0.011599206, z: -0.0031856727}
+      rotation: {x: -0.027018283, y: -0.006291909, z: 0.7616516, w: 0.6473927}
+      scale: {x: 1.0000006, y: 0.9999998, z: 1.0000002}
+    - name: ring_03_l_end
+      parentName: ring_03_l
+      position: {x: -0, y: 0.0714878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pinky_01_l
+      parentName: hand_l
+      position: {x: -0.1268512, y: -0.020847596, z: 0.079393364}
+      rotation: {x: -0.05220177, y: -0.012099769, z: -0.026262224, w: 0.9982179}
+      scale: {x: 1.0000011, y: 1, z: 1.0000002}
+    - name: pinky_02_l
+      parentName: pinky_01_l
+      position: {x: -0.08108721, y: -0.009177379, z: 0.00034353256}
+      rotation: {x: 0.018036826, y: 0.015109775, z: -0.050948292, w: 0.99842405}
+      scale: {x: 0.9999998, y: 1.0000006, z: 1.0000001}
+    - name: pinky_03_l
+      parentName: pinky_02_l
+      position: {x: -0.06137343, y: -0.008336291, z: -0.0023519706}
+      rotation: {x: -0.021507507, y: -0.006399882, z: 0.7521981, w: 0.65855485}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.0000008}
+    - name: pinky_03_l_end
+      parentName: pinky_03_l
+      position: {x: -0, y: 0.061981652, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulderPad_l
+      parentName: clavicle_l
+      position: {x: -0.17600694, y: 0.02332084, z: 0.14720316}
+      rotation: {x: 0.0022205936, y: 0.03242272, z: -0.06829414, w: 0.99713576}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.9999997}
+    - name: shoulderPad_l_end
+      parentName: shoulderPad_l
+      position: {x: -0, y: 0.16775484, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: clavicle_r
+      parentName: spine_03
+      position: {x: -0.07130289, y: 0.0023764374, z: 0.09493419}
+      rotation: {x: -0.72950417, y: -0.017210808, z: -0.67498785, w: 0.10917374}
+      scale: {x: 1.0000064, y: 1.0000001, z: 1.0000042}
+    - name: upperarm_r
+      parentName: clavicle_r
+      position: {x: 0.10487697, y: 0.00000020623207, z: 0.0000022242784}
+      rotation: {x: 0.0024159248, y: 0.032406934, z: -0.062317632, w: 0.9975272}
+      scale: {x: 0.999999, y: 1.0000007, z: 1.0000005}
+    - name: lowerarm_r
+      parentName: upperarm_r
+      position: {x: 0.3583504, y: -0.02016755, z: 0.0000053071976}
+      rotation: {x: -2.3283059e-10, y: 0.000000022351736, z: -0.0053540925, w: 0.9999857}
+      scale: {x: 0.9999985, y: 1.0000033, z: 0.999999}
+    - name: hand_r
+      parentName: lowerarm_r
+      position: {x: 0.23148002, y: 0.0058779335, z: 0.00000330925}
+      rotation: {x: -0.7051272, y: -0.014882997, z: -0.018245682, w: 0.7086899}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.9999997}
+    - name: Sword1_R
+      parentName: hand_r
+      position: {x: -0.79728013, y: -1.0224267, z: 0.014754238}
+      rotation: {x: -0.70839787, y: -0.00031527155, z: -0.0022092448, w: 0.7058098}
+      scale: {x: 0.99999243, y: 0.99999946, z: 0.9999966}
+    - name: thumb_01_r
+      parentName: hand_r
+      position: {x: 0.05910199, y: -0.02627676, z: 0.08270725}
+      rotation: {x: 0.5831042, y: -0.2901839, z: 0.2493482, w: 0.7166647}
+      scale: {x: 0.9999996, y: 1.0000011, z: 1.0000004}
+    - name: thumb_02_r
+      parentName: thumb_01_r
+      position: {x: 0.07970409, y: 0.000000028610229, z: 0.0000040721893}
+      rotation: {x: -0.02825134, y: -0.016167141, z: -0.03348117, w: 0.9989091}
+      scale: {x: 1.0000002, y: 0.9999996, z: 1}
+    - name: thumb_03_r
+      parentName: thumb_02_r
+      position: {x: 0.06499363, y: -0.0000001335144, z: 0.0000017023086}
+      rotation: {x: 0.00046552328, y: 0.00006124096, z: -0.70315135, w: 0.71104014}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000006}
+    - name: thumb_03_r_end
+      parentName: thumb_03_r
+      position: {x: -0, y: 0.06499379, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: index_01_r
+      parentName: hand_r
+      position: {x: 0.12851661, y: 0.014378986, z: 0.05867661}
+      rotation: {x: 0.0771903, y: -0.010881608, z: -0.011306732, w: 0.99689287}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: index_02_r
+      parentName: index_01_r
+      position: {x: 0.08106978, y: 0.0064365193, z: 0.0019827932}
+      rotation: {x: 0.0012414824, y: -0.003930267, z: -0.06258215, w: 0.9980313}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: index_03_r
+      parentName: index_02_r
+      position: {x: 0.066579245, y: 0.010167455, z: 0.0034638308}
+      rotation: {x: 0.030574072, y: -0.003996156, z: -0.6447002, w: 0.7638135}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: index_03_r_end
+      parentName: index_03_r
+      position: {x: -0, y: 0.067440495, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: middle_01_r
+      parentName: hand_r
+      position: {x: 0.12867579, y: 0.027606983, z: 0.008986874}
+      rotation: {x: 0.02706202, y: -0.012521361, z: 0.020160694, w: 0.99935204}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: middle_02_r
+      parentName: middle_01_r
+      position: {x: 0.08329719, y: 0.001964121, z: -0.00073723553}
+      rotation: {x: 0.018030789, y: -0.0021547447, z: -0.06262627, w: 0.9978719}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: middle_03_r
+      parentName: middle_02_r
+      position: {x: 0.07865982, y: 0.014500369, z: 0.0008668422}
+      rotation: {x: 0.0029901138, y: -0.004875844, z: -0.63292515, w: 0.7741919}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: middle_03_r_end
+      parentName: middle_03_r
+      position: {x: -0, y: 0.079990365, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ring_01_r
+      parentName: hand_r
+      position: {x: 0.12710568, y: 0.029327393, z: -0.038577955}
+      rotation: {x: -0.0023225832, y: -0.015929267, z: -0.007486332, w: 0.9998424}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: ring_02_r
+      parentName: ring_01_r
+      position: {x: 0.08391962, y: 0.0060625076, z: -0.00010254621}
+      rotation: {x: 0.016030839, y: 0.012626671, z: -0.06238673, w: 0.9978434}
+      scale: {x: 1.0000005, y: 1.0000004, z: 0.9999998}
+    - name: ring_03_r
+      parentName: ring_02_r
+      position: {x: 0.070468545, y: 0.011595364, z: 0.0031857633}
+      rotation: {x: 0.022717198, y: -0.007461494, z: -0.6403684, w: 0.76769567}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: ring_03_r_end
+      parentName: ring_03_r
+      position: {x: -0, y: 0.071487576, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pinky_01_r
+      parentName: hand_r
+      position: {x: 0.12713848, y: 0.020839728, z: -0.0789295}
+      rotation: {x: -0.052153867, y: -0.0139102675, z: -0.026409762, w: 0.9981929}
+      scale: {x: 1.0000004, y: 1.000001, z: 1.0000004}
+    - name: pinky_02_r
+      parentName: pinky_01_r
+      position: {x: 0.081085816, y: 0.009183464, z: -0.00034300803}
+      rotation: {x: 0.018035471, y: 0.015117379, z: -0.05090151, w: 0.9984264}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
+    - name: pinky_03_r
+      parentName: pinky_02_r
+      position: {x: 0.061377186, y: 0.008335332, z: 0.0023520063}
+      rotation: {x: 0.018634664, y: -0.0073676906, z: -0.6517359, w: 0.7581813}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000005}
+    - name: pinky_03_r_end
+      parentName: pinky_03_r
+      position: {x: -0, y: 0.06198555, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulderPad_r
+      parentName: clavicle_r
+      position: {x: 0.17600764, y: -0.023320464, z: -0.14719108}
+      rotation: {x: -0.997136, y: 0.068292685, z: 0.032420307, w: 0.0022217315}
+      scale: {x: 0.9999914, y: 0.9999992, z: 0.9999997}
+    - name: shoulderPad_r_end
+      parentName: shoulderPad_r
+      position: {x: -0, y: 0.16775234, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: backpackShield01
+      parentName: spine_03
+      position: {x: 0.05879149, y: 0.29811794, z: 0.0000000017704188}
+      rotation: {x: -0.06494229, y: 0.7041183, z: -0.06494227, w: -0.70411825}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: backpackShield02
+      parentName: backpackShield01
+      position: {x: 3.6715903e-10, y: 0.19255175, z: 0.020971382}
+      rotation: {x: 0.00000017508863, y: -0, z: 0.0000000037252899, w: 1}
+      scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    - name: backpackShield02_end
+      parentName: backpackShield02
+      position: {x: -0, y: 0.29222956, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weaponPosition_l
+      parentName: backpackShield01
+      position: {x: -0.28777844, y: 0.009525615, z: 0.022053916}
+      rotation: {x: -0, y: -0, z: 0.0000000037252903, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: weaponPosition_l_end
+      parentName: weaponPosition_l
+      position: {x: -0, y: 0.29222965, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weaponPosition_r
+      parentName: backpackShield01
+      position: {x: 0.28777897, y: 0.00952592, z: 0.022054367}
+      rotation: {x: -0, y: -0, z: 0.0000000037252903, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: weaponPosition_r_end
+      parentName: weaponPosition_r
+      position: {x: -0, y: 0.2922297, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weaponPositionTop
+      parentName: backpackShield01
+      position: {x: 0.00000000836114, y: -0.026338838, z: 0.39679548}
+      rotation: {x: -0, y: -0, z: 0.0000000037252903, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: weaponPositionTop_end
+      parentName: weaponPositionTop
+      position: {x: -0, y: 0.29222968, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh_l
+      parentName: pelvis
+      position: {x: 0.033303607, y: 0.00012124771, z: -0.12401848}
+      rotation: {x: 0.058019143, y: 0.033847243, z: -0.13209629, w: 0.9889585}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: calf_l
+      parentName: thigh_l
+      position: {x: 0.26151627, y: -0.000046519635, z: -0.003230209}
+      rotation: {x: -0.009955059, y: -0.0028215775, z: 0.0107884975, w: 0.9998883}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: foot_l
+      parentName: calf_l
+      position: {x: 0.24842586, y: 0.022103615, z: -0.0069593475}
+      rotation: {x: -0.04803152, y: -0.034866866, z: -0.003783835, w: 0.9982299}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: ball_l
+      parentName: foot_l
+      position: {x: 0.00971078, y: -0.20057394, z: -0.01501569}
+      rotation: {x: 0.0030589881, y: -0.008214765, z: 0.7100026, w: 0.7041446}
+      scale: {x: 0.99999994, y: 1, z: 1.0000002}
+    - name: ball_l_end
+      parentName: ball_l
+      position: {x: -0, y: 0.20136955, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh_r
+      parentName: pelvis
+      position: {x: 0.033303753, y: 0.00012122684, z: 0.12401898}
+      rotation: {x: -0.033835933, y: 0.058044173, z: 0.988957, w: 0.1320987}
+      scale: {x: 0.99999714, y: 1.0000004, z: 0.99999976}
+    - name: calf_r
+      parentName: thigh_r
+      position: {x: -0.2615171, y: 0.000046122073, z: 0.003234322}
+      rotation: {x: -0.009954931, y: -0.00281315, z: 0.010788653, w: 0.99988836}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.99999994}
+    - name: foot_r
+      parentName: calf_r
+      position: {x: -0.2484267, y: -0.022103867, z: 0.0069605876}
+      rotation: {x: -0.048058204, y: -0.03487575, z: -0.003781982, w: 0.9982284}
+      scale: {x: 1, y: 0.99999994, z: 0.99999976}
+    - name: ball_r
+      parentName: foot_r
+      position: {x: -0.009710567, y: 0.20057441, z: 0.015015152}
+      rotation: {x: 0.0030936461, y: -0.008271882, z: 0.71000314, w: 0.70414317}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000006}
+    - name: ball_r_end
+      parentName: ball_r
+      position: {x: -0, y: 0.20136997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weaponShield_l
+      parentName: root
+      position: {x: -0.95630467, y: -0.023688506, z: 0.9999742}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weaponShield_l_end
+      parentName: weaponShield_l
+      position: {x: -0, y: 1.1152903, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weaponShield_r
+      parentName: root
+      position: {x: 0.95630497, y: -0.023688506, z: 0.9999739}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weaponShield_r_end
+      parentName: weaponShield_r
+      position: {x: -0, y: 1.1152903, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RPGHero
+      parentName: RPG Skill3.5(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071069, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shield
+      parentName: RPG Skill3.5(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071069, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

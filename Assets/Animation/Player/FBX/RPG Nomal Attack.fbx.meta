@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 0a2bd2617f876e545be0521a3acbf617
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -1441189883354398612
+    second: Buff2
+  - first:
+      74: -4552515205397978273
+    second: Armature|Attack1
+  - first:
+      74: -729247239487951332
+    second: Armature|Attack2
+  - first:
+      74: 1679763308670167783
+    second: Armature|Attack3
+  - first:
+      74: 1823696701482001785
+    second: Armature|BackStapX
+  - first:
+      74: 8988718260977506390
+    second: Armature|Backstep Slash
+  - first:
+      74: -6226629588457087004
+    second: Armature|Buff1
+  - first:
+      74: 8710753507783257694
+    second: Armature|Buff2
+  - first:
+      74: 8977106642653342651
+    second: Armature|Dash Sting
+  - first:
+      74: 6735714234655044027
+    second: Armature|Defense Wall
+  - first:
+      74: 9065177610702374581
+    second: Armature|Double Slash
+  - first:
+      74: 5392298035781392643
+    second: Armature|Fireball
+  - first:
+      74: -8274696639791429929
+    second: Armature|Ground Wave
+  - first:
+      74: 6581402568278407118
+    second: Armature|Horizontal Slash
+  - first:
+      74: -5439830237560592610
+    second: Armature|Power Shield1
+  - first:
+      74: 4659211758511139863
+    second: Armature|Power Shield2
+  - first:
+      74: 7549088838577149333
+    second: Armature|Punch
+  - first:
+      74: -392775870743515681
+    second: Armature|Rolling
+  - first:
+      74: 8408574468487623981
+    second: Armature|Shield Shove
+  - first:
+      74: -1457988698774182573
+    second: Armature|StrongAttack(1-2)
+  - first:
+      74: 6231670594103783818
+    second: Armature|StrongAttackCharge(1-1)
+  - first:
+      74: 7134755054060797162
+    second: Armature|StrongChargeAttack
+  - first:
+      74: -4521880122495409518
+    second: Box001|Attack2
+  - first:
+      74: -6551520717985891257
+    second: Shield|Backstep Slash
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

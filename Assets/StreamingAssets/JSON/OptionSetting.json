@@ -1,0 +1,17 @@
+{
+  "resolution": {
+    "width": 2560,
+    "height": 1440,
+    "refreshRate": 155
+  },
+  "frameRate": 240,
+  "vSyncCount": 0,
+  "isFullScreen": false,
+  "qualityIndex": 3,
+  "masterVolume": 0.8000002,
+  "musicVolume": 0.504223943,
+  "gameVolume": 0.5087943,
+  "UIVolume": 0.8000002,
+  "mouseSensitivity": 100.0,
+  "gamepadSensitivity": 1000.0
+}

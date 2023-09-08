@@ -1,0 +1,32 @@
+{
+    "Items": [
+        {
+            "sound": 1,
+            "strType": "TitleScene",
+            "audioClip": {
+                "instanceID": 32560
+            }
+        },
+        {
+            "sound": 2,
+            "strType": "StartMap",
+            "audioClip": {
+                "instanceID": 32562
+            }
+        },
+        {
+            "sound": 3,
+            "strType": "Stage",
+            "audioClip": {
+                "instanceID": 32564
+            }
+        },
+        {
+            "sound": 4,
+            "strType": "BossStage",
+            "audioClip": {
+                "instanceID": 32566
+            }
+        }
+    ]
+}

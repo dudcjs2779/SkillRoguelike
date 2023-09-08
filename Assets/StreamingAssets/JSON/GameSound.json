@@ -1,0 +1,354 @@
+{
+    "Items": [
+        {
+            "sound": 1,
+            "strType": "PlayerMove",
+            "audioClip": {
+                "instanceID": 32446
+            }
+        },
+        {
+            "sound": 2,
+            "strType": "PlayerStep01",
+            "audioClip": {
+                "instanceID": 32448
+            }
+        },
+        {
+            "sound": 3,
+            "strType": "PlayerStep02",
+            "audioClip": {
+                "instanceID": 32450
+            }
+        },
+        {
+            "sound": 4,
+            "strType": "PlayerSlash01",
+            "audioClip": {
+                "instanceID": 32452
+            }
+        },
+        {
+            "sound": 5,
+            "strType": "PlayerSlash02",
+            "audioClip": {
+                "instanceID": 32454
+            }
+        },
+        {
+            "sound": 6,
+            "strType": "PlayerSlash03",
+            "audioClip": {
+                "instanceID": 32456
+            }
+        },
+        {
+            "sound": 7,
+            "strType": "PlayerBigSlash01",
+            "audioClip": {
+                "instanceID": 32458
+            }
+        },
+        {
+            "sound": 8,
+            "strType": "PlayerBigSlash02",
+            "audioClip": {
+                "instanceID": 32460
+            }
+        },
+        {
+            "sound": 9,
+            "strType": "PlayerPunch01",
+            "audioClip": {
+                "instanceID": 32462
+            }
+        },
+        {
+            "sound": 10,
+            "strType": "PlayerSting01",
+            "audioClip": {
+                "instanceID": 32464
+            }
+        },
+        {
+            "sound": 11,
+            "strType": "PlayerStepSlash01",
+            "audioClip": {
+                "instanceID": 32466
+            }
+        },
+        {
+            "sound": 12,
+            "strType": "PlayerShotFireball01",
+            "audioClip": {
+                "instanceID": 32468
+            }
+        },
+        {
+            "sound": 13,
+            "strType": "PlayerShotBigFire01",
+            "audioClip": {
+                "instanceID": 32470
+            }
+        },
+        {
+            "sound": 14,
+            "strType": "PlayerFireTornadoCast01",
+            "audioClip": {
+                "instanceID": 32472
+            }
+        },
+        {
+            "sound": 15,
+            "strType": "PlayerFireTornadoShot01",
+            "audioClip": {
+                "instanceID": 32474
+            }
+        },
+        {
+            "sound": 16,
+            "strType": "PlayerFireTornado01",
+            "audioClip": {
+                "instanceID": 32476
+            }
+        },
+        {
+            "sound": 17,
+            "strType": "PlayerIcicleCast01",
+            "audioClip": {
+                "instanceID": 32478
+            }
+        },
+        {
+            "sound": 18,
+            "strType": "PlayerIcicleSpawn01",
+            "audioClip": {
+                "instanceID": 32480
+            }
+        },
+        {
+            "sound": 19,
+            "strType": "PlayerIcicleAmbient01",
+            "audioClip": {
+                "instanceID": 32482
+            }
+        },
+        {
+            "sound": 20,
+            "strType": "PlayerIceSpearCast01",
+            "audioClip": {
+                "instanceID": 32484
+            }
+        },
+        {
+            "sound": 21,
+            "strType": "PlayerIceSpearSpawn01",
+            "audioClip": {
+                "instanceID": 32486
+            }
+        },
+        {
+            "sound": 22,
+            "strType": "PlayerIceTornado01",
+            "audioClip": {
+                "instanceID": 32488
+            }
+        },
+        {
+            "sound": 23,
+            "strType": "PlayerLightingCast01",
+            "audioClip": {
+                "instanceID": 32490
+            }
+        },
+        {
+            "sound": 24,
+            "strType": "PlayerLightingShot01",
+            "audioClip": {
+                "instanceID": 32492
+            }
+        },
+        {
+            "sound": 25,
+            "strType": "PlayerLightingSplitBurning01",
+            "audioClip": {
+                "instanceID": 32494
+            }
+        },
+        {
+            "sound": 26,
+            "strType": "PlayerLightingSplitExplosion01",
+            "audioClip": {
+                "instanceID": 32496
+            }
+        },
+        {
+            "sound": 27,
+            "strType": "PlayerLightingThunderShot01",
+            "audioClip": {
+                "instanceID": 32498
+            }
+        },
+        {
+            "sound": 28,
+            "strType": "PlayerLightingThunderExplosion01",
+            "audioClip": {
+                "instanceID": 32500
+            }
+        },
+        {
+            "sound": 29,
+            "strType": "PlayerFireSwordCast01",
+            "audioClip": {
+                "instanceID": 32502
+            }
+        },
+        {
+            "sound": 30,
+            "strType": "PlayerFireSwordActivate01",
+            "audioClip": {
+                "instanceID": 32504
+            }
+        },
+        {
+            "sound": 31,
+            "strType": "PlayerFireSwordBuff01",
+            "audioClip": {
+                "instanceID": 32506
+            }
+        },
+        {
+            "sound": 32,
+            "strType": "PlayerIceSwordCast01",
+            "audioClip": {
+                "instanceID": 32478
+            }
+        },
+        {
+            "sound": 33,
+            "strType": "PlayerIceSwordActivate01",
+            "audioClip": {
+                "instanceID": 32508
+            }
+        },
+        {
+            "sound": 34,
+            "strType": "PlayerIceSwordBuff01",
+            "audioClip": {
+                "instanceID": 32510
+            }
+        },
+        {
+            "sound": 35,
+            "strType": "PlayerLightingSwordCast01",
+            "audioClip": {
+                "instanceID": 32490
+            }
+        },
+        {
+            "sound": 36,
+            "strType": "PlayerLightingSwordActivate01",
+            "audioClip": {
+                "instanceID": 32512
+            }
+        },
+        {
+            "sound": 37,
+            "strType": "PlayerHeavySwordCast01",
+            "audioClip": {
+                "instanceID": 32514
+            }
+        },
+        {
+            "sound": 38,
+            "strType": "PlayerHeavySwordActivate01",
+            "audioClip": {
+                "instanceID": 32516
+            }
+        },
+        {
+            "sound": 40,
+            "strType": "PlayerGuardingBarrierCast01",
+            "audioClip": {
+                "instanceID": 32518
+            }
+        },
+        {
+            "sound": 39,
+            "strType": "PlayerGuardingBarrier01",
+            "audioClip": {
+                "instanceID": 32520
+            }
+        },
+        {
+            "sound": 41,
+            "strType": "PlayerExplosion01",
+            "audioClip": {
+                "instanceID": 32522
+            }
+        },
+        {
+            "sound": 42,
+            "strType": "PlayerAirImpact01",
+            "audioClip": {
+                "instanceID": 32524
+            }
+        },
+        {
+            "sound": 43,
+            "strType": "PlayerGroundShake01",
+            "audioClip": {
+                "instanceID": 32526
+            }
+        },
+        {
+            "sound": 44,
+            "strType": "PlayerGroundImpact01",
+            "audioClip": {
+                "instanceID": 32528
+            }
+        },
+        {
+            "sound": 45,
+            "strType": "PlayerGroundHit01",
+            "audioClip": {
+                "instanceID": 32530
+            }
+        },
+        {
+            "sound": 46,
+            "strType": "PlayerGroundHit02",
+            "audioClip": {
+                "instanceID": 32532
+            }
+        },
+        {
+            "sound": 47,
+            "strType": "EnemyHit01",
+            "audioClip": {
+                "instanceID": 32534
+            }
+        },
+        {
+            "sound": 48,
+            "strType": "EnemyDie01",
+            "audioClip": {
+                "instanceID": 32536
+            }
+        },
+        {
+            "sound": 49,
+            "strType": "EnemyHitFire01",
+            "audioClip": {
+                "instanceID": 32538
+            }
+        },
+        {
+            "sound": 50,
+            "strType": "EnemyHitIce01",
+            "audioClip": {
+                "instanceID": 32480
+            }
+        }
+    ]
+}

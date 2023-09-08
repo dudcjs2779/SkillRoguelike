@@ -1,0 +1,1305 @@
+[
+  {
+    "name": "Punch",
+    "krName": "펀치",
+    "type": "Active",
+    "explain": "빠르게 펀치를 날린다.",
+    "index": 0,
+    "statRank": [
+      "B",
+      "B",
+      "B",
+      "E",
+      "E",
+      "E"
+    ],
+    "skillLvEx": [
+      "데미지, 경직 데미지, 경직 성능이 높아진다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 26,
+    "mpPoint": 25,
+    "cost": 0,
+    "damage": [
+      1.2,
+      1.5
+    ],
+    "stgDamage": [
+      1.5,
+      1.9
+    ],
+    "stgPower": [
+      34.0,
+      40.0
+    ],
+    "elementalVal": [],
+    "duration": [],
+    "isMagicAttack": false,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Attack_Melle",
+    "skillLv": 1,
+    "equipOrder": 1,
+    "isBuy": true,
+    "isEquip": true
+  },
+  {
+    "name": "Double Slash",
+    "krName": "연속 베기",
+    "type": "Active",
+    "explain": "빠르게 무기를 연속으로 두번 휘두른다.",
+    "index": 1,
+    "statRank": [
+      "B",
+      "A",
+      "D",
+      "E",
+      "E",
+      "E"
+    ],
+    "skillLvEx": [
+      "데미지와 경직데미지가 증가한다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 38,
+    "mpPoint": 30,
+    "cost": 0,
+    "damage": [
+      1.2,
+      1.4
+    ],
+    "stgDamage": [
+      0.6,
+      0.65
+    ],
+    "stgPower": [
+      25.0,
+      25.0
+    ],
+    "elementalVal": [],
+    "duration": [],
+    "isMagicAttack": false,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Attack_Slash",
+    "skillLv": 1,
+    "equipOrder": 2,
+    "isBuy": true,
+    "isEquip": true
+  },
+  {
+    "name": "Backstep Slash",
+    "krName": "백스탭 슬래쉬",
+    "type": "Active",
+    "explain": "베는 동시에 뒤로 도약한다.",
+    "index": 2,
+    "statRank": [
+      "C",
+      "A",
+      "C",
+      "E",
+      "E",
+      "E"
+    ],
+    "skillLvEx": [
+      "데미지가 증가하고 시전속도가 빨라진다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 28,
+    "mpPoint": 20,
+    "cost": 800,
+    "damage": [
+      1.3,
+      1.75
+    ],
+    "stgDamage": [
+      1.0,
+      1.0
+    ],
+    "stgPower": [
+      20.0,
+      20.0
+    ],
+    "elementalVal": [],
+    "duration": [],
+    "isMagicAttack": false,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Attack_Slash",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Horizontal Slash",
+    "krName": "수평 베기",
+    "type": "Active",
+    "explain": "수평으로 크게 벤다.",
+    "index": 3,
+    "statRank": [
+      "A",
+      "D",
+      "B",
+      "E",
+      "E",
+      "E"
+    ],
+    "skillLvEx": [
+      "공격 범위, 데미지, 경직 데미지가 증가한다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 56,
+    "mpPoint": 42,
+    "cost": 1000,
+    "damage": [
+      2.5,
+      3.3
+    ],
+    "stgDamage": [
+      1.3,
+      1.6
+    ],
+    "stgPower": [
+      40.0,
+      40.0
+    ],
+    "elementalVal": [],
+    "duration": [],
+    "isMagicAttack": false,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Attack_Slash",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Fireball",
+    "krName": "파이어 볼",
+    "type": "Active",
+    "explain": "전방으로 파이어볼을 날린다.",
+    "index": 4,
+    "statRank": [
+      "C",
+      "E",
+      "E",
+      "D",
+      "A",
+      "C"
+    ],
+    "skillLvEx": [
+      "유도 성능이 높아지고 데미지가 증가한다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 20,
+    "mpPoint": 25,
+    "cost": 0,
+    "damage": [
+      1.4,
+      1.7
+    ],
+    "stgDamage": [
+      0.75,
+      1.0
+    ],
+    "stgPower": [
+      15.0,
+      15.0
+    ],
+    "elementalVal": [
+      20.0,
+      26.0
+    ],
+    "duration": [],
+    "isMagicAttack": true,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Magic_Fire",
+    "skillLv": 1,
+    "equipOrder": 3,
+    "isBuy": true,
+    "isEquip": true
+  },
+  {
+    "name": "Dash Sting",
+    "krName": "돌진 찌르기",
+    "type": "Active",
+    "explain": "순식간에 돌진해 적을 관통한다.",
+    "index": 5,
+    "statRank": [
+      "B",
+      "A",
+      "D",
+      "E",
+      "E",
+      "E"
+    ],
+    "skillLvEx": [
+      "돌진 거리와 데미지, 경직 데미지가 증가한다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 62,
+    "mpPoint": 42,
+    "cost": 1500,
+    "damage": [
+      2.6,
+      3.5
+    ],
+    "stgDamage": [
+      1.3,
+      1.55
+    ],
+    "stgPower": [
+      40.0,
+      40.0
+    ],
+    "elementalVal": [],
+    "duration": [],
+    "isMagicAttack": false,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Attack_Slash",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Power Shield",
+    "krName": "파워 실드",
+    "type": "Active",
+    "explain": "방패로 정면의 피해를 방어한 뒤 받은 피해에 비례해 돌려준다.",
+    "index": 6,
+    "statRank": [
+      "C",
+      "C",
+      "A",
+      "E",
+      "E",
+      "E"
+    ],
+    "skillLvEx": [
+      "시전 속도가 빨라진다. 소비 스테미너가 감소하고 돌려주는 피해가 커진다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 25,
+    "mpPoint": 25,
+    "cost": 800,
+    "damage": [
+      1.0,
+      1.5
+    ],
+    "stgDamage": [
+      1.4,
+      1.8
+    ],
+    "stgPower": [
+      40.0,
+      40.0
+    ],
+    "elementalVal": [],
+    "duration": [],
+    "isMagicAttack": false,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Defence_Shield",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Defence Wall",
+    "krName": "융기의 벽",
+    "type": "Active",
+    "explain": "벽을 소환해 적을 밀쳐내거나 투사체를 방어할 수 있다. ",
+    "index": 7,
+    "statRank": [
+      "E",
+      "E",
+      "B",
+      "A",
+      "D",
+      "D"
+    ],
+    "skillLvEx": [
+      "데미지, 경직 데미지, 경직 성능이 올라간다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 32,
+    "mpPoint": 45,
+    "cost": 1200,
+    "damage": [
+      1.5,
+      1.9
+    ],
+    "stgDamage": [
+      1.5,
+      1.9
+    ],
+    "stgPower": [
+      30.0,
+      45.0
+    ],
+    "elementalVal": [],
+    "duration": [
+      15.0,
+      15.0
+    ],
+    "isMagicAttack": true,
+    "isBuff": false,
+    "isAiming": true,
+    "iconPath": "Sprite/Skill/Defence_Shield",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Shield Shove",
+    "krName": "방패 밀치기",
+    "type": "Active",
+    "explain": "방패를 크게 휘둘러 적을 밀쳐낸다.",
+    "index": 8,
+    "statRank": [
+      "D",
+      "B",
+      "A",
+      "E",
+      "E",
+      "E"
+    ],
+    "skillLvEx": [
+      "데미지와 경직 데미지, 경직성능이 증가한다. 경직이 발생한 적은 밀어내지 않게 된다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 50,
+    "mpPoint": 40,
+    "cost": 1200,
+    "damage": [
+      1.4,
+      1.75
+    ],
+    "stgDamage": [
+      1.9,
+      2.5
+    ],
+    "stgPower": [
+      55.0,
+      75.0
+    ],
+    "elementalVal": [],
+    "duration": [],
+    "isMagicAttack": false,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Attack_Melle",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Ground Wave",
+    "krName": "쇼크 웨이브",
+    "type": "Active",
+    "explain": "무기를 내려쳐 충격파를 발생시킨다.",
+    "index": 9,
+    "statRank": [
+      "A",
+      "E",
+      "C",
+      "D",
+      "C",
+      "E"
+    ],
+    "skillLvEx": [
+      "공격 범위, 데미지, 경직 데미지가 증가한다."
+    ],
+    "effectByStat": 0.0,
+    "staminaPoint": 52,
+    "mpPoint": 45,
+    "cost": 1200,
+    "damage": [
+      1.8,
+      2.4
+    ],
+    "stgDamage": [
+      1.3,
+      1.5
+    ],
+    "stgPower": [
+      30.0,
+      30.0
+    ],
+    "elementalVal": [],
+    "duration": [],
+    "isMagicAttack": false,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Attack_Melle",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Fire Sword",
+    "krName": "불의 검",
+    "type": "Active",
+    "explain": "검에 화염을 두른다. 매 타격마다 기본 공격력 X 효력 만큼의 데미지를 추가로 준다.",
+    "index": 10,
+    "statRank": [
+      "C",
+      "D",
+      "E",
+      "B",
+      "C",
+      "C"
+    ],
+    "skillLvEx": [
+      "데미지와 속성치, 지속시간이 증가한다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 15,
+    "mpPoint": 30,
+    "cost": 800,
+    "damage": [
+      0.3,
+      0.45
+    ],
+    "stgDamage": [],
+    "stgPower": [],
+    "elementalVal": [
+      6.5,
+      10.0
+    ],
+    "duration": [
+      40.0,
+      60.0
+    ],
+    "isMagicAttack": false,
+    "isBuff": true,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Melle_Up",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Guarding Barrier",
+    "krName": "수호의 베리어",
+    "type": "Active",
+    "explain": "1회에 한해서 받는 데미지를 경감시킨다.",
+    "index": 11,
+    "statRank": [
+      "E",
+      "E",
+      "C",
+      "A",
+      "D",
+      "C"
+    ],
+    "skillLvEx": [
+      "받은 데미지의 감소율과 지속시간이 증가한다. 슈퍼아머를 얻는다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 15,
+    "mpPoint": 35,
+    "cost": 800,
+    "damage": [
+      0.5,
+      0.7
+    ],
+    "stgDamage": [],
+    "stgPower": [],
+    "elementalVal": [],
+    "duration": [
+      120.0,
+      180.0
+    ],
+    "isMagicAttack": false,
+    "isBuff": true,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Defence_Magic",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Step Slash",
+    "krName": "전진베기",
+    "type": "Active",
+    "explain": "적을 향해 조금 접근하며 베어낸다.",
+    "index": 12,
+    "statRank": [
+      "B",
+      "A",
+      "D",
+      "E",
+      "E",
+      "E"
+    ],
+    "skillLvEx": [
+      "접근거리와 데미지가 증가한다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 40,
+    "mpPoint": 35,
+    "cost": 1500,
+    "damage": [
+      1.9,
+      2.6
+    ],
+    "stgDamage": [
+      1.2,
+      1.4
+    ],
+    "stgPower": [
+      30.0,
+      30.0
+    ],
+    "elementalVal": [],
+    "duration": [],
+    "isMagicAttack": false,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Attack_Slash",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Icicle",
+    "krName": "아이시클",
+    "type": "Active",
+    "explain": "주변 적들을 향해 날아가는 얼음 덩어리를 3개 소환한다.",
+    "index": 13,
+    "statRank": [
+      "E",
+      "E",
+      "E",
+      "C",
+      "A",
+      "C"
+    ],
+    "skillLvEx": [
+      "얼음 덩어리가 2개 추가됩니다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 24,
+    "mpPoint": 34,
+    "cost": 1200,
+    "damage": [
+      0.5,
+      0.5
+    ],
+    "stgDamage": [
+      0.3,
+      0.3
+    ],
+    "stgPower": [
+      25.0,
+      32.0
+    ],
+    "elementalVal": [
+      6.0,
+      6.0
+    ],
+    "duration": [],
+    "isMagicAttack": true,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Magic_Ice1",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Lighting Spear",
+    "krName": "번개 창",
+    "type": "Active",
+    "explain": "명중하면 주변 적에게 튕겨나가는 번개로 된 창을 쏜다.",
+    "index": 14,
+    "statRank": [
+      "E",
+      "E",
+      "E",
+      "A",
+      "B",
+      "E"
+    ],
+    "skillLvEx": [
+      "속성치가 증가합니다. 연쇄가 1번 더 일어나며 더 멀리까지 연쇄됩니다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 20,
+    "mpPoint": 30,
+    "cost": 1200,
+    "damage": [
+      0.7,
+      0.7
+    ],
+    "stgDamage": [
+      0.35,
+      0.35
+    ],
+    "stgPower": [
+      20.0,
+      20.0
+    ],
+    "elementalVal": [
+      18.0,
+      25.0
+    ],
+    "duration": [],
+    "isMagicAttack": true,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Magic_Lighting",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Fire Burst",
+    "krName": "파이어 버스트",
+    "type": "Active",
+    "explain": "폭발하는 화염덩이리를 던집니다.",
+    "index": 15,
+    "statRank": [
+      "E",
+      "E",
+      "E",
+      "D",
+      "A",
+      "B"
+    ],
+    "skillLvEx": [
+      "데미지와 경직성능, 속성치가 증가한다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 40,
+    "mpPoint": 42,
+    "cost": 2000,
+    "damage": [
+      2.5,
+      3.2
+    ],
+    "stgDamage": [
+      1.4,
+      1.65
+    ],
+    "stgPower": [
+      35.0,
+      40.0
+    ],
+    "elementalVal": [
+      32.0,
+      45.0
+    ],
+    "duration": [],
+    "isMagicAttack": true,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Magic_Fire",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Ice Spear",
+    "krName": "아이스 스피어",
+    "type": "Active",
+    "explain": "거대한 얼음 창으로 정면을 찌릅니다.",
+    "index": 16,
+    "statRank": [
+      "E",
+      "E",
+      "E",
+      "D",
+      "B",
+      "A"
+    ],
+    "skillLvEx": [
+      "데미지, 경직 데미지, 경직 성능이 증가한다."
+    ],
+    "effectByStat": 0.0,
+    "staminaPoint": 44,
+    "mpPoint": 44,
+    "cost": 2000,
+    "damage": [
+      2.3,
+      2.9
+    ],
+    "stgDamage": [
+      1.6,
+      2.1
+    ],
+    "stgPower": [
+      40.0,
+      55.0
+    ],
+    "elementalVal": [
+      35.0,
+      35.0
+    ],
+    "duration": [],
+    "isMagicAttack": true,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Magic_Ice3",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Lighting Split",
+    "krName": "라이트닝 스플릿",
+    "type": "Active",
+    "explain": "3갈래로 뻗어나가는 번개를 쏩니다.",
+    "index": 17,
+    "statRank": [
+      "E",
+      "E",
+      "E",
+      "B",
+      "B",
+      "B"
+    ],
+    "skillLvEx": [
+      "데미지와 경직성능, 속성치가 증가한다. 번개가 5갈래가 된다."
+    ],
+    "effectByStat": 0.0,
+    "staminaPoint": 40,
+    "mpPoint": 45,
+    "cost": 2000,
+    "damage": [
+      2.0,
+      2.7
+    ],
+    "stgDamage": [
+      1.2,
+      1.4
+    ],
+    "stgPower": [
+      30.0,
+      35.0
+    ],
+    "elementalVal": [
+      38.0,
+      50.0
+    ],
+    "duration": [],
+    "isMagicAttack": true,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Magic_Magic",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Fire Tornado",
+    "krName": "파이어 토네이도",
+    "type": "Active",
+    "explain": "적을 따라다니며 지속적으로 데미지를 주는 화염 소용돌이를 생성한다.",
+    "index": 18,
+    "statRank": [
+      "E",
+      "E",
+      "E",
+      "B",
+      "A",
+      "E"
+    ],
+    "skillLvEx": [
+      "데미지와 경직 데미지, 속성치, 지속시간이 증가합니다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 38,
+    "mpPoint": 45,
+    "cost": 2500,
+    "damage": [
+      0.35,
+      0.4
+    ],
+    "stgDamage": [
+      0.1,
+      0.15
+    ],
+    "stgPower": [],
+    "elementalVal": [
+      5.0,
+      6.0
+    ],
+    "duration": [
+      5.0,
+      8.0
+    ],
+    "isMagicAttack": true,
+    "isBuff": false,
+    "isAiming": true,
+    "iconPath": "Sprite/Skill/Magic_Fire",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Ice Storm",
+    "krName": "아이스 스톰",
+    "type": "Active",
+    "explain": "지속적으로 데미지를 주는 얼음 소용돌이를 생성한다.",
+    "index": 19,
+    "statRank": [
+      "E",
+      "E",
+      "E",
+      "A",
+      "B",
+      "C"
+    ],
+    "skillLvEx": [
+      "데미지와 경직 데미지, 속성치, 지속시간이 증가합니다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 38,
+    "mpPoint": 55,
+    "cost": 2500,
+    "damage": [
+      0.25,
+      0.32
+    ],
+    "stgDamage": [
+      0.1,
+      0.15
+    ],
+    "stgPower": [],
+    "elementalVal": [
+      4.5,
+      6.0
+    ],
+    "duration": [
+      8.0,
+      12.0
+    ],
+    "isMagicAttack": true,
+    "isBuff": false,
+    "isAiming": true,
+    "iconPath": "Sprite/Skill/Magic_Ice3",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Lighting Thunder",
+    "krName": "라이트닝 썬더",
+    "type": "Active",
+    "explain": "하늘에서 지속되는 벼락을 내리 꽂으며 폭팔을 일으킵니다.",
+    "index": 20,
+    "statRank": [
+      "E",
+      "E",
+      "E",
+      "A",
+      "B",
+      "D"
+    ],
+    "skillLvEx": [
+      "데미지, 경직 데미지, 속성데미지가 증가한다.."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 38,
+    "mpPoint": 50,
+    "cost": 2500,
+    "damage": [
+      0.3,
+      0.4
+    ],
+    "stgDamage": [
+      0.12,
+      0.18
+    ],
+    "stgPower": [
+      35.0,
+      35.0
+    ],
+    "elementalVal": [
+      7.0,
+      10.0
+    ],
+    "duration": [
+      2.0,
+      2.0
+    ],
+    "isMagicAttack": true,
+    "isBuff": false,
+    "isAiming": true,
+    "iconPath": "Sprite/Skill/Magic_Storm",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Gravity Hole",
+    "krName": "중력장",
+    "type": "Active",
+    "explain": "범위내의 적들을 빨아들인다.",
+    "index": 21,
+    "statRank": [
+      "E",
+      "C",
+      "C",
+      "B",
+      "C",
+      "D"
+    ],
+    "skillLvEx": [
+      "범위와 지속 시간이 증가하고 더욱 강력해진다."
+    ],
+    "effectByStat": 0.0,
+    "staminaPoint": 42,
+    "mpPoint": 45,
+    "cost": 2500,
+    "damage": [
+      0.08,
+      0.1
+    ],
+    "stgDamage": [
+      0.05,
+      0.07
+    ],
+    "stgPower": [],
+    "elementalVal": [],
+    "duration": [
+      8.0,
+      12.0
+    ],
+    "isMagicAttack": true,
+    "isBuff": false,
+    "isAiming": true,
+    "iconPath": "Sprite/Skill/Magic_Melle",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Lighting Sword",
+    "krName": "번개 검 ",
+    "type": "Active",
+    "explain": "검에 번개를 두릅니다. 매 타격마다 기본 공격력 X 효력 만큼의 데미지를 추가로 준다.",
+    "index": 22,
+    "statRank": [
+      "E",
+      "C",
+      "E",
+      "A",
+      "D",
+      "C"
+    ],
+    "skillLvEx": [
+      "데미지와 속성치, 지속시간이 증가한다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 15,
+    "mpPoint": 30,
+    "cost": 1200,
+    "damage": [
+      0.3,
+      0.45
+    ],
+    "stgDamage": [],
+    "stgPower": [],
+    "elementalVal": [
+      8.0,
+      13.0
+    ],
+    "duration": [
+      40.0,
+      60.0
+    ],
+    "isMagicAttack": false,
+    "isBuff": true,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Melle_Up",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Ice Sword",
+    "krName": "얼음 검 ",
+    "type": "Active",
+    "explain": "검에 냉기를 두룹니다. 매 타격마다 기본 공격력 X 효력 만큼의 데미지를 추가로 준다.",
+    "index": 23,
+    "statRank": [
+      "D",
+      "E",
+      "C",
+      "B",
+      "D",
+      "B"
+    ],
+    "skillLvEx": [
+      "데미지, 경직 데미지, 속성치, 지속시간이 증가한다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 15,
+    "mpPoint": 30,
+    "cost": 1500,
+    "damage": [
+      0.28,
+      0.4
+    ],
+    "stgDamage": [
+      0.1,
+      0.2
+    ],
+    "stgPower": [],
+    "elementalVal": [
+      6.0,
+      10.0
+    ],
+    "duration": [
+      40.0,
+      60.0
+    ],
+    "isMagicAttack": false,
+    "isBuff": true,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Melle_Up",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Heavy Sword",
+    "krName": "헤비 소드",
+    "type": "Active",
+    "explain": "경직 데미지와 경직 성능이 증가합니다. 기본 경직 데미지 X 효력 만큼 추가 데미지.",
+    "index": 24,
+    "statRank": [
+      "D",
+      "D",
+      "B",
+      "B",
+      "D",
+      "D"
+    ],
+    "skillLvEx": [
+      "경직 데미지와 경직 성능, 지속시간이 증가합니다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 15,
+    "mpPoint": 26,
+    "cost": 1000,
+    "damage": [
+      0.16,
+      0.23
+    ],
+    "stgDamage": [],
+    "stgPower": [
+      6.0,
+      9.0
+    ],
+    "elementalVal": [],
+    "duration": [
+      40.0,
+      60.0
+    ],
+    "isMagicAttack": false,
+    "isBuff": true,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Melle_Up",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Final Smash",
+    "krName": "최후의 일격",
+    "type": "Active",
+    "explain": "기를 모아 최후의 일격을 날립니다. 스테미너를 소비한 만큼 성능이 증가합니다.",
+    "index": 25,
+    "statRank": [
+      "C",
+      "C",
+      "A",
+      "E",
+      "E",
+      "E"
+    ],
+    "skillLvEx": [
+      "데미지와 경직 데미지, 경직 성능이 증가합니다."
+    ],
+    "effectByStat": 0,
+    "staminaPoint": 55,
+    "mpPoint": 50,
+    "cost": 2500,
+    "damage": [
+      2.0,
+      2.5
+    ],
+    "stgDamage": [
+      1.4,
+      1.8
+    ],
+    "stgPower": [
+      40.0,
+      50.0
+    ],
+    "elementalVal": [],
+    "duration": [],
+    "isMagicAttack": false,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Attack_Slash",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Guard Enhance",
+    "krName": "가드 인핸스",
+    "type": "Active",
+    "explain": "적의 공격을 방어한다. 타이밍 좋게 방어하면 1회에 한해서 데미지가 상승한다.",
+    "index": 26,
+    "statRank": [
+      "B",
+      "D",
+      "B",
+      "C",
+      "E",
+      "E"
+    ],
+    "skillLvEx": [
+      "데미지와 지속시간이 증가한다. 타이밍을 맞추기 쉬워진다."
+    ],
+    "effectByStat": 0.0,
+    "staminaPoint": 32,
+    "mpPoint": 15,
+    "cost": 1500,
+    "damage": [
+      0.4,
+      0.65
+    ],
+    "stgDamage": [],
+    "stgPower": [],
+    "elementalVal": [],
+    "duration": [
+      10.0,
+      10.0
+    ],
+    "isMagicAttack": false,
+    "isBuff": true,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Defence_Shield",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Shield Rush",
+    "krName": "실드 러쉬",
+    "type": "Active",
+    "explain": "방패를 들고 돌진해 적을 밀어낸 뒤 검으로 공격합니다. 돌진으로 경직시키면 경직 성능이 늘어납니다.",
+    "index": 27,
+    "statRank": [
+      "D",
+      "B",
+      "A",
+      "E",
+      "E",
+      "E"
+    ],
+    "skillLvEx": [
+      "데미지, 경직데미지, 경직성능이 증가한다."
+    ],
+    "effectByStat": 0.0,
+    "staminaPoint": 68,
+    "mpPoint": 40,
+    "cost": 2000,
+    "damage": [
+      1.4,
+      1.8
+    ],
+    "stgDamage": [
+      1.1,
+      1.4
+    ],
+    "stgPower": [
+      35.0,
+      40.0
+    ],
+    "elementalVal": [],
+    "duration": [],
+    "isMagicAttack": false,
+    "isBuff": false,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/Attack_Melle",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  },
+  {
+    "name": "Magic Recover",
+    "krName": "마력 재생",
+    "type": "Active",
+    "explain": "천천히MP를 회복한다.",
+    "index": 28,
+    "statRank": [
+      "E",
+      "E",
+      "E",
+      "A",
+      "C",
+      "C"
+    ],
+    "skillLvEx": [
+      "회복량이 높아진다."
+    ],
+    "effectByStat": 0.0,
+    "staminaPoint": 20,
+    "mpPoint": 20,
+    "cost": 1500,
+    "damage": [
+      1.2,
+      1.6
+    ],
+    "stgDamage": [],
+    "stgPower": [],
+    "elementalVal": [],
+    "duration": [
+      40.0,
+      40.0
+    ],
+    "isMagicAttack": false,
+    "isBuff": true,
+    "isAiming": false,
+    "iconPath": "Sprite/Skill/MP_Heal",
+    "skillLv": 1,
+    "equipOrder": 0,
+    "isBuy": false,
+    "isEquip": false
+  }
+]

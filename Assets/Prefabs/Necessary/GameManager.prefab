@@ -1,0 +1,2912 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &603186192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 603186193}
+  - component: {fileID: 603186196}
+  - component: {fileID: 603186195}
+  - component: {fileID: 603186194}
+  - component: {fileID: 603186197}
+  m_Layer: 0
+  m_Name: Crossfade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &603186193
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603186192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7567165325865123965}
+  m_Father: {fileID: 8845446677141576786}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &603186196
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603186192}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 10
+  m_TargetDisplay: 0
+--- !u!114 &603186195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603186192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!114 &603186194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603186192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!95 &603186197
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603186192}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2b9fb04dc528c44e8b4b959e4f959b6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1963471334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1963471337}
+  - component: {fileID: 1963471336}
+  - component: {fileID: 1963471338}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1963471337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963471334}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -4.85, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8845446677141576786}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1963471336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963471334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!114 &1963471338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963471334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: 5609b2c14a31ba24b8b55ec0a25cbbb3,
+    type: 3}
+  m_PointAction: {fileID: 0}
+  m_MoveAction: {fileID: 0}
+  m_SubmitAction: {fileID: 0}
+  m_CancelAction: {fileID: 0}
+  m_LeftClickAction: {fileID: 0}
+  m_MiddleClickAction: {fileID: 0}
+  m_RightClickAction: {fileID: 0}
+  m_ScrollWheelAction: {fileID: 0}
+  m_TrackedDevicePositionAction: {fileID: 0}
+  m_TrackedDeviceOrientationAction: {fileID: 0}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+--- !u!1 &7567165325865123964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7567165325865123965}
+  - component: {fileID: 7567165325865123952}
+  - component: {fileID: 7567165325865123967}
+  - component: {fileID: 7567165325865123966}
+  m_Layer: 0
+  m_Name: BlackImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7567165325865123965
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7567165325865123964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 603186193}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7567165325865123952
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7567165325865123964}
+  m_CullTransparentMesh: 1
+--- !u!114 &7567165325865123967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7567165325865123964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!225 &7567165325865123966
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7567165325865123964}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
+--- !u!1 &8845446677141576796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8845446677141576786}
+  - component: {fileID: 8845446677141576787}
+  - component: {fileID: 676718459}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8845446677141576786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8845446677141576796}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4.85, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 603186193}
+  - {fileID: 1963471337}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8845446677141576787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8845446677141576796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2c49ef8763f9f49b11eb03d8ac9a40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDebugMode: 1
+  difficultyType: 0
+  ActiveSkillList: []
+  MyActiveSkillList:
+  - name: Punch
+    krName: "\uD380\uCE58"
+    type: Active
+    explain: "\uBE60\uB974\uAC8C \uD380\uCE58\uB97C \uB0A0\uB9B0\uB2E4."
+    index: 0
+    statRank:
+    - B
+    - B
+    - B
+    - E
+    - E
+    - E
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uC640 \uACBD\uC9C1 \uB370\uBBF8\uC9C0\uAC00 \uB192\uC544\uC9C4\uB2E4."
+    effectByStat: 1
+    staminaPoint: 15
+    mpPoint: 25
+    cost: 0
+    damage:
+    - 1.15
+    - 1.4
+    stgDamage:
+    - 1.4
+    - 1.6
+    stgPower:
+    - 45
+    - 45
+    elementalVal: []
+    duration: []
+    isMagicAttack: 0
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Attack_Melle
+    skillLv: 1
+    equipOrder: 1
+    isBuy: 1
+    isEquip: 1
+  - name: Double Slash
+    krName: "\uC5F0\uC18D \uBCA0\uAE30"
+    type: Active
+    explain: "\uBE60\uB974\uAC8C \uBB34\uAE30\uB97C \uC5F0\uC18D\uC73C\uB85C \uB450\uBC88
+      \uD718\uB450\uB978\uB2E4."
+    index: 1
+    statRank:
+    - B
+    - A
+    - D
+    - E
+    - E
+    - E
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uC640 \uACBD\uC9C1\uB370\uBBF8\uC9C0\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    effectByStat: 1
+    staminaPoint: 20
+    mpPoint: 35
+    cost: 0
+    damage:
+    - 0.9
+    - 1.15
+    stgDamage:
+    - 0.6
+    - 0.65
+    stgPower:
+    - 20
+    - 20
+    elementalVal: []
+    duration: []
+    isMagicAttack: 0
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Attack_Slash
+    skillLv: 1
+    equipOrder: 2
+    isBuy: 1
+    isEquip: 1
+  - name: Backstep Slash
+    krName: "\uBC31\uC2A4\uD0ED \uC2AC\uB798\uC26C"
+    type: Active
+    explain: "\uBCA0\uB294 \uB3D9\uC2DC\uC5D0 \uB4A4\uB85C \uB3C4\uC57D\uD55C\uB2E4."
+    index: 2
+    statRank:
+    - C
+    - A
+    - C
+    - E
+    - E
+    - E
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uAC00 \uC99D\uAC00\uD558\uACE0 \uC2DC\uC804\uC18D\uB3C4\uAC00
+      \uBE68\uB77C\uC9C4\uB2E4."
+    effectByStat: 1
+    staminaPoint: 20
+    mpPoint: 30
+    cost: 800
+    damage:
+    - 1.4
+    - 1.7
+    stgDamage:
+    - 1
+    - 1
+    stgPower:
+    - 15
+    - 15
+    elementalVal: []
+    duration: []
+    isMagicAttack: 0
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Attack_Slash
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Horizontal Slash
+    krName: "\uC218\uD3C9 \uBCA0\uAE30"
+    type: Active
+    explain: "\uC218\uD3C9\uC73C\uB85C \uD06C\uAC8C \uBCA4\uB2E4."
+    index: 3
+    statRank:
+    - A
+    - D
+    - B
+    - E
+    - E
+    - E
+    skillLvEx:
+    - "\uACF5\uACA9 \uBC94\uC704, \uB370\uBBF8\uC9C0, \uACBD\uC9C1 \uB370\uBBF8\uC9C0\uAC00
+      \uC99D\uAC00\uD55C\uB2E4."
+    effectByStat: 1
+    staminaPoint: 30
+    mpPoint: 50
+    cost: 1000
+    damage:
+    - 1.7
+    - 2.1
+    stgDamage:
+    - 1.4
+    - 1.6
+    stgPower:
+    - 40
+    - 40
+    elementalVal: []
+    duration: []
+    isMagicAttack: 0
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Attack_Slash
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Fireball
+    krName: "\uD30C\uC774\uC5B4 \uBCFC"
+    type: Active
+    explain: "\uC804\uBC29\uC73C\uB85C \uD30C\uC774\uC5B4\uBCFC\uC744 \uB0A0\uB9B0\uB2E4."
+    index: 4
+    statRank:
+    - C
+    - E
+    - E
+    - D
+    - A
+    - C
+    skillLvEx:
+    - "\uC720\uB3C4 \uC131\uB2A5\uC774 \uB192\uC544\uC9C0\uACE0 \uB370\uBBF8\uC9C0\uAC00
+      \uC99D\uAC00\uD55C\uB2E4."
+    effectByStat: 1
+    staminaPoint: 15
+    mpPoint: 25
+    cost: 0
+    damage:
+    - 1.2
+    - 1.5
+    stgDamage:
+    - 0.75
+    - 1
+    stgPower:
+    - 15
+    - 15
+    elementalVal:
+    - 20
+    - 25
+    duration: []
+    isMagicAttack: 1
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Magic_Fire
+    skillLv: 1
+    equipOrder: 3
+    isBuy: 1
+    isEquip: 1
+  - name: Dash Sting
+    krName: "\uB3CC\uC9C4 \uCC0C\uB974\uAE30"
+    type: Active
+    explain: "\uC21C\uC2DD\uAC04\uC5D0 \uB3CC\uC9C4\uD574 \uC801\uC744 \uAD00\uD1B5\uD55C\uB2E4."
+    index: 5
+    statRank:
+    - B
+    - A
+    - D
+    - E
+    - E
+    - E
+    skillLvEx:
+    - "\uB3CC\uC9C4 \uAC70\uB9AC\uC640 \uB370\uBBF8\uC9C0, \uACBD\uC9C1 \uB370\uBBF8\uC9C0\uAC00
+      \uC99D\uAC00\uD55C\uB2E4."
+    effectByStat: 1
+    staminaPoint: 35
+    mpPoint: 55
+    cost: 1500
+    damage:
+    - 2
+    - 2.5
+    stgDamage:
+    - 1.3
+    - 1.5
+    stgPower:
+    - 40
+    - 40
+    elementalVal: []
+    duration: []
+    isMagicAttack: 0
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Attack_Slash
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Power Shield
+    krName: "\uD30C\uC6CC \uC2E4\uB4DC"
+    type: Active
+    explain: "\uBC29\uD328\uB85C \uC815\uBA74\uC758 \uD53C\uD574\uB97C \uBC29\uC5B4\uD55C
+      \uB4A4 \uBC1B\uC740 \uD53C\uD574\uC5D0 \uBE44\uB840\uD574 \uB3CC\uB824\uC900\uB2E4."
+    index: 6
+    statRank:
+    - C
+    - C
+    - A
+    - E
+    - E
+    - E
+    skillLvEx:
+    - "\uC2DC\uC804 \uC18D\uB3C4\uAC00 \uBE68\uB77C\uC9C4\uB2E4. \uC18C\uBE44 \uC2A4\uD14C\uBBF8\uB108\uAC00
+      \uAC10\uC18C\uD558\uACE0 \uB3CC\uB824\uC8FC\uB294 \uD53C\uD574\uAC00 \uCEE4\uC9C4\uB2E4."
+    effectByStat: 1.1275
+    staminaPoint: 20
+    mpPoint: 30
+    cost: 800
+    damage:
+    - 1
+    - 1.4
+    stgDamage:
+    - 1.2
+    - 1.5
+    stgPower:
+    - 30
+    - 30
+    elementalVal: []
+    duration: []
+    isMagicAttack: 0
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Defence_Shield
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Defence Wall
+    krName: "\uC735\uAE30\uC758 \uBCBD"
+    type: Active
+    explain: "\uBCBD\uC744 \uC18C\uD658\uD574 \uC801\uC744 \uBC00\uCCD0\uB0B4\uAC70\uB098
+      \uD22C\uC0AC\uCCB4\uB97C \uBC29\uC5B4\uD560 \uC218 \uC788\uB2E4. "
+    index: 7
+    statRank:
+    - E
+    - E
+    - B
+    - A
+    - D
+    - D
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0, \uACBD\uC9C1 \uB370\uBBF8\uC9C0, \uACBD\uC9C1 \uC131\uB2A5\uC774
+      \uC62C\uB77C\uAC04\uB2E4."
+    effectByStat: 1
+    staminaPoint: 35
+    mpPoint: 45
+    cost: 1200
+    damage:
+    - 1.1
+    - 1.3
+    stgDamage:
+    - 1.5
+    - 1.8
+    stgPower:
+    - 30
+    - 45
+    elementalVal: []
+    duration:
+    - 15
+    - 15
+    isMagicAttack: 1
+    isBuff: 0
+    isAiming: 1
+    iconPath: Sprite/Skill/Defence_Shield
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Shield Shove
+    krName: "\uBC29\uD328 \uBC00\uCE58\uAE30"
+    type: Active
+    explain: "\uBC29\uD328\uB97C \uD06C\uAC8C \uD718\uB458\uB7EC \uC801\uC744 \uBC00\uCCD0\uB0B8\uB2E4."
+    index: 8
+    statRank:
+    - D
+    - B
+    - A
+    - E
+    - E
+    - E
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uC640 \uACBD\uC9C1 \uB370\uBBF8\uC9C0, \uACBD\uC9C1\uC131\uB2A5\uC774
+      \uC99D\uAC00\uD55C\uB2E4. \uACBD\uC9C1\uC774 \uBC1C\uC0DD\uD55C \uC801\uC740
+      \uBC00\uC5B4\uB0B4\uC9C0 \uC54A\uAC8C \uB41C\uB2E4."
+    effectByStat: 1
+    staminaPoint: 30
+    mpPoint: 40
+    cost: 1200
+    damage:
+    - 1.4
+    - 1.75
+    stgDamage:
+    - 1.8
+    - 2.2
+    stgPower:
+    - 55
+    - 75
+    elementalVal: []
+    duration: []
+    isMagicAttack: 0
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Attack_Melle
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Ground Wave
+    krName: "\uC1FC\uD06C \uC6E8\uC774\uBE0C"
+    type: Active
+    explain: "\uBB34\uAE30\uB97C \uB0B4\uB824\uCCD0 \uCDA9\uACA9\uD30C\uB97C \uBC1C\uC0DD\uC2DC\uD0A8\uB2E4."
+    index: 9
+    statRank:
+    - A
+    - E
+    - C
+    - D
+    - C
+    - E
+    skillLvEx:
+    - "\uACF5\uACA9 \uBC94\uC704, \uB370\uBBF8\uC9C0, \uACBD\uC9C1 \uB370\uBBF8\uC9C0\uAC00
+      \uC99D\uAC00\uD55C\uB2E4."
+    effectByStat: 0
+    staminaPoint: 35
+    mpPoint: 60
+    cost: 1200
+    damage:
+    - 1.5
+    - 1.85
+    stgDamage:
+    - 1.2
+    - 1.35
+    stgPower:
+    - 30
+    - 30
+    elementalVal: []
+    duration: []
+    isMagicAttack: 0
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Attack_Melle
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Fire Sword
+    krName: "\uBD88\uC758 \uAC80"
+    type: Active
+    explain: "\uAC80\uC5D0 \uD654\uC5FC\uC744 \uB450\uB978\uB2E4."
+    index: 10
+    statRank:
+    - C
+    - D
+    - E
+    - B
+    - C
+    - C
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uC640 \uC18D\uC131\uCE58, \uC9C0\uC18D\uC2DC\uAC04\uC774
+      \uC99D\uAC00\uD55C\uB2E4."
+    effectByStat: 1
+    staminaPoint: 15
+    mpPoint: 30
+    cost: 800
+    damage:
+    - 0.25
+    - 0.4
+    stgDamage: []
+    stgPower: []
+    elementalVal:
+    - 6
+    - 10
+    duration:
+    - 10
+    - 60
+    isMagicAttack: 0
+    isBuff: 1
+    isAiming: 0
+    iconPath: Sprite/Skill/Melle_Up
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Guarding Barrier
+    krName: "\uC218\uD638\uC758 \uBCA0\uB9AC\uC5B4"
+    type: Active
+    explain: "1\uD68C\uC5D0 \uD55C\uD574\uC11C \uBC1B\uB294 \uB370\uBBF8\uC9C0\uB97C
+      \uACBD\uAC10\uC2DC\uD0A8\uB2E4."
+    index: 11
+    statRank:
+    - E
+    - E
+    - C
+    - A
+    - D
+    - C
+    skillLvEx:
+    - "\uBC1B\uC740 \uB370\uBBF8\uC9C0\uC758 \uAC10\uC18C\uC728\uACFC \uC9C0\uC18D\uC2DC\uAC04\uC774
+      \uC99D\uAC00\uD55C\uB2E4. \uC288\uD37C\uC544\uBA38\uB97C \uC5BB\uB294\uB2E4."
+    effectByStat: 1
+    staminaPoint: 25
+    mpPoint: 30
+    cost: 800
+    damage:
+    - 0.55
+    - 0.75
+    stgDamage: []
+    stgPower: []
+    elementalVal: []
+    duration:
+    - 120
+    - 180
+    isMagicAttack: 0
+    isBuff: 1
+    isAiming: 0
+    iconPath: Sprite/Skill/Defence_Magic
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Step Slash
+    krName: "\uC804\uC9C4\uBCA0\uAE30"
+    type: Active
+    explain: "\uC801\uC744 \uD5A5\uD574 \uC870\uAE08 \uC811\uADFC\uD558\uBA70 \uBCA0\uC5B4\uB0B8\uB2E4."
+    index: 12
+    statRank:
+    - B
+    - A
+    - D
+    - E
+    - E
+    - E
+    skillLvEx:
+    - "\uC811\uADFC\uAC70\uB9AC\uC640 \uB370\uBBF8\uC9C0\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    effectByStat: 1
+    staminaPoint: 25
+    mpPoint: 35
+    cost: 1500
+    damage:
+    - 1.6
+    - 1.95
+    stgDamage:
+    - 1.3
+    - 1.45
+    stgPower:
+    - 30
+    - 30
+    elementalVal: []
+    duration: []
+    isMagicAttack: 0
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Attack_Slash
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Icicle
+    krName: "\uC544\uC774\uC2DC\uD074"
+    type: Active
+    explain: "\uC8FC\uBCC0 \uC801\uB4E4\uC744 \uD5A5\uD574 \uB0A0\uC544\uAC00\uB294
+      \uC5BC\uC74C \uB369\uC5B4\uB9AC\uB97C 3\uAC1C \uC18C\uD658\uD55C\uB2E4."
+    index: 13
+    statRank:
+    - E
+    - E
+    - E
+    - C
+    - A
+    - C
+    skillLvEx:
+    - "\uC5BC\uC74C \uB369\uC5B4\uB9AC\uAC00 2\uAC1C \uCD94\uAC00\uB418\uBA70 \uC18D\uC131\uCE58\uC640
+      \uACBD\uC9C1 \uB370\uBBF8\uC9C0, \uACBD\uC9C1 \uC131\uB2A5\uC774 \uC62C\uB77C\uAC11\uB2C8\uB2E4."
+    effectByStat: 1
+    staminaPoint: 20
+    mpPoint: 30
+    cost: 1200
+    damage:
+    - 0.5
+    - 0.5
+    stgDamage:
+    - 0.6
+    - 0.7
+    stgPower:
+    - 25
+    - 32
+    elementalVal:
+    - 5
+    - 6
+    duration: []
+    isMagicAttack: 1
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Magic_Ice1
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Lighting Spear
+    krName: "\uBC88\uAC1C \uCC3D"
+    type: Active
+    explain: "\uBA85\uC911\uD558\uBA74 \uC8FC\uBCC0 \uC801\uC5D0\uAC8C \uD295\uACA8\uB098\uAC00\uB294
+      \uBC88\uAC1C\uB85C \uB41C \uCC3D\uC744 \uC3DC\uB2E4."
+    index: 14
+    statRank:
+    - E
+    - E
+    - E
+    - A
+    - B
+    - E
+    skillLvEx:
+    - "\uC18D\uC131\uCE58\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4. \uC5F0\uC1C4\uAC00
+      2\uBC88 \uB354 \uC77C\uC5B4\uB098\uBA70 \uB354 \uBA40\uB9AC\uAE4C\uC9C0 \uC5F0\uC1C4\uB429\uB2C8\uB2E4."
+    effectByStat: 1.09
+    staminaPoint: 15
+    mpPoint: 30
+    cost: 1200
+    damage:
+    - 0.7
+    - 0.7
+    stgDamage:
+    - 0.35
+    - 0.35
+    stgPower:
+    - 20
+    - 20
+    elementalVal:
+    - 16
+    - 22
+    duration: []
+    isMagicAttack: 1
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Magic_Lighting
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Fire Burst
+    krName: "\uD30C\uC774\uC5B4 \uBC84\uC2A4\uD2B8"
+    type: Active
+    explain: "\uD3ED\uBC1C\uD558\uB294 \uD654\uC5FC\uB369\uC774\uB9AC\uB97C \uB358\uC9D1\uB2C8\uB2E4."
+    index: 15
+    statRank:
+    - E
+    - E
+    - E
+    - D
+    - A
+    - B
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uC640 \uACBD\uC9C1\uC131\uB2A5, \uC18D\uC131\uCE58\uAC00
+      \uC99D\uAC00\uD55C\uB2E4."
+    effectByStat: 1
+    staminaPoint: 30
+    mpPoint: 45
+    cost: 2000
+    damage:
+    - 2
+    - 2.6
+    stgDamage:
+    - 1.4
+    - 1.65
+    stgPower:
+    - 35
+    - 40
+    elementalVal:
+    - 30
+    - 40
+    duration: []
+    isMagicAttack: 1
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Magic_Fire
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Ice Spear
+    krName: "\uC544\uC774\uC2A4 \uC2A4\uD53C\uC5B4"
+    type: Active
+    explain: "\uAC70\uB300\uD55C \uC5BC\uC74C \uCC3D\uC73C\uB85C \uC815\uBA74\uC744
+      \uCC0C\uB985\uB2C8\uB2E4."
+    index: 16
+    statRank:
+    - E
+    - E
+    - E
+    - D
+    - B
+    - A
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0, \uACBD\uC9C1 \uB370\uBBF8\uC9C0, \uACBD\uC9C1 \uC131\uB2A5\uC774
+      \uC99D\uAC00\uD55C\uB2E4."
+    effectByStat: 0
+    staminaPoint: 40
+    mpPoint: 45
+    cost: 2000
+    damage:
+    - 1.9
+    - 2.3
+    stgDamage:
+    - 1.65
+    - 2.1
+    stgPower:
+    - 40
+    - 55
+    elementalVal:
+    - 30
+    - 30
+    duration: []
+    isMagicAttack: 1
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Magic_Ice3
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Lighting Split
+    krName: "\uB77C\uC774\uD2B8\uB2DD \uC2A4\uD50C\uB9BF"
+    type: Active
+    explain: "3\uAC08\uB798\uB85C \uBED7\uC5B4\uB098\uAC00\uB294 \uBC88\uAC1C\uB97C
+      \uC3E9\uB2C8\uB2E4."
+    index: 17
+    statRank:
+    - E
+    - E
+    - E
+    - B
+    - B
+    - B
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uC640 \uACBD\uC9C1\uC131\uB2A5, \uC18D\uC131\uCE58\uAC00
+      \uC99D\uAC00\uD55C\uB2E4. \uBC88\uAC1C\uAC00 5\uAC08\uB798\uAC00 \uB41C\uB2E4."
+    effectByStat: 0
+    staminaPoint: 35
+    mpPoint: 50
+    cost: 2000
+    damage:
+    - 1.4
+    - 1.8
+    stgDamage:
+    - 1.2
+    - 1.4
+    stgPower:
+    - 30
+    - 35
+    elementalVal:
+    - 35
+    - 45
+    duration: []
+    isMagicAttack: 1
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Magic_Magic
+    skillLv: 2
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Fire Tornado
+    krName: "\uD30C\uC774\uC5B4 \uD1A0\uB124\uC774\uB3C4"
+    type: Active
+    explain: "\uC801\uC744 \uB530\uB77C\uB2E4\uB2C8\uBA70 \uC9C0\uC18D\uC801\uC73C\uB85C
+      \uB370\uBBF8\uC9C0\uB97C \uC8FC\uB294 \uD654\uC5FC \uC18C\uC6A9\uB3CC\uC774\uB97C
+      \uC0DD\uC131\uD55C\uB2E4."
+    index: 18
+    statRank:
+    - E
+    - E
+    - E
+    - B
+    - A
+    - E
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uC640 \uACBD\uC9C1 \uB370\uBBF8\uC9C0, \uC18D\uC131\uCE58,
+      \uC9C0\uC18D\uC2DC\uAC04\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    effectByStat: 1
+    staminaPoint: 30
+    mpPoint: 40
+    cost: 2500
+    damage:
+    - 0.35
+    - 0.45
+    stgDamage:
+    - 0.1
+    - 0.15
+    stgPower: []
+    elementalVal:
+    - 5
+    - 7
+    duration:
+    - 5
+    - 8
+    isMagicAttack: 1
+    isBuff: 0
+    isAiming: 1
+    iconPath: Sprite/Skill/Magic_Fire
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Ice Storm
+    krName: "\uC544\uC774\uC2A4 \uC2A4\uD1B0"
+    type: Active
+    explain: "\uC9C0\uC18D\uC801\uC73C\uB85C \uB370\uBBF8\uC9C0\uB97C \uC8FC\uB294
+      \uC5BC\uC74C \uC18C\uC6A9\uB3CC\uC774\uB97C \uC0DD\uC131\uD55C\uB2E4."
+    index: 19
+    statRank:
+    - E
+    - E
+    - E
+    - A
+    - B
+    - C
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uC640 \uACBD\uC9C1 \uB370\uBBF8\uC9C0, \uC18D\uC131\uCE58,
+      \uC9C0\uC18D\uC2DC\uAC04\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    effectByStat: 1
+    staminaPoint: 25
+    mpPoint: 40
+    cost: 2500
+    damage:
+    - 0.2
+    - 0.3
+    stgDamage:
+    - 0.2
+    - 0.3
+    stgPower: []
+    elementalVal:
+    - 5
+    - 7
+    duration:
+    - 8
+    - 12
+    isMagicAttack: 1
+    isBuff: 0
+    isAiming: 1
+    iconPath: Sprite/Skill/Magic_Ice3
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Lighting Thunder
+    krName: "\uB77C\uC774\uD2B8\uB2DD \uC36C\uB354"
+    type: Active
+    explain: "\uD558\uB298\uC5D0\uC11C \uC9C0\uC18D\uB418\uB294 \uBCBC\uB77D\uC744
+      \uB0B4\uB9AC \uAF42\uC73C\uBA70 \uD3ED\uD314\uC744 \uC77C\uC73C\uD0B5\uB2C8\uB2E4."
+    index: 20
+    statRank:
+    - E
+    - E
+    - E
+    - A
+    - B
+    - D
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0, \uACBD\uC9C1 \uB370\uBBF8\uC9C0, \uC18D\uC131\uB370\uBBF8\uC9C0\uAC00
+      \uC99D\uAC00\uD558\uACE0 \uD3ED\uBC1C \uBC94\uC704\uAC00 \uB298\uC5B4\uB09C\uB2E4."
+    effectByStat: 1
+    staminaPoint: 35
+    mpPoint: 55
+    cost: 2500
+    damage:
+    - 0.2
+    - 0.25
+    stgDamage:
+    - 0.1
+    - 0.15
+    stgPower:
+    - 30
+    - 30
+    elementalVal:
+    - 7
+    - 10
+    duration:
+    - 2
+    - 2
+    isMagicAttack: 1
+    isBuff: 0
+    isAiming: 1
+    iconPath: Sprite/Skill/Magic_Storm
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Gravity Hole
+    krName: "\uC911\uB825\uC7A5"
+    type: Active
+    explain: "\uBC94\uC704\uB0B4\uC758 \uC801\uB4E4\uC744 \uBE68\uC544\uB4E4\uC778\uB2E4."
+    index: 21
+    statRank:
+    - E
+    - C
+    - C
+    - B
+    - C
+    - D
+    skillLvEx:
+    - "\uBC94\uC704\uC640 \uC9C0\uC18D \uC2DC\uAC04\uC774 \uC99D\uAC00\uD558\uACE0
+      \uB354\uC6B1 \uAC15\uB825\uD574\uC9C4\uB2E4."
+    effectByStat: 0
+    staminaPoint: 25
+    mpPoint: 35
+    cost: 2500
+    damage:
+    - 0.1
+    - 0.15
+    stgDamage:
+    - 0.1
+    - 0.15
+    stgPower: []
+    elementalVal: []
+    duration:
+    - 8
+    - 12
+    isMagicAttack: 1
+    isBuff: 0
+    isAiming: 1
+    iconPath: Sprite/Skill/Magic_Melle
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Lighting Sword
+    krName: "\uBC88\uAC1C \uAC80 "
+    type: Active
+    explain: "\uAC80\uC5D0 \uBC88\uAC1C\uB97C \uB450\uB985\uB2C8\uB2E4."
+    index: 22
+    statRank:
+    - E
+    - C
+    - E
+    - A
+    - D
+    - C
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uC640 \uC18D\uC131\uCE58, \uC9C0\uC18D\uC2DC\uAC04\uC774
+      \uC99D\uAC00\uD55C\uB2E4."
+    effectByStat: 1.17
+    staminaPoint: 15
+    mpPoint: 30
+    cost: 1200
+    damage:
+    - 0.2
+    - 0.3
+    stgDamage: []
+    stgPower: []
+    elementalVal:
+    - 8
+    - 13
+    duration:
+    - 40
+    - 60
+    isMagicAttack: 0
+    isBuff: 1
+    isAiming: 0
+    iconPath: Sprite/Skill/Melle_Up
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Ice Sword
+    krName: "\uC5BC\uC74C \uAC80 "
+    type: Active
+    explain: "\uAC80\uC5D0 \uB0C9\uAE30\uB97C \uB450\uB8F9\uB2C8\uB2E4."
+    index: 23
+    statRank:
+    - D
+    - E
+    - C
+    - B
+    - D
+    - B
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0, \uACBD\uC9C1 \uB370\uBBF8\uC9C0, \uC18D\uC131\uCE58, \uC9C0\uC18D\uC2DC\uAC04\uC774
+      \uC99D\uAC00\uD55C\uB2E4."
+    effectByStat: 1.16
+    staminaPoint: 15
+    mpPoint: 30
+    cost: 1500
+    damage:
+    - 0.2
+    - 0.3
+    stgDamage:
+    - 0.1
+    - 0.2
+    stgPower: []
+    elementalVal:
+    - 6
+    - 10
+    duration:
+    - 10
+    - 60
+    isMagicAttack: 0
+    isBuff: 1
+    isAiming: 0
+    iconPath: Sprite/Skill/Melle_Up
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Heavy Sword
+    krName: "\uD5E4\uBE44 \uC18C\uB4DC"
+    type: Active
+    explain: "\uACBD\uC9C1 \uB370\uBBF8\uC9C0\uC640 \uACBD\uC9C1 \uC131\uB2A5\uC774
+      \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    index: 24
+    statRank:
+    - D
+    - D
+    - B
+    - B
+    - D
+    - D
+    skillLvEx:
+    - "\uACBD\uC9C1 \uB370\uBBF8\uC9C0\uC640 \uACBD\uC9C1 \uC131\uB2A5, \uC9C0\uC18D\uC2DC\uAC04\uC774
+      \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    effectByStat: 1.1
+    staminaPoint: 15
+    mpPoint: 25
+    cost: 1000
+    damage: []
+    stgDamage:
+    - 0.15
+    - 0.22
+    stgPower:
+    - 5
+    - 8
+    elementalVal: []
+    duration:
+    - 10
+    - 60
+    isMagicAttack: 0
+    isBuff: 1
+    isAiming: 0
+    iconPath: Sprite/Skill/Melle_Up
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Final Smash
+    krName: "\uCD5C\uD6C4\uC758 \uC77C\uACA9"
+    type: Active
+    explain: "\uAE30\uB97C \uBAA8\uC544 \uCD5C\uD6C4\uC758 \uC77C\uACA9\uC744 \uB0A0\uB9BD\uB2C8\uB2E4.
+      \uC2A4\uD14C\uBBF8\uB108\uB97C \uC18C\uBE44\uD55C \uB9CC\uD07C \uC131\uB2A5\uC774
+      \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    index: 25
+    statRank:
+    - C
+    - C
+    - A
+    - E
+    - E
+    - E
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uC640 \uACBD\uC9C1 \uB370\uBBF8\uC9C0, \uACBD\uC9C1 \uC131\uB2A5\uC774
+      \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    effectByStat: 1
+    staminaPoint: 40
+    mpPoint: 50
+    cost: 2500
+    damage:
+    - 1.7
+    - 2.1
+    stgDamage:
+    - 1.8
+    - 2
+    stgPower:
+    - 40
+    - 50
+    elementalVal: []
+    duration: []
+    isMagicAttack: 0
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Attack_Slash
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Guard Enhance
+    krName: "\uAC00\uB4DC \uC778\uD578\uC2A4"
+    type: Active
+    explain: "\uC801\uC758 \uACF5\uACA9\uC744 \uBC29\uC5B4\uD55C\uB2E4. \uD0C0\uC774\uBC0D
+      \uC88B\uAC8C \uBC29\uC5B4\uD558\uBA74 1\uD68C\uC5D0 \uD55C\uD574\uC11C \uB370\uBBF8\uC9C0\uAC00
+      \uC0C1\uC2B9\uD55C\uB2E4."
+    index: 26
+    statRank:
+    - B
+    - D
+    - B
+    - C
+    - E
+    - E
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uC640 \uC9C0\uC18D\uC2DC\uAC04\uC774 \uC99D\uAC00\uD55C\uB2E4.
+      \uD0C0\uC774\uBC0D\uC744 \uB9DE\uCD94\uAE30 \uC26C\uC6CC\uC9C4\uB2E4."
+    effectByStat: 0
+    staminaPoint: 10
+    mpPoint: 10
+    cost: 1500
+    damage:
+    - 0.4
+    - 0.65
+    stgDamage: []
+    stgPower: []
+    elementalVal: []
+    duration:
+    - 10
+    - 10
+    isMagicAttack: 0
+    isBuff: 1
+    isAiming: 0
+    iconPath: Sprite/Skill/Defence_Shield
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Shield Rush
+    krName: "\uC2E4\uB4DC \uB7EC\uC26C"
+    type: Active
+    explain: "\uBC29\uD328\uB97C \uB4E4\uACE0 \uB3CC\uC9C4\uD574 \uC801\uC744 \uBC00\uC5B4\uB0B8
+      \uB4A4 \uAC80\uC73C\uB85C \uACF5\uACA9\uD569\uB2C8\uB2E4. \uB3CC\uC9C4\uC73C\uB85C
+      \uACBD\uC9C1\uC2DC\uD0A4\uBA74 \uACBD\uC9C1 \uC131\uB2A5\uC774 \uB298\uC5B4\uB0A9\uB2C8\uB2E4."
+    index: 27
+    statRank:
+    - D
+    - B
+    - A
+    - E
+    - E
+    - E
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0, \uACBD\uC9C1\uB370\uBBF8\uC9C0, \uACBD\uC9C1\uC131\uB2A5\uC774
+      \uC99D\uAC00\uD55C\uB2E4."
+    effectByStat: 0
+    staminaPoint: 50
+    mpPoint: 40
+    cost: 2000
+    damage:
+    - 1.2
+    - 1.5
+    stgDamage:
+    - 1.2
+    - 1.4
+    stgPower:
+    - 35
+    - 40
+    elementalVal: []
+    duration: []
+    isMagicAttack: 0
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Attack_Melle
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Magic Recover
+    krName: "\uB9C8\uB825 \uC7AC\uC0DD"
+    type: Active
+    explain: "\uCC9C\uCC9C\uD788MP\uB97C \uD68C\uBCF5\uD55C\uB2E4."
+    index: 28
+    statRank:
+    - E
+    - E
+    - E
+    - A
+    - C
+    - C
+    skillLvEx:
+    - "\uD68C\uBCF5\uB7C9\uC774 \uB192\uC544\uC9C4\uB2E4."
+    effectByStat: 0
+    staminaPoint: 15
+    mpPoint: 20
+    cost: 1500
+    damage:
+    - 1.2
+    - 1.6
+    stgDamage: []
+    stgPower: []
+    elementalVal: []
+    duration:
+    - 40
+    - 40
+    isMagicAttack: 0
+    isBuff: 1
+    isAiming: 0
+    iconPath: Sprite/Skill/MP_Heal
+    skillLv: 1
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+  EquipActiveList:
+  - name: Punch
+    krName: "\uD380\uCE58"
+    type: Active
+    explain: "\uBE60\uB974\uAC8C \uD380\uCE58\uB97C \uB0A0\uB9B0\uB2E4."
+    index: 0
+    statRank:
+    - B
+    - B
+    - B
+    - E
+    - E
+    - E
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uC640 \uACBD\uC9C1 \uB370\uBBF8\uC9C0\uAC00 \uB192\uC544\uC9C4\uB2E4."
+    effectByStat: 1
+    staminaPoint: 15
+    mpPoint: 25
+    cost: 0
+    damage:
+    - 1.15
+    - 1.4
+    stgDamage:
+    - 1.4
+    - 1.6
+    stgPower:
+    - 45
+    - 45
+    elementalVal: []
+    duration: []
+    isMagicAttack: 0
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Attack_Melle
+    skillLv: 1
+    equipOrder: 1
+    isBuy: 1
+    isEquip: 1
+  - name: Double Slash
+    krName: "\uC5F0\uC18D \uBCA0\uAE30"
+    type: Active
+    explain: "\uBE60\uB974\uAC8C \uBB34\uAE30\uB97C \uC5F0\uC18D\uC73C\uB85C \uB450\uBC88
+      \uD718\uB450\uB978\uB2E4."
+    index: 1
+    statRank:
+    - B
+    - A
+    - D
+    - E
+    - E
+    - E
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uC640 \uACBD\uC9C1\uB370\uBBF8\uC9C0\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    effectByStat: 1
+    staminaPoint: 20
+    mpPoint: 35
+    cost: 0
+    damage:
+    - 0.9
+    - 1.15
+    stgDamage:
+    - 0.6
+    - 0.65
+    stgPower:
+    - 20
+    - 20
+    elementalVal: []
+    duration: []
+    isMagicAttack: 0
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Attack_Slash
+    skillLv: 1
+    equipOrder: 2
+    isBuy: 1
+    isEquip: 1
+  - name: Fireball
+    krName: "\uD30C\uC774\uC5B4 \uBCFC"
+    type: Active
+    explain: "\uC804\uBC29\uC73C\uB85C \uD30C\uC774\uC5B4\uBCFC\uC744 \uB0A0\uB9B0\uB2E4."
+    index: 4
+    statRank:
+    - C
+    - E
+    - E
+    - D
+    - A
+    - C
+    skillLvEx:
+    - "\uC720\uB3C4 \uC131\uB2A5\uC774 \uB192\uC544\uC9C0\uACE0 \uB370\uBBF8\uC9C0\uAC00
+      \uC99D\uAC00\uD55C\uB2E4."
+    effectByStat: 1
+    staminaPoint: 15
+    mpPoint: 25
+    cost: 0
+    damage:
+    - 1.2
+    - 1.5
+    stgDamage:
+    - 0.75
+    - 1
+    stgPower:
+    - 15
+    - 15
+    elementalVal:
+    - 20
+    - 25
+    duration: []
+    isMagicAttack: 1
+    isBuff: 0
+    isAiming: 0
+    iconPath: Sprite/Skill/Magic_Fire
+    skillLv: 1
+    equipOrder: 3
+    isBuy: 1
+    isEquip: 1
+  PassiveSkillList: []
+  MyPassiveSkillList:
+  - name: Health Up
+    krName: "\uCCB4\uB825 \uC99D\uAC00"
+    type: Passive
+    explain: "\uCD5C\uB300 \uCCB4\uB825\uC774 \uC99D\uAC00\uD55C\uB2E4."
+    index: 0
+    passiveType: 0
+    skillLvEx:
+    - "\uCD5C\uB300\uCCB4\uB825\uC774 10 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - "\uCD5C\uB300\uCCB4\uB825\uC774 17 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - "\uCD5C\uB300\uCCB4\uB825\uC774 24 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    effectVal:
+    - 10
+    - 17
+    - 24
+    cooldown: []
+    cost: 0
+    iconPath: Sprite/Skill/HP_Up
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 1
+    isEquip: 0
+    isCooldown: 0
+  - name: Stamina Up
+    krName: "\uC2A4\uD14C\uBBF8\uB108 \uC99D\uAC00"
+    type: Passive
+    explain: "\uCD5C\uB300 \uC2A4\uD14C\uBBF8\uB108\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    index: 1
+    passiveType: 0
+    skillLvEx:
+    - "\uCD5C\uB300 \uC2A4\uD14C\uBBF8\uB108\uAC00 12 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - "\uCD5C\uB300 \uC2A4\uD14C\uBBF8\uB108\uAC00 20 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - "\uCD5C\uB300 \uC2A4\uD14C\uBBF8\uB108\uAC00 28 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    effectVal:
+    - 12
+    - 20
+    - 28
+    cooldown: []
+    cost: 0
+    iconPath: Sprite/Skill/Stemina_Up
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 1
+    isEquip: 0
+    isCooldown: 0
+  - name: Finish Healing
+    krName: "\uD53C\uB2C8\uC26C \uD790\uB9C1"
+    type: Passive
+    explain: "\uC801\uC744 \uCC98\uCE58\uD558\uBA74 HP\uB97C \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+    index: 2
+    passiveType: 0
+    skillLvEx:
+    - "\uCCB4\uB825\uC744 8 \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+    - "\uCCB4\uB825\uC744 12 \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+    - "\uCCB4\uB825\uC744 15 \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+    effectVal:
+    - 8
+    - 12
+    - 15
+    cooldown: []
+    cost: 0
+    iconPath: Sprite/Skill/HP_Heal
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 1
+    isEquip: 0
+    isCooldown: 0
+  - name: Stg Damage Up
+    krName: "\uACBD\uC9C1\uCE58 \uC99D\uAC00"
+    type: Passive
+    explain: "\uACBD\uC9C1 \uB370\uBBF8\uC9C0\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    index: 3
+    passiveType: 0
+    skillLvEx:
+    - "\uACBD\uC9C1\uCE58\uAC00 8& \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - "\uACBD\uC9C1\uCE58\uAC00 12% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - "\uACBD\uC9C1\uCE58\uAC00 16% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    effectVal:
+    - 0.08
+    - 0.12
+    - 0.16
+    cooldown: []
+    cost: 800
+    iconPath: Sprite/Skill/Melle_Up
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Magic Damage Up
+    krName: "\uB9C8\uBC95 \uACF5\uACA9\uB825 \uC99D\uAC00"
+    type: Passive
+    explain: "\uB9C8\uBC95 \uB370\uBBF8\uC9C0\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    index: 4
+    passiveType: 0
+    skillLvEx:
+    - "\uB9C8\uBC95 \uACF5\uACA9\uB825\uC774 10% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - "\uB9C8\uBC95 \uACF5\uACA9\uB825\uC774 15% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - "\uB9C8\uBC95 \uACF5\uACA9\uB825\uC774 20% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    effectVal:
+    - 0.1
+    - 0.15
+    - 0.2
+    cooldown: []
+    cost: 2000
+    iconPath: Sprite/Skill/Magic_Up
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Speed Up
+    krName: "\uC774\uB3D9\uC18D\uB3C4 \uC99D\uAC00"
+    type: Passive
+    explain: "\uC774\uB3D9\uC18D\uB3C4\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    index: 5
+    passiveType: 0
+    skillLvEx:
+    - "\uC774\uB3D9\uC18D\uB3C4\uAC00 10% \uBE68\uB77C\uC9D1\uB2C8\uB2E4."
+    - "\uC774\uB3D9\uC18D\uB3C4\uAC00 16% \uBE68\uB77C\uC9D1\uB2C8\uB2E4."
+    - "\uC774\uB3D9\uC18D\uB3C4\uAC00 24% \uBE68\uB77C\uC9D1\uB2C8\uB2E4."
+    effectVal:
+    - 0.1
+    - 0.16
+    - 0.24
+    cooldown: []
+    cost: 800
+    iconPath: Sprite/Skill/Speed_Up
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Drain MP
+    krName: "MP \uB4DC\uB808\uC778"
+    type: Passive
+    explain: "MP \uD68C\uBCF5\uB7C9\uC774 \uC99D\uAC00\uD55C\uB2E4."
+    index: 6
+    passiveType: 0
+    skillLvEx:
+    - "MP \uD68C\uBCF5\uB7C9\uC774 10% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - "MP \uD68C\uBCF5\uB7C9\uC774 15% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - "MP \uD68C\uBCF5\uB7C9\uC774 20% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    effectVal:
+    - 0.1
+    - 0.15
+    - 0.2
+    cooldown: []
+    cost: 1000
+    iconPath: Sprite/Skill/MP_Heal
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Defence Up
+    krName: "\uBC29\uC5B4\uB825 \uC99D\uAC00"
+    type: Passive
+    explain: "\uBC29\uC5B4\uB825\uC774 \uB192\uC544\uC9C4\uB2E4."
+    index: 7
+    passiveType: 0
+    skillLvEx:
+    - "\uBC1B\uB294 \uB370\uBBF8\uC9C0\uAC00 8% \uAC10\uC18C\uD55C\uB2E4."
+    - "\uBC1B\uB294 \uB370\uBBF8\uC9C0\uAC00 14% \uAC10\uC18C\uD55C\uB2E4."
+    - "\uBC1B\uB294 \uB370\uBBF8\uC9C0\uAC00 20% \uAC10\uC18C\uD55C\uB2E4."
+    effectVal:
+    - 0.08
+    - 0.14
+    - 0.2
+    cooldown: []
+    cost: 1000
+    iconPath: Sprite/Skill/Defence_Up
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Melee Damage Up
+    krName: "\uBB3C\uB9AC\uACF5\uACA9\uB825 \uC99D\uAC00"
+    type: Passive
+    explain: "\uBB3C\uB9AC \uACF5\uACA9\uB825\uC774 \uB192\uC544\uC9C4\uB2E4."
+    index: 8
+    passiveType: 0
+    skillLvEx:
+    - "\uBB3C\uB9AC\uACF5\uACA9\uB825\uC774 8% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uBB3C\uB9AC\uACF5\uACA9\uB825\uC774 12% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uBB3C\uB9AC\uACF5\uACA9\uB825\uC774 16% \uC99D\uAC00\uD55C\uB2E4."
+    effectVal:
+    - 0.08
+    - 0.12
+    - 0.16
+    cooldown: []
+    cost: 1000
+    iconPath: Sprite/Skill/Melle_Up
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Stg Level Up
+    krName: "\uACBD\uC9C1 \uC131\uB2A5 \uC99D\uAC00"
+    type: Passive
+    explain: "\uACBD\uC9C1 \uC131\uB2A5\uC774 \uC99D\uAC00\uD55C\uB2E4."
+    index: 9
+    passiveType: 0
+    skillLvEx:
+    - "\uACBD\uC9C1 \uC131\uB2A5\uC774 10% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uACBD\uC9C1 \uC131\uB2A5\uC774 15% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uACBD\uC9C1 \uC131\uB2A5\uC774 20% \uC99D\uAC00\uD55C\uB2E4."
+    effectVal:
+    - 0.1
+    - 0.15
+    - 0.2
+    cooldown: []
+    cost: 1200
+    iconPath: Sprite/Skill/Melle_Up
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Elemental Up
+    krName: "\uC18D\uC131\uCE58 \uC99D\uAC00"
+    type: Passive
+    explain: "\uC18D\uC131\uCE58\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    index: 10
+    passiveType: 0
+    skillLvEx:
+    - "\uC18D\uC131\uCE58\uAC00 10% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uC18D\uC131\uCE58\uAC00 16% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uC18D\uC131\uCE58\uAC00 22% \uC99D\uAC00\uD55C\uB2E4."
+    effectVal:
+    - 0.1
+    - 0.16
+    - 0.22
+    cooldown: []
+    cost: 1800
+    iconPath: Sprite/Skill/Magic_Up
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Dodge Up
+    krName: "\uD68C\uD53C \uC7A5\uC778"
+    type: Passive
+    explain: "\uACF5\uACA9\uC744 \uD68C\uD53C\uD558\uAE30 \uB354 \uC26C\uC6CC\uC9C4\uB2E4."
+    index: 11
+    passiveType: 0
+    skillLvEx:
+    - "\uD68C\uD53C \uC131\uB2A5\uC774 50% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uD68C\uD53C \uC131\uB2A5\uC774 75% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uD68C\uD53C \uC131\uB2A5\uC774 100% \uC99D\uAC00\uD55C\uB2E4."
+    effectVal:
+    - 0.5
+    - 0.75
+    - 1
+    cooldown: []
+    cost: 1500
+    iconPath: Sprite/Skill/Speed_Up
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Perfect Dodge
+    krName: "\uC644\uBCBD\uD55C \uD68C\uD53C"
+    type: Passive
+    explain: "\uD68C\uD53C\uC5D0 \uC131\uACF5\uD558\uBA74 \uC7A0\uAE50\uB3D9\uC548
+      \uACF5\uACA9\uB825\uC774 \uC0C1\uC2B9\uD55C\uB2E4."
+    index: 12
+    passiveType: 1
+    skillLvEx:
+    - "\uACF5\uACA9\uB825\uC774 15% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uACF5\uACA9\uB825\uC774 23% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uACF5\uACA9\uB825\uC774 30% \uC99D\uAC00\uD55C\uB2E4."
+    effectVal:
+    - 0.15
+    - 0.23
+    - 0.3
+    cooldown: []
+    cost: 1500
+    iconPath: Sprite/Skill/Melle_Up
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Dodge Recover
+    krName: "\uAC00\uB2E4\uB4EC\uAE30"
+    type: Passive
+    explain: "\uD68C\uD53C\uC5D0 \uC131\uACF5\uD558\uBA74 MP\uB97C \uC57D\uAC04 \uD68C\uBCF5\uD55C\uB2E4."
+    index: 13
+    passiveType: 2
+    skillLvEx:
+    - "MP\uB97C 20\uB9CC\uD07C \uD68C\uBCF5\uD55C\uB2E4."
+    - "MP\uB97C 30\uB9CC\uD07C \uD68C\uBCF5\uD55C\uB2E4."
+    - "MP\uB97C 40\uB9CC\uD07C \uD68C\uBCF5\uD55C\uB2E4."
+    effectVal:
+    - 20
+    - 30
+    - 40
+    cooldown: []
+    cost: 1200
+    iconPath: Sprite/Skill/MP_Heal
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Posture Mending
+    krName: "\uC790\uC138 \uACE0\uCE58\uAE30"
+    type: Passive
+    explain: "\uC801\uC744 \uACBD\uC9C1\uC2DC\uD0A4\uBA74 \uC2A4\uD14C\uBBF8\uB108
+      \uD68C\uBCF5\uD55C\uB2E4."
+    index: 14
+    passiveType: 2
+    skillLvEx:
+    - "\uC2A4\uD14C\uBBF8\uB108\uB97C 30\uB9CC\uD07C \uD68C\uBCF5\uD55C\uB2E4."
+    - "\uC2A4\uD14C\uBBF8\uB108\uB97C 40\uB9CC\uD07C \uD68C\uBCF5\uD55C\uB2E4."
+    - "\uC2A4\uD14C\uBBF8\uB108\uB97C 50\uB9CC\uD07C \uD68C\uBCF5\uD55C\uB2E4."
+    effectVal:
+    - 30
+    - 40
+    - 50
+    cooldown: []
+    cost: 1500
+    iconPath: Sprite/Skill/HP_Heal
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Chance of Victory
+    krName: "\uC2B9\uB9AC \uD655\uC2E0"
+    type: Passive
+    explain: "\uC801\uC744 \uACBD\uC9C1\uC2DC\uD0A4\uBA74 \uC7A0\uAE50 \uB3D9\uC548
+      \uB370\uBBF8\uC9C0\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    index: 15
+    passiveType: 1
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uAC00 10%\uC99D\uAC00\uD55C\uB2E4."
+    - "\uB370\uBBF8\uC9C0\uAC00 15%\uC99D\uAC00\uD55C\uB2E4."
+    - "\uB370\uBBF8\uC9C0\uAC00 20%\uC99D\uAC00\uD55C\uB2E4."
+    effectVal:
+    - 0.1
+    - 0.15
+    - 0.2
+    cooldown: []
+    cost: 1500
+    iconPath: Sprite/Skill/Melle_Up
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Complete Down
+    krName: "\uC644\uC804 \uBB34\uB825\uD654"
+    type: Passive
+    explain: "\uACBD\uC9C1 \uC131\uB2A5 40 \uC774\uC0C1\uC758 \uACBD\uC9C1\uC744
+      \uBC1B\uC740 \uB300\uC0C1\uC5D0\uAC8C \uAC00\uD558\uB294 \uB370\uBBF8\uC9C0\uAC00
+      \uACBD\uC9C1 \uC131\uB2A5\uC5D0 \uBE44\uB840\uD574\uC11C \uC99D\uAC00\uD55C\uB2E4. "
+    index: 16
+    passiveType: 1
+    skillLvEx:
+    - "\uB370\uBBF8\uC9C0\uAC00 \uCD5C\uB300 20% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uB370\uBBF8\uC9C0\uAC00 \uCD5C\uB300 30% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uB370\uBBF8\uC9C0\uAC00 \uCD5C\uB300 40% \uC99D\uAC00\uD55C\uB2E4."
+    effectVal:
+    - 0.2
+    - 0.3
+    - 0.4
+    cooldown: []
+    cost: 1800
+    iconPath: Sprite/Skill/Melle_Up
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: MP Return
+    krName: "MP \uB9AC\uD134"
+    type: Passive
+    explain: "\uB9C8\uBC95\uC73C\uB85C \uACBD\uC9C1\uC744 \uC92C\uC744 \uB54C MP\uB97C
+      \uD68C\uBCF5\uD55C\uB2E4."
+    index: 17
+    passiveType: 2
+    skillLvEx:
+    - "MP\uB97C 10\uB9CC\uD07C \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+    - "MP\uB97C 15\uB9CC\uD07C \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+    - "MP\uB97C 20\uB9CC\uD07C \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+    effectVal:
+    - 10
+    - 15
+    - 20
+    cooldown: []
+    cost: 1500
+    iconPath: Sprite/Skill/MP_Heal
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Elemental Drain
+    krName: "\uC18D\uC131 \uD761\uD608"
+    type: Passive
+    explain: "\uC0C1\uD0DC \uC774\uC0C1\uC744 \uC77C\uC73C\uD0A4\uBA74 MP\uB97C \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+    index: 18
+    passiveType: 2
+    skillLvEx:
+    - "MP\uB97C 16\uB9CC\uD07C \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+    - "MP\uB97C 24\uB9CC\uD07C \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+    - "MP\uB97C 32\uB9CC\uD07C \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+    effectVal:
+    - 16
+    - 24
+    - 32
+    cooldown: []
+    cost: 1500
+    iconPath: Sprite/Skill/MP_Heal
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Weaken
+    krName: "\uC1E0\uC57D"
+    type: Passive
+    explain: "\uC0C1\uD0DC \uC774\uC0C1\uC778 \uC801\uC5D0\uAC8C \uC8FC\uB294 \uB370\uBBF8\uC9C0\uAC00
+      \uC99D\uAC00\uD55C\uB2E4."
+    index: 19
+    passiveType: 1
+    skillLvEx:
+    - "\uB370\uBBF8\uC790\uAC00 14% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uB370\uBBF8\uC790\uAC00 22% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uB370\uBBF8\uC790\uAC00 30% \uC99D\uAC00\uD55C\uB2E4."
+    effectVal:
+    - 0.14
+    - 0.22
+    - 0.3
+    cooldown: []
+    cost: 2000
+    iconPath: Sprite/Skill/Magic_Up
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  - name: Big Bottle
+    krName: "\uCEE4\uB2E4\uB780 \uBB3C\uBCD1"
+    type: Passive
+    explain: "\uBB3C\uBCD1\uC758 \uD68C\uBCF5\uB7C9\uC774 \uC99D\uAC00\uD55C\uB2E4."
+    index: 20
+    passiveType: 0
+    skillLvEx:
+    - "\uD68C\uBCF5\uB7C9\uC774 16% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uD68C\uBCF5\uB7C9\uC774 24% \uC99D\uAC00\uD55C\uB2E4."
+    - "\uD68C\uBCF5\uB7C9\uC774 32% \uC99D\uAC00\uD55C\uB2E4."
+    effectVal:
+    - 0.16
+    - 0.24
+    - 0.32
+    cooldown: []
+    cost: 800
+    iconPath: Sprite/Skill/HP_Heal
+    skillLv: 0
+    equipOrder: 0
+    isBuy: 0
+    isEquip: 0
+    isCooldown: 0
+  EquipPassiveList: []
+  ShopUnlockList:
+  - name: 
+    krName: 
+    unlockHint: 
+    index: 0
+    clearLv: 0
+    itemType: 0
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  MyShopUnlockList:
+  - name: Punch
+    krName: "\uD380\uCE58"
+    unlockHint: 
+    index: 0
+    clearLv: 0
+    itemType: 0
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 1
+  - name: Double Slash
+    krName: "\uC5F0\uC18D \uBCA0\uAE30"
+    unlockHint: 
+    index: 1
+    clearLv: 0
+    itemType: 0
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 1
+  - name: Backstep Slash
+    krName: "\uBC31\uC2A4\uD0ED \uC2AC\uB798\uC26C"
+    unlockHint: 
+    index: 2
+    clearLv: 0
+    itemType: 0
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Horizontal Slash
+    krName: "\uC218\uD3C9 \uBCA0\uAE30"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uC624\uD06C 15\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 3
+    clearLv: 0
+    itemType: 0
+    Oak: 15
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Fireball
+    krName: "\uD30C\uC774\uC5B4 \uBCFC"
+    unlockHint: 
+    index: 4
+    clearLv: 0
+    itemType: 0
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 1
+  - name: Dash Sting
+    krName: "\uB3CC\uC9C4 \uCC0C\uB974\uAE30"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB291\uB300 15\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 5
+    clearLv: 0
+    itemType: 0
+    Oak: 0
+    Lich: 0
+    Wolf: 15
+    isUnlock: 0
+  - name: Power Shield
+    krName: "\uD30C\uC6CC \uC2E4\uB4DC"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uC624\uD06C 10\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 6
+    clearLv: 0
+    itemType: 0
+    Oak: 10
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Defense Wall
+    krName: "\uC735\uAE30\uC758 \uBCBD"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB9AC\uCE58 10\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 7
+    clearLv: 0
+    itemType: 0
+    Oak: 0
+    Lich: 10
+    Wolf: 0
+    isUnlock: 0
+  - name: Shield Shove
+    krName: "\uBC29\uD328 \uBC00\uCE58\uAE30"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4 \uD074\uB9AC\uC5B4"
+    index: 8
+    clearLv: 1
+    itemType: 0
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Ground Wave
+    krName: "\uC1FC\uD06C \uC6E8\uC774\uBE0C"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uC624\uD06C 20\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 9
+    clearLv: 0
+    itemType: 0
+    Oak: 20
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Fire Sword
+    krName: "\uBD88\uC758 \uAC80"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB9AC\uCE58 10\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 10
+    clearLv: 0
+    itemType: 0
+    Oak: 0
+    Lich: 10
+    Wolf: 0
+    isUnlock: 0
+  - name: Guarding Barrier
+    krName: "\uC218\uD638\uC758 \uBCA0\uB9AC\uC5B4"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4 \uD074\uB9AC\uC5B4"
+    index: 11
+    clearLv: 1
+    itemType: 0
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Step Slash
+    krName: "\uC804\uC9C4\uBCA0\uAE30"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4\uC5D0\uC11C \uC624\uD06C 5\uB9C8\uB9AC,
+      \uB291\uB300 5\uB9C8\uB9AC \uD1A0\uBC8C"
+    index: 12
+    clearLv: 1
+    itemType: 0
+    Oak: 5
+    Lich: 0
+    Wolf: 5
+    isUnlock: 0
+  - name: Icicle
+    krName: "\uC544\uC774\uC2DC\uD074"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4\uC5D0\uC11C \uC624\uD06C 5\uB9C8\uB9AC
+      \uB9AC\uCE58 5\uB9C8\uB9AC \uD1A0\uBC8C"
+    index: 13
+    clearLv: 1
+    itemType: 0
+    Oak: 5
+    Lich: 5
+    Wolf: 0
+    isUnlock: 0
+  - name: Lighting Spear
+    krName: "\uBC88\uAC1C \uCC3D"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB9AC\uCE58 10\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 14
+    clearLv: 1
+    itemType: 0
+    Oak: 0
+    Lich: 10
+    Wolf: 0
+    isUnlock: 0
+  - name: Fire Burst
+    krName: "\uD30C\uC774\uC5B4 \uBC84\uC2A4\uD2B8"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB9AC\uCE58 15\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 15
+    clearLv: 1
+    itemType: 0
+    Oak: 0
+    Lich: 15
+    Wolf: 0
+    isUnlock: 0
+  - name: Ice Spear
+    krName: "\uC544\uC774\uC2A4 \uC2A4\uD53C\uC5B4"
+    unlockHint: "\uC5B4\uB824\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uC624\uD06C 15\uB9C8\uB9AC,
+      \uB9AC\uCE58 5\uB9C8\uB9AC \uD1A0\uBC8C"
+    index: 16
+    clearLv: 2
+    itemType: 0
+    Oak: 15
+    Lich: 5
+    Wolf: 0
+    isUnlock: 0
+  - name: Lighting Split
+    krName: "\uB77C\uC774\uD2B8\uB2DD \uC2A4\uD50C\uB9BF"
+    unlockHint: "\uC5B4\uB824\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB9AC\uCE58 10\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 17
+    clearLv: 2
+    itemType: 0
+    Oak: 0
+    Lich: 10
+    Wolf: 0
+    isUnlock: 0
+  - name: Fire Tornado
+    krName: "\uD30C\uC774\uC5B4 \uB79C\uB4DC"
+    unlockHint: "\uC5B4\uB824\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB9AC\uCE58 10\uB9C8\uB9AC
+      \uD1F4\uCE58"
+    index: 18
+    clearLv: 2
+    itemType: 0
+    Oak: 0
+    Lich: 10
+    Wolf: 0
+    isUnlock: 0
+  - name: Ice Storm
+    krName: "\uC544\uC774\uC2A4 \uB79C\uB4DC"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4 \uD074\uB9AC\uC5B4"
+    index: 19
+    clearLv: 2
+    itemType: 0
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Lighting Thunder
+    krName: "\uB77C\uC774\uD2B8\uB2DD \uC36C\uB354"
+    unlockHint: "\uC5B4\uB824\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB291\uB300 10\uB9C8\uB9AC
+      \uD1F4\uCE58"
+    index: 20
+    clearLv: 2
+    itemType: 0
+    Oak: 0
+    Lich: 0
+    Wolf: 10
+    isUnlock: 0
+  - name: Gravity Hole
+    krName: "\uC911\uB825\uC7A5"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB9AC\uCE58 20\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 21
+    clearLv: 1
+    itemType: 0
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Lighting Sword
+    krName: "\uBC88\uAC1C \uAC80"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB9AC\uCE58 10\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 22
+    clearLv: 1
+    itemType: 0
+    Oak: 0
+    Lich: 10
+    Wolf: 0
+    isUnlock: 0
+  - name: Ice Sword
+    krName: "\uC5BC\uC74C \uAC80"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4 \uD074\uB9AC\uC5B4"
+    index: 23
+    clearLv: 2
+    itemType: 0
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Heavy Sword
+    krName: "\uD5E4\uBE44 \uC18C\uB4DC"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4 \uD074\uB9AC\uC5B4"
+    index: 24
+    clearLv: 1
+    itemType: 0
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Final Smash
+    krName: "\uCD5C\uD6C4\uC758 \uC77C\uACA9"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4\uC5D0\uC11C \uC624\uD06C 10\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 25
+    clearLv: 1
+    itemType: 0
+    Oak: 10
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Guard Enhance
+    krName: "\uAC00\uB4DC \uC778\uD578\uC2A4"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4\uC5D0\uC11C \uC624\uD06C 10\uB9C8\uB9AC,
+      \uB291\uB300 5\uB9C8\uB9AC \uD1A0\uBC8C"
+    index: 26
+    clearLv: 1
+    itemType: 0
+    Oak: 10
+    Lich: 0
+    Wolf: 5
+    isUnlock: 0
+  - name: Shield Rush
+    krName: "\uC2E4\uB4DC \uB7EC\uC26C"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4\uC5D0\uC11C \uC624\uD06C 20\uB9C8\uB9AC,
+      \uB291\uB300 10\uB9C8\uB9AC \uD1A0\uBC8C"
+    index: 27
+    clearLv: 1
+    itemType: 0
+    Oak: 20
+    Lich: 0
+    Wolf: 10
+    isUnlock: 0
+  - name: Magic Recover
+    krName: "\uB9C8\uB825 \uC7AC\uC0DD"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4 \uD074\uB9AC\uC5B4"
+    index: 28
+    clearLv: 2
+    itemType: 0
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Health Up
+    krName: "\uCCB4\uB825 \uC99D\uAC00"
+    unlockHint: 
+    index: 29
+    clearLv: 0
+    itemType: 1
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 1
+  - name: Stamina Up
+    krName: "\uC2A4\uD14C\uBBF8\uB108 \uC99D\uAC00"
+    unlockHint: 
+    index: 30
+    clearLv: 0
+    itemType: 1
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 1
+  - name: Finish Healing
+    krName: "\uD53C\uB2C8\uC26C \uD790\uB9C1"
+    unlockHint: 
+    index: 31
+    clearLv: 0
+    itemType: 1
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 1
+  - name: Stg Damage Up
+    krName: "\uACBD\uC9C1\uCE58 \uC99D\uAC00"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uC624\uD06C 15\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 32
+    clearLv: 0
+    itemType: 1
+    Oak: 15
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Magic Damage Up
+    krName: "\uB9C8\uBC95 \uACF5\uACA9\uB825 \uC99D\uAC00"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB9AC\uCE58 10\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 33
+    clearLv: 1
+    itemType: 1
+    Oak: 0
+    Lich: 10
+    Wolf: 0
+    isUnlock: 0
+  - name: Speed Up
+    krName: "\uC774\uB3D9\uC18D\uB3C4 \uC99D\uAC00"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB291\uB300 5\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 34
+    clearLv: 0
+    itemType: 1
+    Oak: 0
+    Lich: 0
+    Wolf: 5
+    isUnlock: 0
+  - name: Drain MP
+    krName: "MP \uB4DC\uB808\uC778"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB9AC\uCE58 10\uB9C8\uB9AC,
+      \uB291\uB300 5\uB9C8\uB9AC \uD1A0\uBC8C"
+    index: 35
+    clearLv: 0
+    itemType: 1
+    Oak: 0
+    Lich: 10
+    Wolf: 5
+    isUnlock: 0
+  - name: Defence Up
+    krName: "\uBC29\uC5B4\uB825 \uC99D\uAC00"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uC624\uD06C 10\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 36
+    clearLv: 0
+    itemType: 1
+    Oak: 10
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Melee Damage Up
+    krName: "\uBB3C\uB9AC\uACF5\uACA9\uB825 \uC99D\uAC00"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uC624\uD06C 15\uB9C8\uB9AC,
+      \uB291\uB300 10\uB9C8\uB9AC \uD1A0\uBC8C"
+    index: 37
+    clearLv: 0
+    itemType: 1
+    Oak: 15
+    Lich: 0
+    Wolf: 10
+    isUnlock: 0
+  - name: Stg Level Up
+    krName: "\uACBD\uC9C1 \uC131\uB2A5 \uC99D\uAC00"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4 \uD074\uB9AC\uC5B4"
+    index: 38
+    clearLv: 1
+    itemType: 1
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Elemental Up
+    krName: "\uC18D\uC131\uCE58 \uC99D\uAC00"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4 \uD074\uB9AC\uC5B4"
+    index: 39
+    clearLv: 2
+    itemType: 1
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Dodge Up
+    krName: "\uD68C\uD53C \uC7A5\uC778"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4 \uD074\uB9AC\uC5B4"
+    index: 40
+    clearLv: 1
+    itemType: 1
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Perfect Dodge
+    krName: "\uC644\uBCBD\uD55C \uD68C\uD53C"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4 \uD074\uB9AC\uC5B4"
+    index: 41
+    clearLv: 1
+    itemType: 1
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Dodge Recover
+    krName: "\uAC00\uB2E4\uB4EC\uAE30"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB9AC\uCE58 5\uB9C8\uB9AC,
+      \uB291\uB300 5\uB9C8\uB9AC \uD1A0\uBC8C"
+    index: 42
+    clearLv: 0
+    itemType: 1
+    Oak: 0
+    Lich: 5
+    Wolf: 5
+    isUnlock: 0
+  - name: Posture Mending
+    krName: "\uC790\uC138 \uACE0\uCE58\uAE30"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4 \uD074\uB9AC\uC5B4"
+    index: 43
+    clearLv: 1
+    itemType: 1
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Chance of Victory
+    krName: "\uC2B9\uB9AC \uD655\uC2E0"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4\uC5D0\uC11C \uC624\uD06C 10\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 44
+    clearLv: 1
+    itemType: 1
+    Oak: 10
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Complete Down
+    krName: "\uC644\uC804 \uBB34\uB825\uD654"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4\uC5D0\uC11C \uC624\uD06C 20\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 45
+    clearLv: 1
+    itemType: 1
+    Oak: 20
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: MP Return
+    krName: "MP \uB9AC\uD134"
+    unlockHint: "\uBCF4\uD1B5 \uB09C\uC774\uB3C4 \uD074\uB9AC\uC5B4"
+    index: 46
+    clearLv: 2
+    itemType: 1
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Elemental Drain
+    krName: "\uC18D\uC131 \uD761\uD608"
+    unlockHint: "\uC5B4\uB824\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB9AC\uCE58 10\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 47
+    clearLv: 2
+    itemType: 1
+    Oak: 0
+    Lich: 10
+    Wolf: 0
+    isUnlock: 0
+  - name: Weaken
+    krName: "\uC1E0\uC57D"
+    unlockHint: "\uC5B4\uB824\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB9AC\uCE58 10\uB9C8\uB9AC
+      \uD1A0\uBC8C"
+    index: 48
+    clearLv: 2
+    itemType: 1
+    Oak: 0
+    Lich: 10
+    Wolf: 0
+    isUnlock: 0
+  - name: Big Bottle
+    krName: "\uCEE4\uB2E4\uB780 \uBB3C\uBCD1"
+    unlockHint: "\uC26C\uC6C0 \uB09C\uC774\uB3C4\uC5D0\uC11C \uC624\uD06C 10\uB9C8\uB9AC,
+      \uB9AC\uCE58 5\uB9C8\uB9AC, \uB291\uB300 5\uB9C8\uB9AC \uD1A0\uBC8C"
+    index: 49
+    clearLv: 0
+    itemType: 1
+    Oak: 10
+    Lich: 5
+    Wolf: 5
+    isUnlock: 0
+  - name: Bottle Count Up1
+    krName: "\uBB3C\uBCD1 \uAC2F\uC218 UP1"
+    unlockHint: 
+    index: 50
+    clearLv: 0
+    itemType: 2
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 1
+  - name: Bottle Volume Up1
+    krName: "\uBB3C\uBCD1 \uD6A8\uACFC UP1"
+    unlockHint: 
+    index: 51
+    clearLv: 0
+    itemType: 2
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 1
+  - name: Bottle Count Up2
+    krName: "\uBB3C\uBCD1 \uAC2F\uC218 UP2"
+    unlockHint: 
+    index: 52
+    clearLv: 1
+    itemType: 2
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Bottle Volume Up2
+    krName: "\uBB3C\uBCD1 \uD6A8\uACFC UP2"
+    unlockHint: 
+    index: 53
+    clearLv: 1
+    itemType: 2
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Bottle Count Up3
+    krName: "\uBB3C\uBCD1 \uAC2F\uC218 UP3"
+    unlockHint: 
+    index: 54
+    clearLv: 2
+    itemType: 2
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Bottle Volume Up3
+    krName: "\uBB3C\uBCD1 \uD6A8\uACFC UP3"
+    unlockHint: 
+    index: 55
+    clearLv: 2
+    itemType: 2
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Leather Armor
+    krName: "\uAC00\uC8FD \uAC11\uC637"
+    unlockHint: 
+    index: 56
+    clearLv: 0
+    itemType: 2
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 1
+  - name: Iron Armor
+    krName: "\uCCA0 \uAC11\uC637"
+    unlockHint: 
+    index: 57
+    clearLv: 1
+    itemType: 2
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  - name: Red Robe
+    krName: "\uBD89\uC740 \uB85C\uBE0C"
+    unlockHint: 
+    index: 58
+    clearLv: 2
+    itemType: 2
+    Oak: 0
+    Lich: 0
+    Wolf: 0
+    isUnlock: 0
+  ShopItemList: []
+  MyShopItemList:
+  - name: Bottle Count Up1
+    krName: "\uBB3C\uBCD1 \uAC2F\uC218 UP1"
+    iconPath: Sprite/Item/Bottle_Plus
+    explain: "\uBB3C\uBCD1\uC758 \uC0AC\uC6A9 \uD69F\uC218\uAC00 1 \uC99D\uAC00\uD55C\uB2E4."
+    explainDetail: 
+    index: 0
+    cost: 1000
+    isEquipItem: 0
+    isUnlock: 1
+    isBuy: 0
+    isEquip: 0
+  - name: Bottle Volume Up1
+    krName: "\uBB3C\uBCD1 \uD6A8\uACFC UP1"
+    iconPath: Sprite/Item/Bottle
+    explain: "\uBB3C\uBCD1\uC758 \uD6A8\uACFC\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    explainDetail: 
+    index: 1
+    cost: 1000
+    isEquipItem: 0
+    isUnlock: 1
+    isBuy: 0
+    isEquip: 0
+  - name: Bottle Count Up2
+    krName: "\uBB3C\uBCD1 \uAC2F\uC218 UP2"
+    iconPath: Sprite/Item/Bottle_Plus
+    explain: "\uBB3C\uBCD1\uC758 \uC0AC\uC6A9 \uD69F\uC218\uAC00 1 \uC99D\uAC00\uD55C\uB2E4."
+    explainDetail: 
+    index: 2
+    cost: 2000
+    isEquipItem: 0
+    isUnlock: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Bottle Volume Up2
+    krName: "\uBB3C\uBCD1 \uD6A8\uACFC UP2"
+    iconPath: Sprite/Item/Bottle
+    explain: "\uBB3C\uBCD1\uC758 \uD6A8\uACFC\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    explainDetail: 
+    index: 3
+    cost: 2000
+    isEquipItem: 0
+    isUnlock: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Bottle Count Up3
+    krName: "\uBB3C\uBCD1 \uAC2F\uC218 UP3"
+    iconPath: Sprite/Item/Bottle_Plus
+    explain: "\uBB3C\uBCD1\uC758 \uC0AC\uC6A9 \uD69F\uC218\uAC00 1 \uC99D\uAC00\uD55C\uB2E4."
+    explainDetail: 
+    index: 4
+    cost: 3000
+    isEquipItem: 0
+    isUnlock: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Bottle Volume Up3
+    krName: "\uBB3C\uBCD1 \uD6A8\uACFC UP3"
+    iconPath: Sprite/Item/Bottle
+    explain: "\uBB3C\uBCD1\uC758 \uD6A8\uACFC\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    explainDetail: 
+    index: 5
+    cost: 3000
+    isEquipItem: 0
+    isUnlock: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Leather Armor
+    krName: "\uAC00\uC8FD \uAC11\uC637"
+    iconPath: Sprite/Item/LeatherArmor
+    explain: "\uAC00\uBCBC\uC6CC\uC11C \uC6C0\uC9C1\uC774\uAE30 \uD3B8\uD55C \uAC00\uC8FD
+      \uAC11\uC637\uC774\uB2E4."
+    explainDetail: "\uCCB4\uB825 20, \uC2A4\uD14C\uBBF8\uB108 30, \uBB3C\uB9AC \uACF5\uACA9\uB825
+      10%, \uBB3C\uB9AC \uACBD\uC9C1\uCE58 5%, \uC774\uB3D9\uC18D\uB3C4 8%, \uBC29\uC5B4\uB825
+      5%\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    index: 6
+    cost: 1000
+    isEquipItem: 1
+    isUnlock: 1
+    isBuy: 0
+    isEquip: 0
+  - name: Iron Armor
+    krName: "\uCCA0 \uAC11\uC637"
+    iconPath: Sprite/Item/PlateArmor
+    explain: "\uBB34\uAC70\uC6B4 \uAE30\uC0AC\uC758 \uAC11\uC637\uC774\uB2E4."
+    explainDetail: "\uCCB4\uB825 20, \uC2A4\uD14C\uBBF8\uB108 20, \uBB3C\uB9AC \uACF5\uACA9\uB825
+      5%, \uBB3C\uB9AC \uACBD\uC9C1\uC131\uB2A5 10%, \uBB3C\uB9AC \uACBD\uC9C1\uCE58
+      10%, \uBC29\uC5B4\uB825 10%\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    index: 7
+    cost: 1500
+    isEquipItem: 1
+    isUnlock: 0
+    isBuy: 0
+    isEquip: 0
+  - name: Red Robe
+    krName: "\uBD89\uC740 \uB85C\uBE0C"
+    iconPath: Sprite/Item/RedRobe
+    explain: "\uB9C8\uBC95\uC0AC\uC758 \uB85C\uBE0C\uC774\uB2E4."
+    explainDetail: "\uB9C8\uB098 40, \uB9C8\uBC95 \uACF5\uACA9\uB825 15%, \uB9C8\uBC95
+      \uACBD\uC9C1\uCE58 10%, \uB9C8\uBC95 \uACBD\uC9C1\uC131\uB2A5 10%, \uC18D\uC131\uCE58
+      10%\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    index: 8
+    cost: 2000
+    isEquipItem: 1
+    isUnlock: 0
+    isBuy: 0
+    isEquip: 0
+  Buffs_Playing: []
+  playerData:
+    playTime: 0
+    STR: E
+    AGL: E
+    VIT: E
+    INT: A
+    MP: E
+    MST: E
+    index: 0
+    curHealth: 0
+    curMP: 0
+    money: 3000
+    easyOak: 10
+    easyLich: 10
+    easyWolf: 10
+    normalOak: 10
+    normalLich: 10
+    normalWolf: 10
+    hardOak: 10
+    hardLich: 10
+    hardWolf: 10
+    clearLv: 1
+    doTutorial: 0
+    clearEasyEvent: 0
+    clearNormalEvent: 0
+    clearHardEvent: 0
+  statValData:
+    STR_meleePower: 0
+    STR_health: 0
+    AGL_meleePower: 0
+    AGL_stamina: 0
+    VIT_meleeStgDam: 0
+    VIT_meleeStgPower: 0
+    VIT_health: 0
+    INT_effectDuration: 0
+    MST_element: 0
+    INT_MP: 0
+    MP_magicDam: 0
+    MP_MP: 0
+    INT_MpRecover: 0
+    MST_magicStgDam: 0
+    MST_MP: 0
+  optionSetting:
+    frameRate: 0
+    vSyncCount: 0
+    isFullScreen: 0
+    qualityIndex: 0
+    masterVolume: 0
+    musicVolume: 0
+    gameVolume: 0
+    UIVolume: 0
+    mouseSensitivity: 0
+    gamepadSensitivity: 0
+  defaultCursor: {fileID: 2800000, guid: a4a6eab7737309943b04110561fb3652, type: 3}
+  selectCursor: {fileID: 2800000, guid: 6c7984c26eb140444ba3a5c3a84c90eb, type: 3}
+  skillCursor: {fileID: 2800000, guid: 44fc1f6b51029184b8a94ddf44b83fd6, type: 3}
+  isInDungeon: 0
+  isTitle: 0
+  isNewGame: 0
+  isGamePause: 0
+  donContainPos: 0
+  isEnemyLoadDone: 0
+  isGameOver: 0
+  isStageClear: 0
+  goBossStage: 0
+  isCutScene: 0
+  isShowFPS: 0
+  playerLv: 0
+  skillPoint: 0
+  expList: 
+  Stage1_MapList: []
+  curPlayMapList: []
+  stageLevel: 0
+  stageClearExpList_Easy: 64000000640000008200000082000000a0000000a0000000b4000000c8000000c8000000c8000000c8000000c8000000
+  stage_ClearExpList_Noraml: a0000000a0000000c8000000c8000000f0000000f0000000090100002c0100002c0100002c0100002c0100002c010000
+  stageClearExpList_Hard: c8000000c8000000fa000000fa0000002c0100002c010000450100005e0100005e0100005e0100005e0100005e010000
+  enemyNum: 0
+  restEnemy: 0
+  spawnedEnemy: 0
+  dungeonPlayTime: 0
+  stageCount: 0
+  gainGold: 0
+  oakKillCount: 0
+  lichKillCount: 0
+  wolfKillCount: 0
+  sceneAnim: {fileID: 603186197}
+  enemySpawnGroupList: []
+  enemySpawnZoneList: []
+  tutorialManager: {fileID: 5377628284021683018, guid: d5cd2e22f0caeed47baabc0b8b2c5f51,
+    type: 3}
+--- !u!114 &676718459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8845446677141576796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0551ca06419e9534f9072ee334b33684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

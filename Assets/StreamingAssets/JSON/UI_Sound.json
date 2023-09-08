@@ -1,0 +1,74 @@
+{
+    "Items": [
+        {
+            "sound": 1,
+            "strType": "ButtonSelect01",
+            "audioClip": {
+                "instanceID": 32540
+            }
+        },
+        {
+            "sound": 2,
+            "strType": "ButtonClick01",
+            "audioClip": {
+                "instanceID": 32542
+            }
+        },
+        {
+            "sound": 3,
+            "strType": "SlotSelect01",
+            "audioClip": {
+                "instanceID": 32544
+            }
+        },
+        {
+            "sound": 4,
+            "strType": "SlotEquip01",
+            "audioClip": {
+                "instanceID": 32546
+            }
+        },
+        {
+            "sound": 5,
+            "strType": "SlotUneqiup01",
+            "audioClip": {
+                "instanceID": 32548
+            }
+        },
+        {
+            "sound": 6,
+            "strType": "OpenFirst01",
+            "audioClip": {
+                "instanceID": 32550
+            }
+        },
+        {
+            "sound": 7,
+            "strType": "OpenSmall01",
+            "audioClip": {
+                "instanceID": 32552
+            }
+        },
+        {
+            "sound": 8,
+            "strType": "Error01",
+            "audioClip": {
+                "instanceID": 32554
+            }
+        },
+        {
+            "sound": 9,
+            "strType": "Escape01",
+            "audioClip": {
+                "instanceID": 32556
+            }
+        },
+        {
+            "sound": 10,
+            "strType": "Money01",
+            "audioClip": {
+                "instanceID": 32558
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "STR": "E",
+  "AGL": "E",
+  "VIT": "E",
+  "INT": "E",
+  "MP": "E",
+  "MST": "E",
+  "index": 0,
+  "curHealth": 0,
+  "curMP": 0,
+  "money": 0,
+  "easyOak": 0,
+  "easyLich": 0,
+  "easyWolf": 0,
+  "normalOak": 0,
+  "normalLich": 0,
+  "normalWolf": 0,
+  "hardOak": 0,
+  "hardLich": 0,
+  "hardWolf": 0,
+  "clearLv": 0
+}
