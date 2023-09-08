@@ -117,7 +117,7 @@ public class GameManager : MonoBehaviour, IDataPersistence
     public List<string> Stage1_MapList;
     public List<string> curPlayMapList;
     public int stageLevel;
-    public List<int> stageClearExpList_Easy = new List<int>() { 100, 100, 130, 130, 160,160, 180, 200, 200, 200, 200, 200 };
+    public List<int> stageClearExpList_Easy = new List<int>() { 100, 100, 130, 130, 160, 160, 180, 200, 200, 200, 200, 200 };
     public List<int> stage_ClearExpList_Noraml = new List<int>() { 160, 160, 200, 200, 240, 240, 265, 300, 300, 300, 300, 300 };
     public List<int> stageClearExpList_Hard = new List<int>() { 200, 200, 250, 250, 300, 300, 325, 350, 350, 350, 350, 350 };
     public int enemyNum, restEnemy, spawnedEnemy;
@@ -141,12 +141,14 @@ public class GameManager : MonoBehaviour, IDataPersistence
 
     private void Awake()
     {
-        if(instance != null){
+        if (instance != null)
+        {
             Destroy(gameObject);
             Debug.Log("Destroyed GameManager instance: " + this.GetInstanceID());
             return;
         }
-        else{
+        else
+        {
             instance = this;
             DontDestroyOnLoad(gameObject);
             SceneManager.sceneLoaded += OnSceneLoaded;
@@ -157,7 +159,8 @@ public class GameManager : MonoBehaviour, IDataPersistence
         {
             isTitle = true;
         }
-        else{
+        else
+        {
             Init_GameManager();
         }
 
@@ -169,9 +172,9 @@ public class GameManager : MonoBehaviour, IDataPersistence
         DefaultCursor();
         Cursor.lockState = CursorLockMode.Confined;
 
-        if(isTitle) return;
+        if (isTitle) return;
 
-        
+
 
         if (playerData.doTutorial)
         {
@@ -188,8 +191,9 @@ public class GameManager : MonoBehaviour, IDataPersistence
         Action_Init_GameManager.Invoke();
         SceneManager.sceneLoaded -= GameManager.Instance.OnSceneLoaded_TitleToGame;
     }
-    
-    public void Init_GameManager(){
+
+    public void Init_GameManager()
+    {
         Debug.Log("Init_GameManager");
         player = GameObject.Find("Player")?.GetComponent<Player>();
 
@@ -205,13 +209,15 @@ public class GameManager : MonoBehaviour, IDataPersistence
             exp += 20;
         }
 
-        if(playerData.doTutorial){
+        if (playerData.doTutorial)
+        {
             Instantiate(tutorialManager);
         }
 
     }
 
-    public void LoadOptionSetting(){
+    public void LoadOptionSetting()
+    {
         Load_OptionSettingFromJson();
         StartCoroutine(LoadKeySetting());
     }
@@ -276,7 +282,8 @@ public class GameManager : MonoBehaviour, IDataPersistence
         csf.enabled = true;
     }
 
-    public void RefreshUI(LayoutGroup layoutGroup){
+    public void RefreshUI(LayoutGroup layoutGroup)
+    {
         StartCoroutine(_RefreshUI(layoutGroup));
     }
 
@@ -316,7 +323,8 @@ public class GameManager : MonoBehaviour, IDataPersistence
         EquipPassiveList = MyPassiveSkillList.FindAll(x => x.isEquip);
     }
 
-    public void Load_DbSkillData(){
+    public void Load_DbSkillData()
+    {
         string path = Path.Combine(Application.streamingAssetsPath, "JSON/ActiveSkillData.json");
         string jdata = File.ReadAllText(path);
         ActiveSkillList = JsonConvert.DeserializeObject<List<ActiveSkill>>(jdata);
@@ -343,7 +351,8 @@ public class GameManager : MonoBehaviour, IDataPersistence
         MyShopItemList = JsonConvert.DeserializeObject<List<ShopItem>>(jdata);
     }
 
-    public void Load_DbItemData(){
+    public void Load_DbItemData()
+    {
         string path = Path.Combine(Application.streamingAssetsPath, "JSON/ItemData.json");
         string jdata = File.ReadAllText(path);
         ShopItemList = JsonConvert.DeserializeObject<List<ShopItem>>(jdata);
@@ -399,7 +408,7 @@ public class GameManager : MonoBehaviour, IDataPersistence
 
         string dicPath = Path.Combine(Application.persistentDataPath, "Config");
         if (!Directory.Exists(dicPath)) Directory.CreateDirectory(dicPath);
-        
+
         File.WriteAllText(path, jdataFormatted);
     }
 
@@ -487,13 +496,15 @@ public class GameManager : MonoBehaviour, IDataPersistence
         }
     }
 
-    IEnumerator LoadKeySetting(){
+    IEnumerator LoadKeySetting()
+    {
         yield return null;
         Load_KeysFromJson();
     }
 
     [ContextMenu("Temp Methode")]
-    public void TempMethode(){
+    public void TempMethode()
+    {
         Debug.Log(UnityEngine.Random.Range(3, 4));
     }
 
@@ -525,7 +536,8 @@ public class GameManager : MonoBehaviour, IDataPersistence
         data.playerData = this.playerData;
     }
 
-    public void UpdateMyData(GameData data){
+    public void UpdateMyData(GameData data)
+    {
 
         List<ActiveSkill> tempActiveSkillList = new List<ActiveSkill>();
         for (int i = 0; i < ActiveSkillList.Count; i++)
@@ -583,7 +595,8 @@ public class GameManager : MonoBehaviour, IDataPersistence
     //=============== 스테이지 관리 ==================
     void OnSceneLoaded(Scene scene, LoadSceneMode loadSceneMode)
     {
-        if (!sceneAnim.gameObject.activeSelf){
+        if (!sceneAnim.gameObject.activeSelf)
+        {
             sceneAnim.gameObject.SetActive(true);
         }
         sceneAnim.Play("Crossfade_End");
@@ -667,11 +680,13 @@ public class GameManager : MonoBehaviour, IDataPersistence
         //Debug.Log("LoadNextLevel");
         isEnemyLoadDone = false;
 
-        if(goBossStage){
+        if (goBossStage)
+        {
             goBossStage = false;
             StartCoroutine(LoadLevel("Forest_Boss"));
         }
-        else{
+        else
+        {
             StartCoroutine(LoadLevel(curPlayMapList[stageLevel]));
             //StartCoroutine(LoadLevel("Forest_Boss"));
             //StartCoroutine(LoadLevel("Forest_Lake"));
@@ -690,7 +705,7 @@ public class GameManager : MonoBehaviour, IDataPersistence
     {
         //Debug.Log("C_LoadNextLevel");
 
-        if(!sceneAnim.gameObject.activeSelf) sceneAnim.gameObject.SetActive(true);
+        if (!sceneAnim.gameObject.activeSelf) sceneAnim.gameObject.SetActive(true);
         sceneAnim.SetTrigger("Start");
 
         yield return new WaitForSeconds(1);
@@ -711,11 +726,13 @@ public class GameManager : MonoBehaviour, IDataPersistence
         StageCheck();
     }
 
-    public void SceneChange(string sceneName, Action afterFadeOutAction, Action afterSceneLoadAction){
+    public void SceneChange(string sceneName, Action afterFadeOutAction, Action afterSceneLoadAction)
+    {
         StartCoroutine(_SceneChange(sceneName, afterFadeOutAction, afterSceneLoadAction));
     }
 
-    IEnumerator _SceneChange(string sceneName, Action afterFadeOutAction, Action afterSceneLoadAction){
+    IEnumerator _SceneChange(string sceneName, Action afterFadeOutAction, Action afterSceneLoadAction)
+    {
         if (!sceneAnim.gameObject.activeSelf) sceneAnim.gameObject.SetActive(true);
         sceneAnim.SetTrigger("Start");
 
@@ -794,7 +811,8 @@ public class GameManager : MonoBehaviour, IDataPersistence
 
             yield return new WaitUntil(() => !Canvas5.Instance.UISequenceList.Contains(Canvas5.UIType.Reward));
 
-            switch(difficultyType){
+            switch (difficultyType)
+            {
                 case DifficultyType.Easy:
                     player.curEXP += 120;
                     break;
@@ -810,10 +828,10 @@ public class GameManager : MonoBehaviour, IDataPersistence
         }
 
         // 레벨업
-
-        while(player.maxEXP <= player.curEXP){
+        while (player.maxEXP <= player.curEXP)
+        {
             bool isMaxLv = EquipActiveList.Find(x => x.skillLv < 2) == null && EquipPassiveList.Find(x => x.skillLv < 3) == null;
-            if(isMaxLv) break;
+            if (isMaxLv) break;
 
             playerLv++;
             Canvas0.Instance.playerState.playerLvText.text = string.Format("Lv {0}", playerLv);
@@ -821,6 +839,9 @@ public class GameManager : MonoBehaviour, IDataPersistence
             skillPoint++;
             player.curEXP = player.curEXP - player.maxEXP;
             player.maxEXP = expList[playerLv];
+            player.maxHealth += 1;
+            player.maxMP += 1;
+            PlayerStateManager.Instance.defanceVal -= 0.01f;
         }
 
         while (skillPoint > 0)
@@ -843,19 +864,22 @@ public class GameManager : MonoBehaviour, IDataPersistence
             LoadNextLevel();
         }
 
-        if(!isStageClear && restEnemy <= 0){
+        if (!isStageClear && restEnemy <= 0)
+        {
             StartCoroutine(_StageCheck());
         }
 
         C_StageCheck = null;
     }
 
-    public void PauseGame(){
+    public void PauseGame()
+    {
         Time.timeScale = 0f;
         isGamePause = true;
     }
 
-    public void ResumeGame(){
+    public void ResumeGame()
+    {
         Time.timeScale = 1f;
         isGamePause = false;
     }
@@ -876,7 +900,7 @@ public class GameManager : MonoBehaviour, IDataPersistence
 
         Canvas5.Instance.OpenClearPanel();
         yield return new WaitUntil(() => !Canvas5.Instance.UISequenceList.Contains(Canvas5.UIType.ClearPanel));
-        
+
         yield return new WaitForSeconds(1);
         if (!sceneAnim.gameObject.activeSelf) sceneAnim.gameObject.SetActive(true);
         sceneAnim.SetTrigger("Start");
@@ -900,7 +924,8 @@ public class GameManager : MonoBehaviour, IDataPersistence
         switch (difficultyType)
         {
             case DifficultyType.Easy:
-                if(playerData.clearLv < 1){
+                if (playerData.clearLv < 1)
+                {
                     playerData.clearLv = 1;
                     DialogueManager.Instance.SetVariableState("shopOwnerEvent", "clearEasy");
                 }
@@ -947,10 +972,12 @@ public class GameManager : MonoBehaviour, IDataPersistence
         Debug.Log("GameOver");
     }
 
-    IEnumerator _GameOver(){
+    IEnumerator _GameOver()
+    {
         yield return new WaitForSeconds(2f);
 
-        while(Canvas5.Instance.UISequenceList.Count > 0){
+        while (Canvas5.Instance.UISequenceList.Count > 0)
+        {
             Canvas5.Instance.Escape();
         }
 
@@ -977,7 +1004,7 @@ public class GameManager : MonoBehaviour, IDataPersistence
         player.curEXP = 0;
         player.maxEXP = 100;
 
-        for (int i = Buffs_Playing.Count - 1; i >= 0 ; i--)
+        for (int i = Buffs_Playing.Count - 1; i >= 0; i--)
         {
             Buffs_Playing[i].DeActivation();
         }
@@ -996,7 +1023,8 @@ public class GameManager : MonoBehaviour, IDataPersistence
         player.gameObject.layer = LayerMask.NameToLayer("Player");
     }
 
-    public void PlayerStartPosition(){
+    public void PlayerStartPosition()
+    {
         Transform startTransform = GameObject.Find("StartPos").transform;
         Debug.Log(startTransform.position);
         player.transform.position = startTransform.position;
@@ -1259,8 +1287,9 @@ public class GameManager : MonoBehaviour, IDataPersistence
     bool isCursorVisible = true;
     bool isCursorLocked;
 
-    public void ShowCursor(){
-        if(isCursorVisible) return;
+    public void ShowCursor()
+    {
+        if (isCursorVisible) return;
 
         isCursorVisible = true;
         Cursor.visible = true;
@@ -1282,8 +1311,9 @@ public class GameManager : MonoBehaviour, IDataPersistence
         Cursor.lockState = CursorLockMode.Confined;
     }
 
-    public void LockCursor(){
-        if(isCursorLocked) return;
+    public void LockCursor()
+    {
+        if (isCursorLocked) return;
 
         isCursorLocked = true;
         Cursor.lockState = CursorLockMode.Locked;
@@ -1294,8 +1324,10 @@ public class GameManager : MonoBehaviour, IDataPersistence
         return out1 + (val - in1) * (out2 - out1) / (in2 - in1);
     }
 
-    private void OnDestroy() {
-        if(instance == this){
+    private void OnDestroy()
+    {
+        if (instance == this)
+        {
             instance = null;
         }
 

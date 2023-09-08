@@ -56,7 +56,7 @@ public class PlayerStateManager : MonoBehaviour
     public float stat_Health;
     public float stat_Stamina;
     public float stat_MeleeDam, stat_MeleeStgDam, stat_MeleeStgPower;
-    public float stat_Mp; 
+    public float stat_Mp;
     public float stat_MagicDam, stat_MagicStgDam, stat_MagicElement, stat_MpRecover, stat_BuffDuration;
 
     [Header("ADDITIONAL VAL")]
@@ -64,8 +64,8 @@ public class PlayerStateManager : MonoBehaviour
     public float extraStgDam, extraStgPower, extraFireVal, extraIceVal, extraLightingVal;
     public float barrierVal, damageUp;
 
-    public float meleeDamVal, meleeStgDamVal, meleeStgPowerVal, defanceVal, 
-        magicDamVal, magicStgDamVal, magicStgPowerVal, elementalVal, mpRecoverVal, 
+    public float meleeDamVal, meleeStgDamVal, meleeStgPowerVal, defanceVal,
+        magicDamVal, magicStgDamVal, magicStgPowerVal, elementalVal, mpRecoverVal,
         guardEnhanceVal, finishHealing, dodgePfVal, weakenVal, moveSpeedVal;
     public float healAmountVal;
 
@@ -126,7 +126,7 @@ public class PlayerStateManager : MonoBehaviour
 
     void RecoverStamina()
     {
-        if (!recoverStamina  && (!playerSkill.skilling || playerSkill.aiming) && !player.isAttacking && !player.isCharging && !player.isSA && !player.isDodge )
+        if (!recoverStamina && (!playerSkill.skilling || playerSkill.aiming) && !player.isAttacking && !player.isCharging && !player.isSA && !player.isDodge)
         {
             recoverST_Delay += Time.deltaTime;
         }
@@ -145,7 +145,7 @@ public class PlayerStateManager : MonoBehaviour
             recoverST_Delay = 0f;
             //print("recoverStamina : " + recoverStamina);
         }
-        else if(recoverST_Delay >= 0.1f)
+        else if (recoverST_Delay >= 0.1f)
         {
             recoverStamina = true;
         }
@@ -153,7 +153,7 @@ public class PlayerStateManager : MonoBehaviour
         prevStamina = player.curStamina;
     }
 
-    //ÇÃ·¹ÀÌ¾î ±âº» ½ºÅÈ ¼ÂÆÃ
+    //ï¿½Ã·ï¿½ï¿½Ì¾ï¿½ ï¿½âº» ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     public void Init_PlayerStat()
     {
         //print(basicVal);
@@ -171,7 +171,7 @@ public class PlayerStateManager : MonoBehaviour
         stat_MagicStgDam = 1 + GameManager.Instance.statValData.MST_magicStgDam;
         stat_MagicElement = 1 + GameManager.Instance.statValData.MST_element;
         stat_MpRecover = 1 + GameManager.Instance.statValData.INT_MpRecover;
-        stat_BuffDuration = 1 + GameManager.Instance.statValData.INT_effectDuration;    
+        stat_BuffDuration = 1 + GameManager.Instance.statValData.INT_effectDuration;
 
         player.moveSpeed = basicMoveSpeed;
 
@@ -199,7 +199,7 @@ public class PlayerStateManager : MonoBehaviour
         playerState.RefreshBarWidth();
     }
 
-    // »óÁ¡¿¡¼­ ±¸ÀÔÇÑ È¿°ú
+    // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¿ï¿½ï¿½
     public void Init_ShopStat()
     {
         List<ShopItem> buyItemList = GameManager.Instance.MyShopItemList.FindAll(x => x.isBuy);
@@ -231,12 +231,12 @@ public class PlayerStateManager : MonoBehaviour
         Canvas0.Instance.playerState.bottleCountText.text = player.bottleCount.ToString();
     }
 
-    // ¾Æ¸Ó ÀåÂø È¿°ú
+    // ï¿½Æ¸ï¿½ ï¿½ï¿½ï¿½ï¿½ È¿ï¿½ï¿½
     public void Init_EquipArmorStat()
     {
         ShopItem EquipArmor = GameManager.Instance.MyShopItemList.Find(x => x.isEquip);
 
-        if(EquipArmor == null)
+        if (EquipArmor == null)
         {
             return;
         }
@@ -251,7 +251,7 @@ public class PlayerStateManager : MonoBehaviour
                 meleeStgDamVal += 0.05f;
                 moveSpeedVal += 0.08f;
                 player.moveSpeed = basicMoveSpeed * moveSpeedVal;
-                defanceVal += 0.05f;
+                defanceVal -= 0.05f;
                 break;
 
             case "Iron Armor":
@@ -261,7 +261,7 @@ public class PlayerStateManager : MonoBehaviour
                 meleeDamVal += 0.05f;
                 meleeStgDamVal += 0.15f;
                 meleeStgPowerVal += 0.1f;
-                defanceVal += 0.1f;
+                defanceVal -= 0.1f;
                 break;
 
             case "Red Robe":
@@ -276,7 +276,7 @@ public class PlayerStateManager : MonoBehaviour
         playerState.RefreshBarWidth();
     }
 
-    // ½ºÅ³ È¿À²
+    // ï¿½ï¿½Å³ È¿ï¿½ï¿½
     public void Init_SkillEffectByStat()
     {
         foreach (var skill in GameManager.Instance.EquipActiveList)
@@ -343,12 +343,12 @@ public class PlayerStateManager : MonoBehaviour
     {
         float point = mpRecoverPoint;
 
-        if(attackName == "A1" || attackName == "A2" || attackName == "A3" || attackName == "SA_Attack")
+        if (attackName == "A1" || attackName == "A2" || attackName == "A3" || attackName == "SA_Attack")
         {
-            if(attackName == "SA_Attack")
+            if (attackName == "SA_Attack")
                 point = point * 2f;
 
-            if(isStg)
+            if (isStg)
                 point = point * 1.3f;
 
             point = point * (mpRecoverVal);
@@ -384,7 +384,7 @@ public class PlayerStateManager : MonoBehaviour
 
         switch (buff.buffName)
         {
-            // ¾×Æ¼ºê ½ºÅ³
+            // ï¿½ï¿½Æ¼ï¿½ï¿½ ï¿½ï¿½Å³
             case "Fire Sword":
                 Debug.Log(buff.buffName + " || Buff ON");
                 vals[0] = weapon.weaponeDamage * buff.actSkill.damage[buff.actSkill.skillLv - 1] * buff.actSkill.effectByStat;
@@ -400,7 +400,7 @@ public class PlayerStateManager : MonoBehaviour
                 audioSource = Array.Find(weapon.swordCol.GetComponents<AudioSource>(),
                 x => x.gameObject.name == SoundManager.GameSFXType.FireBurning01.ToString());
                 if (audioSource != null) Destroy(audioSource.gameObject);
-                
+
                 SoundManager.Instance.AttachGameSound(SoundManager.GameSFXType.FireBurning01, weapon.swordCol.gameObject, 1f, true);
                 break;
 
@@ -457,7 +457,7 @@ public class PlayerStateManager : MonoBehaviour
                 vals[0] = buff.actSkill.damage[buff.actSkill.skillLv - 1] * buff.actSkill.effectByStat;
                 barrierVal = barrierVal - vals[0];
 
-                if(buff.actSkill.skillLv == 2) isSuperArmor = true;
+                if (buff.actSkill.skillLv == 2) isSuperArmor = true;
                 buff.applyVals = new float[1];
                 buff.applyVals[0] = vals[0];
                 break;
@@ -477,11 +477,11 @@ public class PlayerStateManager : MonoBehaviour
                 StartCoroutine(MagicRecover(buff));
                 break;
 
-            // ÆÐ½Ãºê ½ºÅ³
+            // ï¿½Ð½Ãºï¿½ ï¿½ï¿½Å³
             case "Perfect Dodge":
                 Debug.Log(buff.buffName + " || Buff ON");
                 vals[0] = buff.passSkill.effectVal[buff.passSkill.skillLv - 1];
-                meleeDamVal = meleeDamVal  * (1 + vals[0]);
+                meleeDamVal = meleeDamVal * (1 + vals[0]);
 
                 buff.applyVals = new float[1];
                 buff.applyVals[0] = vals[0];
@@ -594,7 +594,7 @@ public class PlayerStateManager : MonoBehaviour
             case "Perfect Dodge":
                 Debug.Log(buff.buffName + " || Buff Off");
 
-                meleeDamVal = meleeDamVal / (1 + buff.applyVals[0]) ;
+                meleeDamVal = meleeDamVal / (1 + buff.applyVals[0]);
                 break;
 
             case "Chance of Victory":
@@ -620,7 +620,7 @@ public class PlayerStateManager : MonoBehaviour
 
         while (GameManager.Instance.Buffs_Playing.Contains(buff) && buff.currentTime > 0)
         {
-            if(player.curMP < player.maxMP)
+            if (player.curMP < player.maxMP)
             {
                 player.curMP = player.curMP + Time.deltaTime * speed;
             }
@@ -640,7 +640,7 @@ public class PlayerStateManager : MonoBehaviour
     {
         float val;
 
-        if(skill.passiveType == PassiveSkill.PassiveType.Always)
+        if (skill.passiveType == PassiveSkill.PassiveType.Always)
         {
             switch (skill.name)
             {
@@ -788,12 +788,12 @@ public class PlayerStateManager : MonoBehaviour
                     break;
             }
         }
-        else if(skill.passiveType == PassiveSkill.PassiveType.Instant)
+        else if (skill.passiveType == PassiveSkill.PassiveType.Instant)
         {
             switch (skill.name)
             {
                 case "Dodge Recover":
-                    if(skill.isCooldown) return; 
+                    if (skill.isCooldown) return;
                     Debug.Log(skill.name + " Activate");
 
                     val = skill.effectVal[skill.skillLv - 1];
@@ -878,7 +878,7 @@ public class PlayerStateManager : MonoBehaviour
                     break;
             }
 
-            
+
         }
 
 
@@ -892,9 +892,10 @@ public class PlayerStateManager : MonoBehaviour
             player.curHealth = player.maxHealth;
     }
 
-    IEnumerator Cooldown(PassiveSkill skill, float cloodownTime){
+    IEnumerator Cooldown(PassiveSkill skill, float cloodownTime)
+    {
         yield return new WaitForSeconds(cloodownTime);
         skill.isCooldown = false;
     }
-    
+
 }

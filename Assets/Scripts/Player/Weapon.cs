@@ -7,6 +7,8 @@ using UnityEngine.VFX;
 using System.Linq;
 using UnityEngine.VFX.Utility;
 using UnityEditor;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
 
 public class Weapon : MonoBehaviour
 {
@@ -23,7 +25,7 @@ public class Weapon : MonoBehaviour
     [Header("WEAPON PARA")]
     public float weaponeDamage;
     public float weaponeStaggerVal;
-    
+
     [Header("ATTACK PARA")]
     public ActiveSkill usingSkill;
     public float damage;
@@ -57,7 +59,7 @@ public class Weapon : MonoBehaviour
     public Collider stepSlashCol;
     public Collider finalSmashCol;
     public Collider shieldCol;
-    public Collider shieldShoveCol; 
+    public Collider shieldShoveCol;
     public Collider shieldRushCol1;
     public Collider shieldRushCol2;
     public Collider ShieldRushSwordCol;
@@ -166,7 +168,8 @@ public class Weapon : MonoBehaviour
 
     }
 
-    private void OnDrawGizmos() {
+    private void OnDrawGizmos()
+    {
     }
 
     public IEnumerator Shake(float duration = 0.2f)
@@ -216,7 +219,7 @@ public class Weapon : MonoBehaviour
         //print("mpVal : " + mpVal);
         Debug.Log(AttackName);
 
-        usingSkill = GameManager.Instance.EquipActiveList.Find(x=> x.name == AttackName);
+        usingSkill = GameManager.Instance.EquipActiveList.Find(x => x.name == AttackName);
         //print(usingSkill.krName);
 
         hitEffect = meleeEffect;
@@ -356,7 +359,7 @@ public class Weapon : MonoBehaviour
             playerWeaponCol.colList.Add(leftHandCol);
             playerWeaponCol.attackName = AttackName;
             playerWeaponColList.Add(playerWeaponCol);
-            
+
             yield return new WaitForSeconds(0.16f);
             player.StartCoroutine(player.ActionTurn(PlayerInputControls.Instance.hvRawInputVec, 20f));
 
@@ -435,7 +438,7 @@ public class Weapon : MonoBehaviour
                     skillDuration = usingSkill.duration[1];
                     break;
             }
-            SoundManager.Instance.PlayGameSound(SoundManager.GameSFXType.MagicCast01_1,leftHandCol.transform.position);
+            SoundManager.Instance.PlayGameSound(SoundManager.GameSFXType.MagicCast01_1, leftHandCol.transform.position);
             yield return new WaitForSeconds(0.15f);
             Instantiate(HolyMagicBuff, transform);
 
@@ -626,7 +629,7 @@ public class Weapon : MonoBehaviour
 
             yield return new WaitForSeconds(0.35f);
             //if(debugBool1) EditorApplication.isPaused = true;
-            
+
             GameObject instantSlash = Instantiate(horizontalSlash, transform.position, transform.root.rotation * horizontalSlash.transform.rotation, transform);
             instantSlash.transform.localPosition += horizontalSlash.transform.position;
             instantSlash.transform.localScale *= slashScale;
@@ -723,7 +726,7 @@ public class Weapon : MonoBehaviour
             player.curStamina -= usingSkill.staminaPoint;
             player.damageStack = 0;
             SoundManager.Instance.PlayGameSound(SoundManager.GameSFXType.GroundImpact01, transform.position);
- 
+
             yield return new WaitForSeconds(0.1f * (1 - playerSkill.skillSpeed));
             CinemachineShake.Instance.ShakeCamera(5, 1f, 0.15f);
             //StartCoroutine(PowerShield_StaminaReduce());
@@ -1103,7 +1106,7 @@ public class Weapon : MonoBehaviour
             playerBullet.t_Target = player.currentTarget;
             playerBullet.bulletSoundAction = WeaponSound;
             playerBullet.playerWeaponColList = playerWeaponColList;
-            
+
             PlayerWeaponCol playerWeaponCol = new PlayerWeaponCol(usingSkill, damage * usingSkill.effectByStat, stgDamage, stgPower, true, true);
             playerWeaponCol.colList.Add(playerBullet.bulletCol);
             playerWeaponCol.fireVal = fireVal;
@@ -1391,7 +1394,7 @@ public class Weapon : MonoBehaviour
                     skillScale = 1.4f;
                     break;
             }
-            
+
             castingBlack.gameObject.SetActive(true);
             SoundManager.Instance.PlayGameSound(SoundManager.GameSFXType.DarkCast01, leftHandCol.transform.position);
             yield return new WaitForSeconds(0.8f);
@@ -1525,7 +1528,67 @@ public class Weapon : MonoBehaviour
         {
             Debug.Log(AttackName + usingSkill.skillLv);
             float chargeGauge = 1;
-            int mouseBtnNum;
+
+            // 어떤 스킬 버튼을 눌렀는지
+            ButtonControl pressedBtn;
+            switch (usingSkill.equipOrder)
+            {
+                case 1:
+                    if (PlayerInputControls.Instance.controlType == PlayerInputControls.ControlType.KeyboardMouse)
+                        pressedBtn = Mouse.current.leftButton;
+                    else
+                        pressedBtn = Gamepad.current.buttonWest;
+                    break;
+                case 2:
+                    if (PlayerInputControls.Instance.controlType == PlayerInputControls.ControlType.KeyboardMouse)
+                        pressedBtn = Mouse.current.rightButton;
+                    else
+                        pressedBtn = Gamepad.current.buttonNorth;
+                    break;
+                case 3:
+                    if (PlayerInputControls.Instance.controlType == PlayerInputControls.ControlType.KeyboardMouse)
+                        pressedBtn = Mouse.current.backButton;
+                    else
+                        pressedBtn = Gamepad.current.buttonEast;
+                    break;
+                case 4:
+                    if (PlayerInputControls.Instance.controlType == PlayerInputControls.ControlType.KeyboardMouse)
+                        pressedBtn = Mouse.current.forwardButton;
+                    else
+                        pressedBtn = Gamepad.current.buttonSouth;
+                    break;
+                case 5:
+                    if (PlayerInputControls.Instance.controlType == PlayerInputControls.ControlType.KeyboardMouse)
+                        pressedBtn = Mouse.current.leftButton;
+                    else
+                        pressedBtn = Gamepad.current.buttonWest;
+                    break;
+                case 6:
+                    if (PlayerInputControls.Instance.controlType == PlayerInputControls.ControlType.KeyboardMouse)
+                        pressedBtn = Mouse.current.rightButton;
+                    else
+                        pressedBtn = Gamepad.current.buttonNorth;
+                    break;
+                case 7:
+                    if (PlayerInputControls.Instance.controlType == PlayerInputControls.ControlType.KeyboardMouse)
+                        pressedBtn = Mouse.current.backButton;
+                    else
+                        pressedBtn = Gamepad.current.buttonEast;
+                    break;
+                case 8:
+                    if (PlayerInputControls.Instance.controlType == PlayerInputControls.ControlType.KeyboardMouse)
+                        pressedBtn = Mouse.current.forwardButton;
+                    else
+                        pressedBtn = Gamepad.current.buttonSouth;
+                    break;
+                default:
+                    if (PlayerInputControls.Instance.controlType == PlayerInputControls.ControlType.KeyboardMouse)
+                        pressedBtn = Mouse.current.leftButton;
+                    else
+                        pressedBtn = Gamepad.current.buttonWest;
+                    break;
+            }
+
             switch (usingSkill.skillLv)
             {
                 case 1:
@@ -1541,24 +1604,8 @@ public class Weapon : MonoBehaviour
                     break;
             }
 
-            switch (usingSkill.equipOrder)
-            {
-                case 1:
-                    mouseBtnNum = 0;
-                    break;
-                case 2:
-                    mouseBtnNum = 1;
-                    break;
-                case 3:
-                    mouseBtnNum = 3;
-                    break;
-                case 4:
-                    mouseBtnNum = 4;
-                    break;
-                default:
-                    mouseBtnNum = 0;
-                    break;
-            }
+            Debug.Log(usingSkill.equipOrder);
+
 
             playerAnim.PlayAnimation("Final Smash1", true, 0.15f);
             SoundManager.Instance.PlayGameSound(SoundManager.GameSFXType.OneStep01, transform.position);
@@ -1574,12 +1621,13 @@ public class Weapon : MonoBehaviour
                 player.curStamina -= Time.deltaTime * 50;
                 chargeGauge += Time.deltaTime * 0.9F;
 
-                if(chargeGauge > 2.4f){
+                if (chargeGauge > 2.4f)
+                {
                     chargeGauge = 2.4f;
                     break;
                 }
 
-                if (player.isStaggering || Input.GetMouseButtonUp(mouseBtnNum) || !Input.GetMouseButton(mouseBtnNum) )
+                if (player.isStaggering || !pressedBtn.IsPressed())
                     break;
 
                 yield return null;
@@ -1826,15 +1874,18 @@ public class Weapon : MonoBehaviour
         weaponColGroup.Clear();
     }
 
-    void WeaponSound(Vector3 soundPos, float soundRange){
+    void WeaponSound(Vector3 soundPos, float soundRange)
+    {
         //Debug.Log("WeaponSound");
         Collider[] detectedEnemyCols = Physics.OverlapSphere(soundPos, soundRange, LayerMask.GetMask("Enemy"));
 
-        if(detectedEnemyCols.Length > 0){
+        if (detectedEnemyCols.Length > 0)
+        {
             foreach (var enemyCol in detectedEnemyCols)
             {
                 Enemy enemy = enemyCol.GetComponent<Enemy>();
-                if(enemy != null && !enemy.isTraining && enemy.T_target == null && !enemy.isChase){
+                if (enemy != null && !enemy.isTraining && enemy.T_target == null && !enemy.isChase)
+                {
                     enemy.ChaseStart();
                 }
             }
@@ -1896,13 +1947,16 @@ public class Weapon : MonoBehaviour
         }
     }
 
-    IEnumerator WeaopnRayCast(Collider weaponCol){
+    IEnumerator WeaopnRayCast(Collider weaponCol)
+    {
         Debug.Log(weaponCol.transform.localScale);
-        while(weaponCol.enabled){
+        while (weaponCol.enabled)
+        {
             Collider[] hitCols = Physics.OverlapBox(weaponCol.transform.position, weaponCol.transform.localScale / 2, weaponCol.transform.rotation, LayerMask.GetMask("EnemyCollision"));
             //Debug.Log("WeaopnRayCast");
 
-            if(hitCols.Length > 0){
+            if (hitCols.Length > 0)
+            {
                 Debug.Log("WeaopnRayCast Detect");
                 foreach (var hitCol in hitCols)
                 {
@@ -1910,7 +1964,7 @@ public class Weapon : MonoBehaviour
                     enemyCollision.OnHit(weaponCol);
                 }
             }
-            
+
             yield return null;
         }
     }
@@ -1965,5 +2019,5 @@ public class PlayerWeaponCol
         isMagiceAttack = _isMagiceAttack;
     }
 
-    
+
 }

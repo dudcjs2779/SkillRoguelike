@@ -26,6 +26,7 @@ public class StatPanel : MonoBehaviour
     public TextMeshProUGUI MeleeDamText;
     public TextMeshProUGUI MeleeStgDamText;
     public TextMeshProUGUI MeleeStgPowerText;
+    public TextMeshProUGUI DefenceText;
     public TextMeshProUGUI MagicDamText;
     public TextMeshProUGUI MagicStgDamText;
     public TextMeshProUGUI MagicStgPowerText;
@@ -110,6 +111,7 @@ public class StatPanel : MonoBehaviour
             MeleeDamText.text = string.Format("{0:P1}", playerStateManager.meleeDamVal);
             MeleeStgDamText.text = string.Format("{0:P1}", playerStateManager.meleeStgDamVal);
             MeleeStgPowerText.text = string.Format("{0:P1}", playerStateManager.meleeStgPowerVal);
+            DefenceText.text = string.Format("{0:P1}", 1 - playerStateManager.defanceVal);
             MagicDamText.text = string.Format("{0:P1}", playerStateManager.magicDamVal);
             MagicStgDamText.text = string.Format("{0:P1}", playerStateManager.magicStgDamVal);
             MagicStgPowerText.text = string.Format("{0:P1}", playerStateManager.magicStgPowerVal);
@@ -134,13 +136,13 @@ public class StatPanel : MonoBehaviour
             armorName.text = "";
             armorExplain.text = "";
         }
-        
+
 
         ActiveSkill[] activeSkills = GameManager.Instance.EquipActiveList.ToArray();
 
         for (int i = 0; i < activeSlotList.Count; i++)
         {
-            if(activeSkills.Length <= i)
+            if (activeSkills.Length <= i)
             {
                 activeSlotList[i].gameObject.SetActive(false);
                 continue;
@@ -192,7 +194,7 @@ public class StatPanel : MonoBehaviour
 
         tabBtns[1].animator.SetBool("isLocked", true);
         tabBtns[1].animator.SetTrigger("Selected");
-        
+
         statTabRect.gameObject.SetActive(false);
         skillTabRect.gameObject.SetActive(true);
     }

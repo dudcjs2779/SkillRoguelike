@@ -118,7 +118,8 @@ public class PlayerInputControls : MonoBehaviour
         playerInputAction.UI.Enable();
         playerInputAction.Gamepad.Enable();
 
-        if(!GameManager.Instance.isTitle){
+        if (!GameManager.Instance.isTitle)
+        {
             Init_PlayerInputControls();
         }
 
@@ -176,7 +177,8 @@ public class PlayerInputControls : MonoBehaviour
         skipCutSceneDown = context.performed;
     }
 
-    public void Init_PlayerInputControls(){
+    public void Init_PlayerInputControls()
+    {
         player = GameObject.Find("Player")?.GetComponent<Player>();
         playerSkill = player?.GetComponent<PlayerSkill>();
         playerInput.camera = Camera.main;
@@ -208,8 +210,9 @@ public class PlayerInputControls : MonoBehaviour
         playerInputAction.PlayerUI.Enable();
         playerInputAction.UI.Disable();
     }
-    
-    private void OnEnable() {
+
+    private void OnEnable()
+    {
         // if (GameManager.Instance.isTitle) return;
 
         // mainCamera = Camera.main;
@@ -235,10 +238,11 @@ public class PlayerInputControls : MonoBehaviour
 
     private void Start()
     {
-        
+
     }
 
-    private void OnDisable() {
+    private void OnDisable()
+    {
         InputSystem.onAfterUpdate -= UpdateMotion;
     }
 
@@ -259,18 +263,21 @@ public class PlayerInputControls : MonoBehaviour
         if (ui_AxisRaw.magnitude != 0)
         {
             holdDelayTime += Time.deltaTime;
-            if(holdDelayTime > 1.5f){
+            if (holdDelayTime > 1.5f)
+            {
                 holdTime += Time.deltaTime * 0.5f;
                 holdTime = Mathf.Clamp(holdTime, 0, 1);
             }
         }
 
-        if(Keyboard.current.numpad1Key.wasPressedThisFrame){
+        if (Keyboard.current.numpad1Key.wasPressedThisFrame)
+        {
             // Debug.Log("Player" + playerInputAction.Player.enabled);
             // Debug.Log("PlayerUI" + playerInputAction.PlayerUI.enabled);
         }
 
-        if(Keyboard.current.numpad2Key.wasPressedThisFrame){
+        if (Keyboard.current.numpad2Key.wasPressedThisFrame)
+        {
             // playerInputAction.Player.Enable();
             // playerInputAction.PlayerUI.Enable();
             // playerInputAction.UI.Disable();
@@ -342,7 +349,8 @@ public class PlayerInputControls : MonoBehaviour
         cursorRect.anchoredPosition = anchoredPosition;
     }
 
-    public void VirtualCursorActivate(bool isOn){
+    public void VirtualCursorActivate(bool isOn)
+    {
         cursorRect.GetComponent<UnityEngine.UI.Image>().enabled = isOn;
     }
 
@@ -355,7 +363,7 @@ public class PlayerInputControls : MonoBehaviour
             skillTrigger = true;
 
             //Gamepad.current.leftTrigger.wasPressedThisFrame &&
-            if (Gamepad.all.Count > 0 && GameManager.Instance.playerData.clearLv != 0 &&  context.control.path == playerInputAction.Player.SkillTrigger.controls[1].path)
+            if (Gamepad.all.Count > 0 && GameManager.Instance.playerData.clearLv != 0 && context.control.path == playerInputAction.Player.SkillTrigger.controls[1].path)
             {
                 skillChangeDown = false;
             }
@@ -409,7 +417,7 @@ public class PlayerInputControls : MonoBehaviour
             //Debug.Log("Fire2Down");
             f2Down = true;
         }
-        else if(context.canceled && player.isCharging)
+        else if (context.canceled && player.isCharging)
         {
             //Debug.Log("Fire2Up");
             f2Up = true;
@@ -471,7 +479,7 @@ public class PlayerInputControls : MonoBehaviour
             mouseScrollLeft = context.ReadValue<float>();
             //Debug.Log(mouseScrollLeft);
         }
-        
+
     }
 
     void LockOnRight(InputAction.CallbackContext context)
@@ -482,7 +490,7 @@ public class PlayerInputControls : MonoBehaviour
             mouseScrollRight = context.ReadValue<float>();
             //Debug.Log(mouseScrollRight);
         }
-            
+
     }
 
     void Interact(InputAction.CallbackContext context)
@@ -500,7 +508,7 @@ public class PlayerInputControls : MonoBehaviour
         {
             Canvas5.Instance.OpenMenu();
         }
-        
+
     }
 
     void StatPanel(InputAction.CallbackContext context)
@@ -511,7 +519,7 @@ public class PlayerInputControls : MonoBehaviour
             statPanelDown = true;
             Canvas5.Instance.OpenStatPanel();
         }
-        else if(context.performed && Canvas5.Instance.UISequenceList.Contains(Canvas5.UIType.StatPanel))
+        else if (context.performed && Canvas5.Instance.UISequenceList.Contains(Canvas5.UIType.StatPanel))
         {
             statPanelDown = false;
             Canvas5.Instance.CloseStatPanel();
@@ -590,14 +598,16 @@ public class PlayerInputControls : MonoBehaviour
         submitPressed = false;
     }
 
-    public void ToTitle(){
+    public void ToTitle()
+    {
         playerInputAction.Player.Disable();
         playerInputAction.PlayerUI.Disable();
         playerInputAction.UI.Enable();
         InputSystem.onAfterUpdate -= UpdateMotion;
     }
 
-    public void ChangeMapUI(){
+    public void ChangeMapUI()
+    {
         playerInputAction.Player.Disable();
         playerInputAction.PlayerUI.Enable();
         playerInputAction.UI.Enable();
@@ -608,8 +618,9 @@ public class PlayerInputControls : MonoBehaviour
         playerInputAction.Player.Enable();
         playerInputAction.PlayerUI.Enable();
         playerInputAction.UI.Disable();
-        
-        if(!GameManager.Instance.isDebugMode && !GameManager.Instance.isInDungeon){
+
+        if (!GameManager.Instance.isDebugMode && !GameManager.Instance.isInDungeon)
+        {
             ChnageMapStartMap();
         }
     }
@@ -621,7 +632,8 @@ public class PlayerInputControls : MonoBehaviour
         playerInputAction.UI.Enable();
     }
 
-    public void ChnageMapTrainingEnter(){
+    public void ChnageMapTrainingEnter()
+    {
         playerInputAction.Player.Fire1.Enable();
         playerInputAction.Player.Fire2.Enable();
         playerInputAction.Player.Fire3.Enable();

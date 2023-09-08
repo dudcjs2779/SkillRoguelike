@@ -141,7 +141,7 @@ public class EnemyWeapon : MonoBehaviour
 
                     enemyBullet.enemyType = GameManager.EnemyType.Lich.ToString();
                     enemyBullet.attackName = AttackName;
-                    enemyBullet.damage = enemyDamage;
+                    enemyBullet.damage = enemyDamage * 0.75f;
                     enemyBullet.hitSound = SoundManager.GameSFXType.FireHit01_1;
                     enemyBullet.enemyWeaponColList = enemyWeaponColList;
 
@@ -165,7 +165,7 @@ public class EnemyWeapon : MonoBehaviour
 
                     enemyBullet.enemyType = GameManager.EnemyType.Lich.ToString();
                     enemyBullet.attackName = AttackName;
-                    enemyBullet.damage = enemyDamage;
+                    enemyBullet.damage = enemyDamage * 0.75f;
                     enemyBullet.hitSound = SoundManager.GameSFXType.FireHit01_1;
                     enemyBullet.enemyWeaponColList = enemyWeaponColList;
 
@@ -188,7 +188,7 @@ public class EnemyWeapon : MonoBehaviour
 
                     enemyBullet.enemyType = GameManager.EnemyType.Lich.ToString();
                     enemyBullet.attackName = AttackName;
-                    enemyBullet.damage = enemyDamage;
+                    enemyBullet.damage = enemyDamage * 0.75f;
                     enemyBullet.hitSound = SoundManager.GameSFXType.FireHit01_1;
                     enemyBullet.enemyWeaponColList = enemyWeaponColList;
 
@@ -230,14 +230,16 @@ public class EnemyWeapon : MonoBehaviour
                     Vector3 startPos = enemy.T_target.position;
                     Player player = enemy.T_target.GetComponent<Player>();
 
-                    if(enemy.unlockPattern){
+                    if (enemy.unlockPattern)
+                    {
                         float time = 0.3f;
                         while (time > 0)
                         {
                             lookPos = player.moveVec * 2.5f + enemy.T_target.position;
                             attackDir = (lookPos - transform.position).normalized;
 
-                            if(Vector3.Angle(attackDir, transform.root.forward) > 90){
+                            if (Vector3.Angle(attackDir, transform.root.forward) > 90)
+                            {
                                 Debug.Log("Too big Rot");
                                 attackDir = attackDir = (enemy.T_target.position - transform.position).normalized;
                             }
@@ -249,11 +251,12 @@ public class EnemyWeapon : MonoBehaviour
                             yield return null;
                         }
                     }
-                    else{
+                    else
+                    {
                         yield return new WaitForSeconds(0.3f);
                         attackDir = transform.forward;
                     }
-                    
+
                     yield return new WaitForSeconds(0.4f);
                     Physics.IgnoreCollision(playerCol, enemyCol);
                     weaponCollider.enabled = true;
@@ -271,7 +274,7 @@ public class EnemyWeapon : MonoBehaviour
                     weaponCollider.enabled = false;
                     enemyWeaponColList.Remove(enemyWeaponCol);
 
-                    
+
                 }
                 break;
         }
@@ -281,7 +284,7 @@ public class EnemyWeapon : MonoBehaviour
     {
         weaponCollider.enabled = false;
 
-        if(enemy.enemyType == GameManager.EnemyType.Wolf)
+        if (enemy.enemyType == GameManager.EnemyType.Wolf)
         {
             enemy.rigid.constraints = RigidbodyConstraints.FreezeAll;
             enemy.nav.enabled = true;

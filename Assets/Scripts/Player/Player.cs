@@ -55,7 +55,7 @@ public class Player : MonoBehaviour
     public float healAmount;
     public float bottleCount;
 
-   
+
     //공격중 턴
     [Header("EXTRA")]
     public float moveSpeed;
@@ -106,7 +106,7 @@ public class Player : MonoBehaviour
     PlayerStateManager playerStateManager;
     PlayerEffect playerEffect;
     Weapon weapon;
-    
+
 
     BossWeapon bossWeapon;
 
@@ -128,7 +128,7 @@ public class Player : MonoBehaviour
         swordArea = GetComponent<BoxCollider>();
         meshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
         originColor = meshRenderer.material.color;
-        playerAnim = GetComponent<PlayerAnim>(); 
+        playerAnim = GetComponent<PlayerAnim>();
         weapon = GetComponentInChildren<Weapon>();
         playerSkill = GetComponent<PlayerSkill>();
         playerState = GameObject.Find("Canvas0").GetComponentInChildren<PlayerState>();
@@ -137,7 +137,8 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if(GameManager.Instance.isDebugMode && Keyboard.current.f6Key.wasPressedThisFrame){
+        if (GameManager.Instance.isDebugMode && Keyboard.current.f6Key.wasPressedThisFrame)
+        {
             ActiveSkillLevel1();
         }
 
@@ -146,7 +147,8 @@ public class Player : MonoBehaviour
             ActiveSkillLevel2();
         }
 
-        if(GameManager.Instance.isDebugMode && Keyboard.current.f8Key.wasPressedThisFrame){
+        if (GameManager.Instance.isDebugMode && Keyboard.current.f8Key.wasPressedThisFrame)
+        {
             PassiveSkillLevel1();
         }
 
@@ -155,10 +157,11 @@ public class Player : MonoBehaviour
             LevelUp();
         }
 
-        if(GameManager.Instance.isDebugMode && Keyboard.current.f10Key.wasPressedThisFrame){
+        if (GameManager.Instance.isDebugMode && Keyboard.current.f10Key.wasPressedThisFrame)
+        {
             BuffOff();
         }
-        
+
 
         if (isDead)
             return;
@@ -223,14 +226,14 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         //Debug.Log(transform.forward);
-        
+
         if (isDead)
             return;
 
         Move();
         LockOnMovement();
         Turn();
-        
+
     }
 
 
@@ -263,12 +266,13 @@ public class Player : MonoBehaviour
             Vector3 velocity = moveVec * speed;
             //Debug.Log(velocity);
             rigid.velocity = velocity;
-            if(rigid.velocity.magnitude > 0.1f)
+            if (rigid.velocity.magnitude > 0.1f)
             {
                 SoundManager.Instance.PlayGameSound(SoundManager.GameSFXType.FootSteps_Grass_01, transform.position);
             }
         }
-        else{
+        else
+        {
             moveVec = Vector3.zero;
         }
 
@@ -296,7 +300,7 @@ public class Player : MonoBehaviour
             moveDirection = Vector3.ProjectOnPlane(dir, normal);
             moveDirection = moveDirection * sin;
         }
-        
+
 
         return moveDirection;
     }
@@ -353,7 +357,7 @@ public class Player : MonoBehaviour
         rot = Mathf.LerpAngle(transform.eulerAngles.y, turnAmount, Time.deltaTime * rotateSpeed);   //보간된 각도 값
         //Debug.Log("Mathf.LerpAngle : " + rot);
 
-        if (!isAttacking && !isDodge &&!isCharging && !isSA && !isStaggering && !playerSkill.skilling && !enemyLocked || playerSkill.aiming)
+        if (!isAttacking && !isDodge && !isCharging && !isSA && !isStaggering && !playerSkill.skilling && !enemyLocked || playerSkill.aiming)
         {
             transform.eulerAngles = new Vector3(0, rot, 0);
         }
@@ -406,7 +410,7 @@ public class Player : MonoBehaviour
         {
             //Debug.Log("SideScan left");
             PlayerInputControls.Instance.mouseScrollLeft = 0;
-            if (currentTarget = ScanNearEnemy(true, true)) 
+            if (currentTarget = ScanNearEnemy(true, true))
             {
                 enemyLocked = true;
             }
@@ -414,13 +418,13 @@ public class Player : MonoBehaviour
             {
                 ReleaseLockOn();
             }
-            
+
         }
-        else if(PlayerInputControls.Instance.mouseScrollRight > 0)
+        else if (PlayerInputControls.Instance.mouseScrollRight > 0)
         {
             //Debug.Log("SideScan right");
             PlayerInputControls.Instance.mouseScrollRight = 0;
-            if (currentTarget = ScanNearEnemy(true, false)) 
+            if (currentTarget = ScanNearEnemy(true, false))
             {
                 enemyLocked = true;
             }
@@ -452,8 +456,8 @@ public class Player : MonoBehaviour
         float closestAngle = maxLockOnAngle;
         Transform closestTarget = null;
         if (nearbyTargets.Length <= 0 || isSideScan && currentTarget == null)
-        { 
-            return null; 
+        {
+            return null;
         }
 
         if (isSideScan)
@@ -488,7 +492,7 @@ public class Player : MonoBehaviour
                 Vector3 dir = nearbyTargets[i].transform.position - transform.position;
                 dir.y = 0;
 
-                Vector3 playerInputAxis = PlayerInputControls.Instance.hvRawInputVec != Vector3.zero 
+                Vector3 playerInputAxis = PlayerInputControls.Instance.hvRawInputVec != Vector3.zero
                 ? PlayerInputControls.Instance.hvRawInputVec : transform.forward;
                 float _angle = Vector3.Angle(playerInputAxis, dir);
 
@@ -541,7 +545,8 @@ public class Player : MonoBehaviour
         if (dis > lockOnMaxDistance) return false; else return true;
     }
 
-    public void ReleaseLockOn(){
+    public void ReleaseLockOn()
+    {
         enemyLocked = false;
         currentTarget = null;
     }
@@ -561,13 +566,14 @@ public class Player : MonoBehaviour
             {
                 clicked = true;
                 yield return new WaitUntil(() => rollInputBool);
-                if (isDead){
+                if (isDead)
+                {
                     clicked = false;
                     yield break;
                 }
             }
             clicked = false;
-            
+
 
 
             if (prevAction == "")
@@ -599,7 +605,8 @@ public class Player : MonoBehaviour
         }
     }
 
-    void Heal(){
+    void Heal()
+    {
         if (PlayerInputControls.Instance.healDown)
         {
             if (C_Action != null)
@@ -628,7 +635,8 @@ public class Player : MonoBehaviour
         {
             clicked = true;
             yield return new WaitUntil(() => etcInputBool);
-            if (isDead){
+            if (isDead)
+            {
                 clicked = false;
                 yield break;
             }
@@ -690,7 +698,7 @@ public class Player : MonoBehaviour
         }
         else if (actionType == "SA")
         {
-            if(actionName == "SA_Charge")
+            if (actionName == "SA_Charge")
             {
                 isCharging = true;
                 nonInputBool = true;
@@ -724,7 +732,7 @@ public class Player : MonoBehaviour
                 anim.SetBool("isRootMotion", isRootMotion);
                 anim.CrossFade(animPara, tDuration, 0, 0);
             }
-            else if(actionName == "KnockDown")
+            else if (actionName == "KnockDown")
             {
                 isAction = true;
                 prevActionType = "Stagger";
@@ -734,7 +742,7 @@ public class Player : MonoBehaviour
                 anim.CrossFade(animPara, tDuration, 0, 0);
             }
         }
-        else if(actionType == "Heal")
+        else if (actionType == "Heal")
         {
             isHealing = true;
             prevActionType = "Heal";
@@ -767,7 +775,7 @@ public class Player : MonoBehaviour
             etcInputTime = 0.9f;
             exitTime = 1.5f;
         }
-        else if(actionName == "A2")
+        else if (actionName == "A2")
         {
             animLength = 2;
             preInputTime = 0.35f;
@@ -833,10 +841,12 @@ public class Player : MonoBehaviour
 
     }
 
-    void AttackControl(){
+    void AttackControl()
+    {
         if (PlayerInputControls.Instance.f1Down && !PlayerInputControls.Instance.skillTrigger && curStamina > 0 && !playerSkill.aiming)
         {
-            if(C_Heal != null){
+            if (C_Heal != null)
+            {
                 clicked = false;
                 StopCoroutine(C_Heal);
             }
@@ -865,7 +875,8 @@ public class Player : MonoBehaviour
             Debug.Log("preInput");
             clicked = true;
             yield return new WaitUntil(() => attackInputBool);
-            if (isDead){
+            if (isDead)
+            {
                 Debug.Log("preInput Cancle by Dead");
                 clicked = false;
                 yield break;
@@ -895,7 +906,7 @@ public class Player : MonoBehaviour
             //DodgeOut();
             Action("Attack", "RollAttack", "A2", "Roll Attack", 0.1f);
         }
-        else if(attackInputBool)
+        else if (attackInputBool)
         {
             Debug.Log("else Combo");
             Action("Attack", "Attack1", "A1", "A1", 0.1f);
@@ -930,7 +941,7 @@ public class Player : MonoBehaviour
                 rollInputBool = true;
             }
 
-            if(time >= skillInputTime && time < exitTime)
+            if (time >= skillInputTime && time < exitTime)
             {
                 skillInputBool = true;
             }
@@ -960,7 +971,7 @@ public class Player : MonoBehaviour
                     else if (isAction) GetHitOut();
                     else if (isHealing)
                     {
-                        HealOut(); 
+                        HealOut();
                         yield break;
                     }
 
@@ -969,7 +980,7 @@ public class Player : MonoBehaviour
 
                     yield break;
                 }
-                
+
             }
             else if (time >= exitTime)
             {
@@ -983,10 +994,10 @@ public class Player : MonoBehaviour
 
                 anim.SetBool("doMovement", true);
                 //Debug.Log("exitTimeOut");
-                
+
                 yield break;
             }
-            
+
 
             time = time + Time.deltaTime;
             yield return null;
@@ -995,7 +1006,7 @@ public class Player : MonoBehaviour
 
     public void ActionOutCheck(string prevActType)
     {
-        if(prevActType == "Attack")
+        if (prevActType == "Attack")
         {
             AttackOut();
         }
@@ -1151,7 +1162,8 @@ public class Player : MonoBehaviour
             {
                 clicked = true;
                 yield return new WaitUntil(() => attackInputBool);
-                if (isDead){
+                if (isDead)
+                {
                     clicked = false;
                     yield break;
                 }
@@ -1233,7 +1245,7 @@ public class Player : MonoBehaviour
                 hitEnemyWeapon = enemyWeapon.enemyWeaponColList.Find(x => x.col == other);
 
             }
-            else if(other.transform.root.GetComponentInChildren<BossWeapon>() != null)
+            else if (other.transform.root.GetComponentInChildren<BossWeapon>() != null)
             {
                 bossWeapon = other.transform.root.GetComponentInChildren<BossWeapon>();
                 hitEnemyWeapon = bossWeapon.bossWeaponColList.Find(x => x.col == other);
@@ -1278,10 +1290,11 @@ public class Player : MonoBehaviour
                 return;
             }
 
-            if(enemyBullet != null && !enemyBullet.isPierceBullet){
+            if (enemyBullet != null && !enemyBullet.isPierceBullet)
+            {
                 enemyBullet.DestroyBullet();
             }
-            if(hitEnemyWeapon == null) return;
+            if (hitEnemyWeapon == null) return;
             TakeDamage(hitEnemyWeapon);
         }
     }
@@ -1360,7 +1373,7 @@ public class Player : MonoBehaviour
             weapon.buffManager.CreateBuff("Guard Enhance", "Active", guardEnhance.duration[0], effects, icon);
             Instantiate(weapon.PF_ParrySuccess, transform.position + Vector3.up, Quaternion.identity);
             anim.CrossFade("Guard Enhance Hit", 0.15f);
-            if(weapon.weaponCoroutine != null) weapon.StopCoroutine(weapon.weaponCoroutine);
+            if (weapon.weaponCoroutine != null) weapon.StopCoroutine(weapon.weaponCoroutine);
             weapon.Use("Guard Enhance Hit");
             StartActionTiming();
 
@@ -1443,12 +1456,14 @@ public class Player : MonoBehaviour
         StartCoroutine(HitColor());
     }
 
-    IEnumerator HitColor(){
+    IEnumerator HitColor()
+    {
         yield return new WaitForSeconds(0.3f);
         meshRenderer.material.color = originColor;
     }
 
-    void Dead(){
+    void Dead()
+    {
         //Debug.Log("Daed");
         isDead = true;
 
@@ -1503,10 +1518,10 @@ public class Player : MonoBehaviour
 
             clicked = false;
 
-            if(weapon.weaponCoroutine != null) weapon.StopCoroutine(weapon.weaponCoroutine);
+            if (weapon.weaponCoroutine != null) weapon.StopCoroutine(weapon.weaponCoroutine);
             weapon.WeaponOut();
 
-            if(weapon.playerWeaponColList.Count > 0)
+            if (weapon.playerWeaponColList.Count > 0)
             {
                 for (int i = weapon.playerWeaponColList.Count - 1; i >= 0; i--)
                 {
@@ -1543,7 +1558,8 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void ActiveSkillLevel1(){
+    public void ActiveSkillLevel1()
+    {
         Debug.Log("skillLvUp");
         foreach (var item in GameManager.Instance.EquipActiveList)
         {
@@ -1560,7 +1576,8 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void PassiveSkillLevel1(){
+    public void PassiveSkillLevel1()
+    {
         Debug.Log("skillLvUp");
         foreach (var item in GameManager.Instance.EquipPassiveList)
         {
@@ -1568,11 +1585,13 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void LevelUp(){
+    public void LevelUp()
+    {
         Canvas5.Instance.OpenSkillUpgrade();
     }
 
-    public void BuffOff(){
+    public void BuffOff()
+    {
         for (int i = GameManager.Instance.Buffs_Playing.Count - 1; i >= 0; i--)
         {
             GameManager.Instance.Buffs_Playing[i].DeActivation();
